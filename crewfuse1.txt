@@ -1,0 +1,1833 @@
+ (function () {
+	var viewId = 'enfrubcpebykhaguhvos';
+	var elementId = 'sjview_enfrubcpebykhaguhvos';
+	var cdnUrl = '//d3k8n8jihns708.cloudfront.net';
+	var sjsearchUrl = cdnUrl || '//cdn.shooju.com/sjsearch';
+	var loaderUrl = sjsearchUrl + '/loaders/stable.js';
+	var configName = 'fuse.js';
+  
+	var options = {
+	  auth: {
+		server: "https://fuse.fusesearch.app/",
+		user: "api.crew",
+		api_key: "B7GfLPATsSDlJdFkmL81YDZine4RBImPsEjlYtpqpRmEubyf780mGF3nKN964IoDf",
+	  }, 
+	  view: viewId,
+	  baseViewSettings: null,
+	  global: {
+	  	embedParams: {'element_id': 'sjview_enfrubcpebykhaguhvos'},
+		source: 'embed',
+		unique_id: '1788987718087|zqgZB',
+		noStyles: false,
+		get_view_details: function() {
+		  return {
+			category_tree: "CREW\\ACTIVE",
+			description: "CREW Network 4.0 LIVE",
+			last_saved_date: 1784639677442
+		  };
+		},
+		view_obj: null
+	  } 
+	};
+  
+	var definition = {
+  "routerProvider": "localstoragestateprovider",
+  "series_params": {
+    "max_facet_values": 9999,
+    "default_fields": "tag_,description^100000000,content,body_updated,summary,ai_summary,videodescription,videotitle^10000000,booster1000^1000000000000,doc_date,synonyms,custom_body^1000000,biography,body,news_category",
+    "per_page": 10,
+    "sort": "doc_date desc,sid desc",
+    "highlight": function (service) {
+      var w = service.getWidgetById('search-1');
+      var query = w.component.state.searchString;
+      if(query) {
+        return query.trim();
+      }
+    },
+    "boost_by_date": true,
+    "highlight_full_fields": "summary,description",
+    "highlight_fields": "summary,description,content,body"
+  },
+  "postprocessSeriesRequest": function (response, s, args) {
+    if (s.g.postprocessSeriesRequest) {
+      response = s.g.postprocessSeriesRequest(response, s, args);
+    }
+    
+    if (response && response.series) {
+      
+      var getIcon = function(doc_type) {
+        switch(doc_type.toLowerCase()) {
+          case 'website':
+            return "fa-globe";
+          case 'jobs':
+            return "fa-briefcase";
+          case 'video':
+            return "fa-circle-play";
+          case 'crewbiz open forum':
+            return "fa-people-arrows";
+          default:
+            debugger;
+            return '';
+        }
+      };
+      
+      var g = s.getGlobalOptions();
+      
+      response.series.forEach(function(s) {
+        var f = s.fields || {};
+        s._icon = getIcon(f.doc_type || '');
+        
+        if (f) {
+          if (f.doc_type == 'Website') {
+            if(f.event_start_date && f.event_end_date) {
+              
+              if (f.event_start_date.split('T')[0] != f.event_end_date.split('T')[0]) {
+                var df = f.event_start_date.split(/[- :T]/);
+                var dt = f.event_end_date.split(/[- :T]/);
+
+                var dfd = g.dtPartsToDate(df);
+                var dtd = g.dtPartsToDate(dt);
+
+                if (df[0] == dt[0]) {
+                  if (df[1] == dt[1]) {
+                    // same year and month
+                    // Sep 18 -  21, 2028
+
+                    f._date = g.monthNames[dfd.getMonth()].substr(0,3) + ' ' + dfd.getDate() + ' - ' + dtd.getDate() + ', ' + dfd.getFullYear();
+                  } else {
+                    // same year
+                    // Oct 29 - Nov 3, 2023
+
+                    f._date = g.monthNames[dfd.getMonth()].substr(0,3) + ' ' + dfd.getDate() + ' - ' + g.monthNames[dtd.getMonth()].substr(0,3) + ' ' + dtd.getDate() + ', ' + dfd.getFullYear();
+                  }
+                } else {
+                  // different year
+                  // Dec 31, 2022 - Jan 3, 2023
+                  f._date = g.monthNames[dfd.getMonth()].substr(0,3) + ' ' + dfd.getDate() + ', ' + dfd.getFullYear() + ' - ' + g.monthNames[dtd.getMonth()].substr(0,3) + ' ' + dtd.getDate() + ', ' + dtd.getFullYear();
+                }
+              } else {
+                // event_start
+                f._date = g.dtToMonthDayYear(f.event_start_date);
+              }
+              
+            } else {
+              // doc date
+              f._date = g.dtToMonthDayYear(f.doc_date);
+            }
+          } else {
+            // doc date
+            f._date = g.dtToMonthDayYear(f.doc_date);
+          }
+        }
+      });
+    }
+    
+    return response;
+  },
+  "global": {
+    "fuseTrackerInit": {
+      "client": "CREW",
+      "dimensionMap": {
+        "var1": 2
+      }
+    },
+    "ai_mode": false,
+    "chat_always_open": true,
+    "recap_mode": false,
+    "chat_mode": false,
+    "start_convo_mode": false,
+    "inside_render": false,
+    "toggleRecapMode": function (isChecked, s) {
+      if (isChecked === true && s.getGlobalOptions().recap_mode === false) {
+        s.getGlobalOptions().recap_mode = true;
+      } 
+      else {
+        s.getGlobalOptions().recap_mode = false;
+      }
+    },
+    "toggleChatMode": function (isChecked, s) {
+      if (isChecked === true && s.getGlobalOptions().chat_mode === false) {
+        s.getGlobalOptions().chat_mode = true;
+         s.getGlobalOptions().chat_always_open = true;
+        s.getGlobalOptions().start_convo_mode = true;
+      } 
+      else {
+        s.getGlobalOptions().chat_mode = false;
+        s.getGlobalOptions().start_convo_mode = false;
+            s.getGlobalOptions().chat_always_open = false;
+      }
+    },
+    "toggleAIMode": function (isChecked, s) {
+      if (isChecked === true && s.getGlobalOptions().ai_mode === false) {
+        s.getGlobalOptions().ai_mode = true;
+      } 
+      else {
+        s.getGlobalOptions().ai_mode = false;
+      }
+    },
+    "getFuseTrackerInit": function (service, fti) {
+      fti = fti || {};
+      
+      // domain to code
+      var domainsToCode = {
+        "": "crew-network",
+        "arizona": "azcrew",
+        "atlanta": "crew-atlanta",
+        "austin": "crew-austin",
+        "baltimore": "crewbaltimore",
+        "birmingham":"birminghamcrew",
+        "cape-fear": "cape-fear-crew",
+        "chicago": "crew-chicago",
+        "charleston":"crew-charleston",
+        "cincinnati": "crew-greater-cincinnati",
+        "cleveland": "crew-cleveland",
+        "coastal-virginia": "crew-coastal-virginia",
+        "columbus":"crew-columbus",
+        "connecticut": "crew-ct",
+        "dallas": "crew-dallas",
+        "denver": "crew-denver",
+        "detroit": "crew-detroit",
+        "district-of-columbia": "crew-dc",
+        "east-bay": "crew-east-bay",
+        "edmonton": "edmonton-crew",
+        "fort-worth": "crew-fort-worth",
+        "france": "crew-france",
+        "houston": "crew-houston",
+        "indianapolis": "indycrew",
+        "inland-empire": "crew-inland-empire",
+        "iowa": "crew-iowa",
+        "jacksonville": "crew-jacksonville",
+        "kansas-city": "crew-kansas-city",
+        "las-vegas": "crew-las-vegas",
+        "lehigh-valley": "crew-lehigh-valley",
+        "los-angeles": "crew-los-angeles",
+        "maryland-suburban": "crew-maryland-suburban",
+        "miami": "crew-miami",
+        "minnesota": "mncrew",
+        "new-jersey": "crew-nj",
+        "new-york": "crew-new-york",
+        "new-mexico": "crew-new-mexico",
+        "northern-nevada": "crew-northern-nevada",
+        "northern-virginia": "crew-northern-virginia",
+        "oklahoma-city": "crew-okc",
+        "omaha": "crew-omaha",
+        "orlando": "crew-orlando",
+        "philadelphia": "crew-greater-philadelphia",
+        "piedmont-triad": "pt-crew-north-carolina",
+        "pittsburgh": "crew-pittsburgh",
+        "richmond": "crew-richmond",
+        "sacramento": "crew-sacramento",
+        "san-antonio": "crew-san-antonio",
+        "san-francisco": "crew-san-francisco",
+        "seattle": "crew-seattle",
+        "silicon-valley": "crew-silicon-valley",
+        "st-louis": "crew-st-louis",
+        "tampa-bay": "crew-tampa-bay",
+        "toronto": "toronto-crew",
+        "tucson": "crew-tucson",
+        "united-kingdom": "crew-uk",
+        "utah": "crew-utah",
+        "wisconsin": "wisconsin-crew",
+        "greenville": "UPS",
+        "hawaii": "crew-hawaii",
+        "sarasota": "crew-sarasota",
+        "northwest-arkansas": "crew-northwest-arkansas",
+        "memphis": "crew-memphis",
+        "rochester": "crew-rochester",
+        "west-michigan": "crew-west-michigan",
+        "ottawa": "crew-ottawa"
+      };
+      
+      // code to uid
+      var codeToUid = {
+        "azcrew": "G-2SB1B7WY1G",
+        "birminghamcrew": "G-Q36GJHVRCW",
+        "cape-fear-crew": "G-ZYPFGWS0WP",
+        "crew-atlanta": "G-1ELM6C96K6",
+        "crew-austin": "G-C2KJJ6M1J3",
+        "crew-boston": "",
+        "crew-calgary": "",
+        "crew-charleston": "G-VNTDTPNWNE",
+        "crew-charlotte": "",
+        "crew-chicago": "G-GBFXFCG0HL",
+        "crew-cleveland": "G-D86PCB91PE",
+        "crew-coastal-virginia": "G-MLT75N8J23",
+        "crew-columbus": "G-QYTGFCX356",
+        "crew-ct": "G-30JBH5L8PT",
+        "crew-dallas": "G-NW2FFN0T4W",
+        "crew-dc": "G-CBZVXF8WCL",
+        "crew-denver": "G-GQLBGF3ZYS",
+        "crew-detroit": "G-2QW2LB7BF7",
+        "crew-east-bay": "G-DGK6PYRCHE",
+        "crew-fort-lauderdale-boca-raton": "",
+        "crew-fort-worth": "G-83Q76TGEGR",
+        "crew-france": "G-WFFVVX5YVB",
+        "crew-greater-akron": "",
+        "crew-greater-cincinnati": "G-3QZ4X8SE86",
+        "crew-greater-philadelphia": "G-XMHX6GPM6Z",
+        "crew-greenille": "",
+        "crew-houston": "G-DQQRX0QYW5",
+        "crew-idaho": "",
+        "crew-inland-empire": "G-RDYZFWGYXX",
+        "crew-iowa": "G-7ERW3WZSR6",
+        "crew-jacksonville": "G-PGP82497DP",
+        "crew-kansas-city": "G-D86NXWBKF0",
+        "crew-las-vegas": "G-HEDPZ6TD1M",
+        "crew-lehigh-valley": "G-2E65E429K7",
+        "crew-los-angeles": "G-Y0N9YBGX4L",
+        "crew-louisville": "",
+        "crew-maryland-suburban": "G-33H2L8KF8T",
+        "crew-mexico-city": "",
+        "crew-miami": "G-5L9KWE9V14",
+        "crew-midlands-south-carolina": "",
+        "crew-montreal": "",
+        "crew-naples-fort-myers": "",
+        "crew-nashville": "",
+        "crew-network": "G-LNMGT6V0RB",
+        "crew-new-mexico": "G-S5FC3TH7GQ",
+        "crew-new-york": "G-MK2WX7B94R",
+        "crew-nj": "G-L3PMSTFVBQ",
+        "crew-northern-colorado": "",
+        "crew-northern-nevada": "G-KWRDS1MLR4",
+        "crew-northern-virginia": "G-X6WYEK9PLD",
+        "crew-nova-scotia": "",
+        "crew-okc": "G-73TKECNQJ3",
+        "crew-omaha": "G-WYVY200ZXK",
+        "crew-orange-county": "",
+        "crew-orlando": "G-D9YX5F4NWE",
+        "crew-palm-beach-treasure-coast": "",
+        "crew-pittsburgh": "G-LTQJYZS2CE",
+        "crew-portland": "",
+        "crew-richmond": "G-ZGH0DS0732",
+        "crew-sacramento": "G-2G73EMRRKC",
+        "crew-san-antonio": "G-T2ECJJDL3M",
+        "crew-san-diego": "",
+        "crew-san-francisco": "G-5Y5V9T8GNR",
+        "crew-sarasota-manatee": "",
+        "crew-sask": "",
+        "crew-seattle": "G-ZZ9ZEC7L4T",
+        "crew-silicon-valley": "G-JKX9JY81SG",
+        "crew-st-louis": "G-9CD25SLSDL",
+        "crew-tampa-bay": "G-FHE69T8GVK",
+        "crew-tucson": "G-Y52YC67GQ0",
+        "crew-uk": "G-874BHXC4V8",
+        "crew-utah": "G-VK2R04MLFR",
+        "crew-vancouver": "",
+        "crew-west-michigan": "G-WLGDDZN0WC",
+        "crewbaltimore": "G-Y53FHJ9D2X",
+        "edmonton-crew": "G-Y8EBKC71B1",
+        "indycrew": "G-TDXESK5KRP",
+        "mncrew": "G-YWH7L208PX",
+        "new-orleans-crew": "",
+        "pt-crew-north-carolina": "G-RQJC4ZTT49",
+        "toronto-crew": "G-KE29LMJ7YY",
+        "triangle-crew": "",
+        "wisconsin-crew": "G-40MBF2PNQK",
+        "UPS": "G-GKSPLNFGMT",
+        "crew-hawaii": "G-77HYZ33CY2",
+        "crew-sarasota": "G-EV8S8N6F8J",
+        "crew-northwest-arkansas": "G-L81N3D73C6",
+        "crew-memphis": "G-XB7MHLJTJE",
+        "crew-rochester": "G-L69JX3D5ZW",
+        "crew-ottawa": "G-LKQ5RW11FE"
+      };
+      
+      var host = location.hostname;
+      var hparts = host.split('.');
+      var code;
+      var uaId;
+      var siteName;
+      if (hparts.length == 3 && hparts[1] == 'crewnetwork') {
+        siteName = hparts[0].toLowerCase();
+        code = domainsToCode[siteName];
+        uaId = codeToUid[code];
+      } else {
+        siteName = "";
+        code = domainsToCode[""];
+        uaId = codeToUid[code];
+      }
+      
+      if (uaId) {
+        var cfg = JSON.parse(JSON.stringify(fti));
+        cfg.uaId = uaId;
+        console.warn('Found GA4 uaId "' + uaId + '" for "' + siteName + '"');
+        return cfg;
+      } else {
+        console.warn('Unable to find GA4 uaId for "' + siteName + '"');
+      }
+    },
+    "getParams": function () {
+      var params = {};
+      if(location.search) {
+        location.search.substr(1).split('&').forEach(function(part) {
+           var p = part.split('=');
+           var key = p[0];
+           var val = p[1];
+           if(key && val) {
+             key = key.replace(/\+/g, ' ');
+             val = val.replace(/\+/g, ' ');
+             params[decodeURIComponent(key)] = decodeURIComponent(val);
+           }
+        });
+      }
+      return params;
+    },
+    "showWidget": function (service, widgetId) {
+      return service.getGlobalOptions().widgetsVisibility[widgetId] || Object.keys(service.getWidgetById(widgetId).component.state.selected || {}).length;
+    },
+    "descriptionEmployer": function (description, employer) {
+      return description + ' | ' + employer;
+    },
+    "getTags": function (tag_, tags) {
+      var t = tag_ || tags;
+      if(typeof t === 'string') {
+        t = [t];
+      }
+      return t;
+    },
+    "dtPartsToDate": function (dtarr) {
+      if(dtarr.length>=3){
+        return new Date(dtarr[0], parseInt(dtarr[1])-1,dtarr[2]);
+      } else {
+        return '';
+      }	
+    },
+    "dtToMonthYear": function (dt) {
+          if(!dt) {
+            return dt;
+          }
+          var dtarr = dt.split(/[- :T]/);
+          var date = this.dtPartsToDate(dtarr);
+          if(date === '') {
+            return date;
+          }
+          return this.monthNames[date.getMonth()] + ' ' + date.getFullYear();
+     },
+    "monthNames": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "dtToMonthDayYear": function (dt) {
+          if(!dt) {
+            return dt;
+          }
+          var dtarr = dt.split(/[- :T]/);
+          var date = this.dtPartsToDate(dtarr);
+          if (date === '') {
+            return date;
+          }
+          return this.monthNames[date.getMonth()].substr(0,3) + ' ' + date.getDate() + ', ' + date.getFullYear();
+        },
+    "filter_query": "NOT sid:crew\\eventsair NOT sid:crew\\gathervoice NOT sid:\"CREW\\Custom\\Storyblok\\https://crewnetwork.org/resources/internships\" (NOT library_name=(\"CREW Network Board of Directors\",\"CREW Network Communication and Editorial Committee\",\"CREW Network Finance Committee\",\"CREW Network CEO Council\",\"CREW Network Industry Research Committee\",\"CREW Network Industrial Council\",\"CREW Network Nominating Committee\",\"CREW Network Multifamily Council\",\"Council - Environment, Social and Governance (ESG)\",\"CREW Network Recognition Committee\",\"CREW Network Audit Committee\",\"Council - Corporate\",\"CREW Network Foundation Scholarship Selection Committee\",\"Council - CFO\",\"CREW Network Foundation Board & Directors\",\"QFCRE Task Force\",\"CREW Network Chapter Presidents Forum\",\"CREW Network Emerging Leaders Council\",\"Council - Affordable Housing\",\"2024 CREW Network Leadership Certificate\",\"CREW Network Healthcare Council\",\"Career Opportunities in Real Estate (CORE)\",\"Council - Retail\",\"Southeast Chapter Leaders\",\"Florida Chapter Leaders\",\"Northwest U.S./Western Canada Chapter Leaders\",\"2020 Convention Community\",\"CREW Council Co-Leads\",\"CREW Network Leadership Certificate - 2019 Cohort\",\"CREW Network Leadership Certificate - 2023 Cohort\",\"CREW Network Staff\",\"Gulf Coast Chapter Leaders\",\"Western Midwest Chapter Leaders\",\"2023 Emerging Leaders Retreat\",\"CREW Network Member Education Committee: Convention\",\"Eastern Midwest/Ohio Valley Chapter Leaders\",\"Mid-Atlantic (Lower East Coast) Chapter Leaders\") NOT discussion_name=\"CREW Network Communication and Editorial Committee\" (sid:crew doc_type=(\"Jobs\",Website,\"Video\", \"CREWbiz Open Forum\")) not( sid:crew\\eventsair description:template) not Sid:crew\\custom\\storyblok (not Sid:crew\\eventsair)) set=vector1536",
+    "initial_search": true,
+    "linker": null,
+    "live": null
+  },
+  "template": {
+    "layout": "<div class=\"fuse2-ui fuse-crew-v-wrap\">\n  <div class=\"fuse\">\n    <div>\n      <widget [widgetId]='\"search-1\"'></widget>\n      \n      <div class=\"fuse-grid\">\n        <div class=\"fuse-col-filters\">\n          <!--\n          \n          -->\n          <div class=\"fuse-facets\">\n            <widget [widgetId]='\"ai-tool-container\"'></widget>\n            <widget [widgetId]='\"textfacet-1\"'></widget>\n            <widget [widgetId]='\"fuse-textfacet-3\"'></widget>\n            <widget [widgetId]='\"textfacet-4\"'></widget>\n            <widget [widgetId]='\"fuse-textfacet-1\"'></widget>\n            <widget [widgetId]='\"fuse-textfacet-2\"'></widget>\n            <widget [widgetId]='\"textfacet-7\"'></widget>\n          </div>\n        </div>\n        <div class=\"fuse-col-results\">\n          <div style='display:flex;justify-content:space-between;'>\n            <div style=\"margin-top: 1.7em;\">\n              <widget [widgetId]='\"subfilters-1\"'></widget>\n            </div>\n            <widget [widgetId]='\"custom-3\"'\n              style=\"flex: auto 0 0;\"></widget>\n          </div>\n          \n          <h3 class=\"sr-only\">Search Results</h3>\n          \n                              <widget [widgetId]='\"ai-ins\"'\n                   [ngClass]=\"{'hidden-list': service.getGlobalOptions().start_convo_mode || service.getGlobalOptions().recap_mode}\"\n                  ></widget>\n          \n                              <!--<widget [widgetId]='\"chat-messages\"'\n                            [ngClass]=\"{'hidden-list': !service.getGlobalOptions().chat_mode}\"\n                  ></widget>-->\n          \n                                       <widget [widgetId]='\"ai-recap\"' [ngClass]=\"{'hidden-list': !service.getGlobalOptions().recap_mode}\"\n                            ></widget>\n          \n          \n                               <div class=\"fuse-ai__disclaimer\" *ngIf='service.getGlobalOptions().ai_mode'>    \n            <p>AI-generated responses may be inaccurate or misleading. Do not use generative AI features to seek legal, medical, financial, or other kinds of professional advice or any opinions, judgments, or recommendations without conducting your own independent consultation or research.</p>\n                                \n          </div>\n          <widget [widgetId]='\"custom-1\"'\n                                    [ngClass]=\"{'hidden-list': service.getGlobalOptions().recap_mode}\"\n                  ></widget>\n        </div>\n        \n        \n      </div>\n      \n      <widget [widgetId]='\"custom-2\"'\n               [ngClass]=\"{'hidden-list': service.getGlobalOptions().recap_mode}\"\n              ></widget>\n      \n\n<widget [widgetId]='\"fuse-footer-1\"'></widget>\n\n      \n      <widget [widgetId]='\"custom-6\"'></widget>\n      \n    </div>\n  </div>\n</div>"
+  },
+  "styles": "div.fuse {\n  --fuse-base-font-size-px: 15;\n  --fuse-default-color-primary: #26686D;\n  --fuse-default-color-secondary: #26686D;\n  --progress-bg: #eee;\n  --progress-fill: #0bf;\n  --progress-text: #333;\n\n  /* Elegant scoring colors */\n  --score-green: #3fa36d;   /* muted classy green */\n  --score-orange: #d2993f;  /* soft orange */\n  --score-red: #c44b4b;     /* elegant muted red */\n\n  /* ---- Sizing ---- */\n  --progress-size: 90px;\n  --progress-border: 5px;\n\n  /* ---- Animation ---- */\n  --progress-duration: 3s;\n  --progress-easing: cubic-bezier(.4, .0, .2, 1);\n\n  /* ---- Card Shadow ---- */\n  --card-shadow: 0 6px 20px rgba(0,0,0,0.08);\n\n  /* ---- Scoring ΓÇ£DiagonalΓÇ¥ Badge ---- */\n  --score-tilt: -12deg;\n  --score-bg: white;\n  --score-padding: 6px 12px;\n  --score-font-weight: 600;\n  --score-font-size: 1.3rem;\n}\n\n.ai-tag{\n  margin: 5px !important;\n}\n\n.ai-filters{\n  background-color: transparent !important;\n}\n\n.fuse-form__search {\n    background-color: transparent !important;\n    color: transparent !important;\n  z-index: auto !important;\n  border: none !important;\n}\n\n\n#fuse-autocomplete-list{\n  background-color: #fff !important;\n}\n/*\nsjsearch-app .fa,\nsjsearch-app [class*=\" fa-\"],\nsjsearch-app [class^=\"fa-\"] {\n  font-family: inherit;\n  font-style: normal;\n  font-weight: normal;\n  text-decoration: none;\n  display: inline;\n}\n*/\n\n.fuse-result em.hlt1 {\n  font-weight: 800;\n  font-style: normal;\n}\n\n.fuse-result__description em.hlt1 {\n  font-weight: 700;\n}\n\n.fuse-crew-v-wrap .fuse .fuse-facet__filters {\n  max-height: 275px;\n  overflow: auto;\n}\n\n\n.fuse-crew-v-wrap .sj-sub-filters ul li {\n    background-color: var(--fuse-text-filter-expand-tree, var(--fuse-color-primary, var(--fuse-default-color-primary)));\n    color: #fff;\n    display: inline-flex;\n    align-items: center;\n    margin-right: 5px;\n    margin-bottom: 3px;\n}\n\n.fuse-crew-v-wrap .sj-sub-filters ul li.sj-sub-filters-clear-all {\n  padding: 4px 10px;\n}\n\n.fuse-crew-v-wrap .fuse .fuse-headline {\n  font-size: 1.5em;\n}\n@media (min-width: 768px) {\n  .fuse-crew-v-wrap .fuse .fuse-headline {\n    font-size: 1.5em;\n  }\n}\n\n.fuse-crew-v-wrap ::-webkit-scrollbar {\n        -webkit-appearance: none;\n    }\n    \n.fuse-crew-v-wrap ::-webkit-scrollbar:vertical {    \n        width: 4px;\n    }\n    \n.fuse-crew-v-wrap ::-webkit-scrollbar:horizontal {    \n        height: 4px;\n    }\n    \n.fuse-crew-v-wrap ::-webkit-scrollbar-thumb {\n        border-radius: 4px;\n        background-color: rgba(0, 0, 0, .5);\n    }\n.fuse-crew-v-wrap ::-webkit-scrollbar-track { \n        border-radius: 4px; \n    }\n\n\n.fuse-crew-v-wrap .sj-sub-filters button {\n  border-radius: 5px;\n    display: inline-flex;\n    align-items: center;\n    padding-right: 2px;\n}\n\n.fuse-crew-v-wrap .sj-sub-filters button span {\n  padding: 3px 0 3px 5px;\n}\n\n\n#fuseSearch .fuse-crew-v-wrap .sj-sub-filters button {\n      color: var(--g-black);\n    border: 1px solid #ccc;\n    border-color: var(--g-black);\n    border-radius: 5px;\n    padding: 0.1rem 0.625rem;\n}\n\n#fuseSearch .fuse-crew-v-wrap .sj-sub-filters button svg path{\n      fill: #000;\n}\n.fuse2-ui-crew .fuse .fuse-result__img {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n    flex-shrink: 0;\n    object-fit: contain;\n    width: 15em;\n  padding-right: 5px;\n}\n\n.fuse-result__picture {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n    flex-shrink: 0;\n    object-fit: contain;\n    width: 5em;\n  padding-right: 5px;\n}\n\n.fuse-col-results .fuse-result__body .fuse-result__date span.doc_type-pill {\n  padding: 5px 10px;\n  margin-left: 10px;\n  background-color: #ff2100;\n  border-radius: 20px;\n  color: #fff;\n}\n\n.fuse-col-results .fuse-result__body .tag-container span.tag-pill {\n  padding: 5px 10px;\n  margin: 5px 5px 5px 0;\n  background-color: #fff;\n  border: 1px solid #ff2100;\n  border-radius: 20px;\n  color: #ff2100;\n}\n\n.fuse-col-results .fuse-result__body .title-and-name {\n  margin-bottom: 10px\n}\n\n.fuse-col-results .fuse-result__body .author-name {\n  margin-bottom: 10px\n}\n\n.fuse .fuse-form__input {\n  padding-right: 2em !important;\n}\n\n.fuse .sj-searchInput-wrapper .sj-ac-clear {\n  right: 5px !important;\n}\n\n\n\n.greenBorder {\n  border: 5px solid #eee  !important; \n  border-bottom-color: var(--fuse-default-color-primary) !important;\n  border-right-color:var(--fuse-default-color-primary) !important;\n}\n\n.orangeBorder {\n  border: 5px solid  #eee !important; \n  border-bottom-color: var(--score-orange) !important;\n  border-right-color: var(--score-orange) !important;\n\n}\n\n.redBorder {\n  border: 5px solid #eee !important;\n  border-bottom-color: var(--score-red) !important;\n  border-right-color: var(--score-red) !important;\n  \n}\n\n.score_container{\n  display: flex;\n  flex: 1;\n  flex-wrap:nowrap;\n  font-weight: 700;\n  justify-content: center;\n  \n}\n\n.score_number{\n  font-size:2.5em;\n}\n\n.score_label{\n  font-size: .6em;\n}\n\n.score_green{\n color: var(--fuse-default-color-primary) \n}\n\n.score_warn{\n   color: var(--score-orange)\n}\n\n.score_dang{\n   color: var(--score-red)\n}\n\n.smart-progress{\n  position: relative;\n  margin: 4px;\n  float: left;\n  text-align: center;\n}\n\n.barOverflow{ /* Wraps the rotating .bar */\n  position: relative;\n  overflow: hidden; /* Comment this line to understand the trick */\n  width:90px; height: 49px; /* Half circle (overflow) */\n  margin-bottom: -25px; /* bring the numbers up */\n}\n\n.bar{\n  position: absolute;\n  top: 0; left: 0;\n  width:90px; height: 90px; /* full circle! */\n  border-radius: 50% !important;\n  box-sizing: border-box !important;\n  transition: transform 0.7s ease-out;\n}\n\n@keyframes fill-arc {\n  from {\n    transform: rotate(45deg);\n  }\n  to {\n    transform: rotate(var(--target-rotation));\n  }\n}\n\n.smart_match_container{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: stretch;\n  gap: 10px;\n}\n\n.fuse-result__content{\n  font-size:12px;\n}\n\n.match_item_card_container{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  flex: 1;\n  border-radius: 8px;\n  padding: 7px;\n  box-shadow:\n    0 25px 50px rgba(0, 0, 0, 0.05),\n    0 10px 20px rgba(0, 0, 0, 0.04);\n}\n\n.good_match{\n  color: #2F8F6B;\n}\n\n.bad_match{\n  color: #C15C5C\n}\n\n.match_item_container{\n  display:flex;\n  flex-direction: column;\n  flex: 3;\n  gap: 5px;\n  padding:10px;\n}\n\n.fuse-crew-art-replies-toggle {\n  font-size: 12px;\n  font-weight: 600;\n  cursor: pointer;\n    display: inline-block;\n  border-radius: 15px;\n}\n\n.fuse-result__body{\n  width: 100%;\n}\n\n.fuse-crew-art-replies {\n  position:absolute;\n  opacity: 0;\n  transition: opacity 0.5s ease, transform 0.5s ease;\n  margin-top: 30px !important;\n  visibility: hidden;\n  transform: translateY(-20px);\n}\n\n.fuse-crew-art-replies ul {\n  border-left: 1px solid #000 !important;\n  border-bottom: none !important;\n  margin-left: 20px !important;\n}\n\n\n.fuse-crew-art-replies ul li {\n  border: none !important;\n  padding: 5px 10px;\n      display: flex;\n    flex-direction: column;\n    gap: 8px;\n  color: rgba(55, 65, 81, var(--tw-text-opacity));\n  --tw-text-opacity: 1;\n}\n\n.fuse-crew-art-replies ul li strong {\n  font-size: 14px;\n  font-weight: 600;\n}\n\n.original-post-metadata{\n  font-size: 14px;\n  padding: 5px 0px 15px 0px;\n}\n\n.active{\n  position:relative;\n  visibility: visible !important;\n  opacity: 1 !important;\n  transform: translateY(0) !important;\n  padding-bottom: 10px;\n  transition: opacity 0.2s ease, transform 0.5s ease, visibility 0s;\n}\n\n.reply-link{\n  font-weight: bold;\n  font-size: 0.8rem;\n}\n\n.show-replies-btn{\n  display: flex !important;\n  flex-direction:row;\n  gap: 2px;\n  background-color: #eff0f2;\n  padding: 7px 7px;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.heroicon-chev, .size-6{\n  display: block !important;\n  width: 16px;\n  height:16px;\n  color: #000;\n  \n}\n\n\n.fuse-acui-reply-meta-data-container{\n  display: flex;\n  flex-direction:row;\n   gap: 15px;\n  margin: 10px 0px 10px 0px;\n}\n\n .user-info, .fuse-acui-date-container{\n  display: flex;\n  flex-direction:row;\n\n  gap: 2px;\n}\n\n.heroicon-user , .heroicon-calendar{\n  display:block;\n  width: 16px;\n  height:16px;\n}\n\n\n*::-webkit-scrollbar {\n  width: 8px;              /* thickness */\n  height: 8px;             /* horizontal scrollbar */\n}\n\n*::-webkit-scrollbar-track {\n  background: transparent;      /* track color */\n  border-radius: 4px;\n}\n\n*::-webkit-scrollbar-thumb {\n  /* background:  var(--fuse-default-color-primary);*/\n    background:  transparent;\n  /* thumb color */\n  border-radius: 4px;\n}\n\n*::-webkit-scrollbar-thumb:hover {\n  background: #555;         /* hover color */\n}\n\n.sort-container{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  margin-top: 1em;\n  margin-bottom:1em;  \n  \n}\n\n.ai-btn-container {\n  height: auto;\n  opacity: 1;\n  transition: all 0.3s;\n  width: 100% !important;\n}\n\n[sjid=\"custom-1\" ].hidden-list,\n[sjid=\"pagination-1\" ].hidden-list,\n[sjid=\"ai-ins\" ].hidden-list,\n[sjid=\"chat-messages\"].hidden-list,\n[sjid=\"ai-recap\" ].hidden-list{\n  z-index: -19;\n  opacity:0;\n  max-height: 0;\n  overflow: hidden;\n  position: relative;\n}\n\n\n@media (max-width: 768px){\n  .fuse-crew-reply-meta-data-container{\n    flex-direction: column !important;\n  }\n}\n\n\n/* ai styles */\n.ai_fuse-result__heading{\n  display:flex;\n  flex-direction:row;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.fuse-sort, .fuse-headline__text {\n  padding-bottom: 0px !important;\n}\n\n@media (max-width: 767px) {\n    .sort-container {\n        flex-direction: column !important;\n    }\n}\n\n@media (max-width: 1024px) {\n    .fuse-toggle-switch__cover label {\n        font-size: 1.3em !important;\n    }\n  .ai-icon-container small{\n    text-align: start; \n  }\n}\n  \n.ai-icon{\n  width: 30px !important;\n  height: 30px !important;\n}\n\n.ai-icon-on{\n  color: var(--fuse-default-color-secondary) !important;\n}\n\n\n.ai-icon-off{\n  color: #cecece !important;\n  opacity: 0.5 !important;\n}\n\n.fuse2-ui .fuse .fuse-ai__disclaimer {\n  border: 1px solid #dc3545;\n  padding: 15px;\n  margin: 0 0 25px;\n  border-radius: 10px;\n  background: #fff3cd;\n  border-color: #ffecb5;\n  text-align: justify;\n}\n\n.fuse2-ui .fuse .fuse-ai__disclaimer p {\n  border: none;\nfont-size: 1.4rem;\n  font-weight: 300;\n}\n\n.fuse2-ui .fuse .fuse-ai__disclaimer i {\n  font-family: \"Font Awesome 6 Free\"!important;\n}\n\n\n.sort-container{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  \n}\n\n.fuse-toggle-switch .fuse-toggle-switch__cover .label_toggle {\n  color: inherit !important;\nfont-family: var(--dm-sans) !important;\nfont-size: var(--Headings-h3, 22px) !important;\n}\n\n.fuse-toggle-switch {\n  position: relative;\n  width: 400px;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.fuse-toggle-switch__cover {\n  border-radius: 4px;\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n}\n\n.fuse-toggle-switch__cover label,\n.fuse2-ui .fuse .fuse-toggle-switch__cover label {\n  padding-right: 0px;\n  font-weight: 500;\n  font-size: 1.3rem;\n  max-width: 90px;\n  color: #0e3053;\n}\n\n.fuse-toggle-switch__knobs,\n.fuse-toggle-switch__layer {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n\n.fuse2-ui .fuse-toggle-switch__button {\n  position: relative;\n  width: 72px;\n  height: 34px;\n  margin: 0;\n}\n\n.fuse-toggle-switch__button,\n.fuse-toggle-switch__button .fuse-toggle-switch__layer {\n  border-radius: 100px;\n}\n\n.fuse-toggle-switch__checkbox {\n  position: relative;\n  width: 100% !important;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n  opacity: 0;\n  cursor: pointer;\n  z-index: 3;\n  cursor: pointer;\n}\n\n.fuse-toggle-switch__knobs {\n  z-index: 2;\n}\n\n.fuse-toggle-switch__layer {\n  width: 100%;\n  background-color: #ccc;\n  transition: 0.3s ease all;\n  z-index: 1;\n  outline: 1px solid #ccc;\n}\n\n.fuse-toggle-switch__button .fuse-toggle-switch__knobs:before {\n  content: \"\";\n  position: absolute;\n  top: 4px;\n  left: 4px;\n  width: 25px;\n  height: 25px;\n  color: #fff;\n  font-size: 10px;\n  font-weight: bold;\n  text-align: center;\n  line-height: 1;\n  padding: 9px 4px;\n  background-color: #fff;\n  border-radius: 50%;\n  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;\n}\n\n.fuse-toggle-switch__button .fuse-toggle-switch__checkbox:checked+.fuse-toggle-switch__knobs:before {\n  content: \"\";\n  left: 42px;\n  background-color: #fff;\n}\n\n.fuse-toggle-switch__button .fuse-toggle-switch__checkbox:checked~.fuse-toggle-switch__layer {\n  background: #14377d;\n  outline: 1px solid #14377d;\n}\n\n.fuse-toggle-switch__button .fuse-toggle-switch__knobs,\n.fuse-toggle-switch__button .fuse-toggle-switch__knobs:before,\n.fuse-toggle-switch__button .fuse-toggle-switch__layer {\n  transition: 0.3s ease all;\n}\n\n.fuse-toggle-switch__checkbox:focus-visible ~ .fuse-toggle-switch__layer {\n  outline: 1px solid #000;            \n}\n\n.fuse-toggle-switch .fuse-toggle-switch__checkbox {\n  outline: none;\n}\n\n.fuse-toggle-switch__cover label,\n.fuse2-ui .fuse .fuse-toggle-switch__cover label {\n  font-size: 1.6rem;\n  max-width: initial;\n  padding-right: 15px;\n}\n\n.fuse-toggle-switch { \n  text-align: right;\n} \n  \n  .fuse-toggle-switch__cover label, .fuse2-ui .fuse .fuse-toggle-switch__cover label {\n     text-align: start !important; \n  }\n\n.ai-instructions-container{\n   display:flex;\n   gap:10px;\n  \n}\n\n\n.ai-icon-container{\n  flex: 1;\n  display:flex;\n  flex-direction:column;\n  justify-content: center;\n  align-items: flex-end;\n  \n}\n\n.ai-icon-container small{\n  font-size: 1em;\n  text-align: start;  \n}\n\n.ai-instructions-container small{\n  text-align: start !important;\n}\n\n@media (max-width: 1024px) {\n  .smart_match_container {\n    flex-direction: column !important;\n  }\n}\n",
+  "widgets": [
+    {
+      "settings": {},
+      "id": "fuse-footer-1",
+      "type": "fuse-footer",
+      "defaultState": {
+        "widgetName": "Footer 2.0 1"
+      }
+    },
+    {
+      "settings": {
+        "sidePages": 1,
+        "beginPages": 5,
+        "endPages": 5
+      },
+      "id": "custom-2",
+      "type": "fuse-pagination",
+      "defaultState": {
+        "widgetName": "Fuse Pagination"
+      }
+    },
+    {
+      "settings": {
+        "field": "tag_",
+        "name": "Tags",
+        "maxFacets": 9999,
+        "level": 0,
+        "sort": "term.asc",
+        "urlParam": true
+      },
+      "id": "textfacet-4",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "selected": {},
+        "widgetName": "Tags",
+        "collapsed": true
+      }
+    },
+    {
+      "settings": {
+        "field": "doc_type",
+        "name": "Type",
+        "maxFacets": 9999,
+        "level": 0,
+        "ignoreQuery": true,
+        "widgetsMap": {
+          "Illinois Bar Journal": [
+            "ibj_type",
+            "author"
+          ],
+          "Illinois Lawyer Now": [
+            "iln_categories",
+            "regions"
+          ],
+          "Section Newsletters": [
+            "author"
+          ],
+          "CLE": [
+            "regions",
+            "pmcle",
+            "cle_type",
+            "score_tree"
+          ],
+          "Practice HQ": [
+            "practice_hq"
+          ]
+        },
+        "adjustFacets": function (widget, terms) {
+      var items = [
+        'Illinois Bar Journal',
+        'Illinois Lawyer Now',
+        'Section Newsletters',
+        'CLE',
+        'Practice HQ',
+        'Other Web Pages',
+        'For the Public',
+        'YouTube'
+      ];
+      terms.sort(function(a, b) {
+        var ai = items.indexOf(a.term);
+        var bi = items.indexOf(b.term);
+        if(bi != -1 && ai != -1) {
+          if(ai == bi) {
+            return 0;
+          } else {
+            return ai > bi ? 1 : -1;
+          }
+        }
+        if(bi == -1) {
+          return -1;
+        }
+        if(ai == -1) {
+          return 1;
+        }
+      });
+      return terms;
+    },
+        "onChange": function (widget, changeState) {
+      var selected = widget.state.selected || {};
+      if(!Object.keys(selected).length && widget.data.terms.length == 1) {
+        selected = {};
+        selected[widget.data.terms[0].term] = true;
+      }
+          
+      var globalOptions = widget.service.getGlobalOptions();
+      
+      for(var key in globalOptions.widgetsVisibility) {
+        globalOptions.widgetsVisibility[key] = false;
+      }
+      
+      for(var w in widget.settings.widgetsMap) {
+        var widgets = widget.settings.widgetsMap[w];
+        widgets.forEach(function(widg) {
+          if(selected[w]) {
+            globalOptions.widgetsVisibility[widg] = true;
+          }
+        });
+      }
+      
+      if(changeState !== false) {
+        widget.service.setState();
+      }
+    },
+        "sort": "count.asc",
+        "urlParam": true
+      },
+      "id": "textfacet-1",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "widgetName": "Doc_Type"
+      },
+      "definition": {
+        "getQuery": function (widget) {
+      var sel = widget.data.getSelArray().map(function (el) {
+        return '"' + el + '"';
+      });
+      if (sel.length) {
+        return '\"' + widget.data.field + '\"=(' + sel.join(',') + ')';
+      }
+    },
+        "afterInit": function (widget) {
+          this.base.afterInit.apply(this, widget);
+            var setTerms = widget.data.setTerms;
+            widget.data.setTerms = function(terms) {
+              setTerms.apply(widget.data, arguments);
+              widget.settings.onChange(widget, false);
+            };
+          /*
+          setTimeout(function() {
+            widget.settings.onChange(widget, false);
+          }, 1000);
+      
+      widget.service.on('stateSet', function(newState) {
+        widget.settings.onChange(widget, false);
+      });*/
+    }
+      }
+    },
+    {
+      "settings": {
+        "showHints": false,
+        "types": [
+          "text"
+        ],
+        "textFields": [
+          "description",
+          "content",
+          "body",
+          "body_updated",
+          "news_category",
+          "summary",
+          "tag_",
+          "summary",
+          "videotitle",
+          "videodescription",
+          "details"
+        ],
+        "textStyle": "term",
+        "suggest": true,
+        "clean": true,
+        "urlParam": true
+      },
+      "id": "search-1",
+      "type": "fuse-search",
+      "defaultState": {
+        "searchString": "",
+        "filters": [],
+        "widgetName": "* Search Bar"
+      },
+      "definition": {
+        "afterInit": function (widget) {
+      var global = widget.service.getGlobalOptions();
+      var params = global.getParams();
+      if(typeof widget.state.searchString != 'string' && params && params['query']) { 
+        widget.state.searchString = params['query'];
+      }
+      this.base.afterInit.apply(this, [widget]);
+    },
+        "getQuery": function (widget){
+      var query = this.base.getQuery(widget);
+      if(query && query.indexOf('"')==-1)
+      	return '('+query+') OR (description="'+query+'")^100 OR (description:"'+query+'")^50';
+      return query;
+     
+    }
+      }
+    },
+    {
+      "id": "custom-4",
+      "type": "fuse-styles",
+      "defaultState": {
+        "widgetName": "Styles"
+      }
+    },
+    {
+      "definition": {},
+      "id": "custom-6",
+      "type": "fuse-mobile-filters",
+      "defaultState": {
+        "widgetName": "Mobile Filters"
+      }
+    },
+    {
+      "settings": {
+        "options": [
+          {
+            "field": "_score desc,doc_date desc,sid",
+            "label": "Relevance",
+            "order": "desc",
+            "disabled": function (w) {
+          var sw = w.service.getWidgetById('search-1').component;
+          if(!sw.state.searchString) {
+            return this.field + ' ' + this.order;
+          }
+        }
+          },
+          {
+            "field": "doc_date desc,sid",
+            "label": "Newest",
+            "order": "desc"
+          },
+          {
+            "field": "doc_date asc,sid",
+            "label": "Oldest",
+            "order": "asc"
+          }
+        ]
+      },
+      "id": "custom-3",
+      "type": "fuse-sort",
+      "defaultState": {
+        "widgetName": "* Sort"
+      },
+      "definition": {
+        "beforeSearch": function (w, args) {
+      this.base.beforeSearch.apply(this, arguments);
+      
+      var sw = w.service.getWidgetById('search-1').component;
+      var items = w.settings.options;
+      if(!w.data.prevSearchTerm && sw.state.searchString &&
+        (args.sort === (items[1].field + ' ' + items[1].order) || 
+         args.sort === (items[2].field + ' ' + items[2].order))) {
+        args.sort = items[0].field + ' ' + items[0].order;
+        w.service.seriesParam.sort = args.sort;
+        w.data.initSort();
+      }
+      w.data.prevSearchTerm = sw.state.searchString;
+    }
+      }
+    },
+    {
+      "settings": {
+        "formatDuration": (seconds) => {
+  		seconds = Math.max(0, Math.floor(seconds));
+
+  		const minutes = Math.floor(seconds / 60);
+  		const secs = seconds % 60;
+
+  	const formattedMinutes = 		String(minutes).padStart(2, '0');
+  const formattedSeconds = String(secs).padStart(2, '0');
+
+  return `${formattedMinutes}:${formattedSeconds}`;
+},
+        "fields": [
+          "doc_date",
+          "content",
+          "description",
+          "link",
+          "last_name",
+          "ai_summary",
+          "thumbnail_path",
+          "tags",
+          "doc_type",
+          "content",
+          "location",
+          "author_name",
+          "icon_url",
+          "largepictureurl",
+          "company_title",
+          "company_name",
+          "hltype",
+          "tags_obj",
+          "picture_url",
+          "duration",
+          "tag_",
+          "tags",
+          "employer",
+          "custom_body",
+          "biography",
+          "largepictureurl",
+          "event_start_date",
+          "event_end_date",
+          "body",
+          "hltype",
+          "news_category",
+          "name",
+          "thumbnailimage",
+          "created_time",
+          "related_obj",
+          "ai_title",
+          "ai_short_summary"
+        ],
+        "template": "\n\n<img *ngIf='data.series.fields.thumbnail_path' [src]='data.series.fields.thumbnail_path' class=\"fuse-result__img\" /><img *ngIf='data.series.fields.thumbnailimage' [src]='data.series.fields.thumbnailimage' class=\"fuse-result__img\" /><img *ngIf='data.series.fields.largepictureurl' [src]='data.series.fields.largepictureurl' class=\"fuse-result__picture\"/><article class=\"fuse-result__body\">\n\n  <article class=\"fuse-result__body\">\n\n    <h4 class=\"fuse-result__heading\"> <i class=\"material-symbols-outlined\">{{ data.series._icons }}</i>\n      \n      \n      \n\n      <a class=\"fuse-result__link\" *ngIf='data.series.fields.doc_type==\"Website\" && !(widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)' \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"data.series.getFieldHtmlWithHighlight('description')\"\n         target=_self>\n      </a>\n      \n      \n            <a class=\"fuse-result__link\" *ngIf='data.series.fields.doc_type==\"Website\" && (widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)' \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"data.series.getFieldHtmlWithHighlight('ai_title')\"\n         target=_self>\n      </a>\n      \n      \n      \n      \n      \n      \n      <a class=\"fuse-result__link\" \n         *ngIf='data.series.fields.doc_type!=\"Website\" && data.series.fields.doc_type!=\"Jobs\" && !(widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)'  \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"data.series.getFieldHtmlWithHighlight('description')\"\n         target=_blank>\n\n      </a>\n      \n      \n            <a class=\"fuse-result__link\" \n         *ngIf='data.series.fields.doc_type!=\"Website\" && data.series.fields.doc_type!=\"Jobs\" && (widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)'  \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"data.series.getFieldHtmlWithHighlight('ai_title')\"\n         target=_blank>\n\n      </a>\n      \n      \n            <a class=\"fuse-result__link\" \n         *ngIf='data.series.fields.doc_type!=\"Website\" && data.series.fields.doc_type!=\"Jobs\" && !data.series.fields.description'  \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"data.series.getFieldHtmlWithHighlight('name')\"\n         target=_blank>\n\n      </a>\n      \n      \n      <a class=\"fuse-result__link\" \n         *ngIf='data.series.fields.doc_type==\"Jobs\"'  \n         [href]=\"data.series.fields.link\"\n         (click)=\"widget.data.trackAction(data.series)\" [innerHTML]=\"widget.service.getGlobalOptions().descriptionEmployer(data.series.fields.description, data.series.fields.employer)\"\n         target=_blank>\n      </a>\n    </h4>\n    <p class=\"author-name\"  *ngIf='data.series.fields.doc_type==\"CREWbiz Open Forum\"' >\n      <strong>{{data.series.fields.author_name}}</strong>\n    </p>\n    <p class=\"title-and-name\" *ngIf='data.series.fields.hltype===\"Contacts\" && data.series.fields.company_title'>\n      <strong>{{data.series.fields.company_title + ', ' + data.series.fields.company_name}}</strong>\n    </p>\n    <p class=\"fuse-result__date\" *ngIf='data.series.fields?._date'>\n    {{ data.series.fields?._date }} <i class=\"fa-solid {{ data.series._icon }}\"></i><span> {{ data.series.fields.doc_type }}</span>\n  </p>\n <p class=\"fuse-result__authors\"  *ngIf='data.series.fields.doc_type==\"Video\"' >\n    Duration: {{ widget.settings.formatDuration(data.series.fields.duration) }}\n    </p>\n    <p class=\"fuse-result__authors\"  *ngIf='data.series.fields.doc_type==\"Jobs\"' >\n      {{ data.series.fields.location }}\n    </p>\n    <p class=\"fuse-result__description\" sj-line-limit=\"3\" *ngIf='data.series.fields.hltype!=\"Library\" && data.series.fields.hltype!=\"Contacts\" && !data.series.fields.doc_type==\"Video\"' [innerHTML]=\"data.series.getSimpleHighlightSnippet(['ai_summary', 'summary', 'long_description', 'content', 'custom_body', 'body', 'text', 'content', 'biography'])\"></p>\n    \n    <p class=\"fuse-result__description\" sj-line-limit=\"3\" *ngIf='data.series.fields.hltype!=\"Library\" && data.series.fields.hltype!=\"Contacts\" && data.series.fields.doc_type==\"Video\"' [innerHTML]=\"data.series.getSimpleHighlightSnippet(['content'])\"></p>    \n\n    <p class=\"fuse-result__description\" sj-line-limit=\"3\" *ngIf='data.series.fields.hltype==\"Contacts\"' [innerHTML]=\"data.series.fields.biography\"></p>\n  <p class=\"fuse-result__description\"sj-line-limit=\"3\" *ngIf='data.series.fields.hltype==\"Library\"' [innerHTML]=\"data.series.getSimpleHighlightSnippet(['body'])\"></p>\n    <ul class=\"fuse-result__tags\" *ngIf='(data.series.fields.tag_ || data.series.fields.tags)'>\n    <li *ngFor='let tag of widget.service.getGlobalOptions().getTags(data.series.fields.tag_, data.series.fields.tags)'>\n      <span class=\"fuse-chip fuse-chip--gray\">\n        <span class=\"fuse-chip__label fuse-chip__label--xs\">\n          {{ tag }}\n        </span>\n      </span>\n    </li>\n  </ul>\n  <ul class=\"fuse-result__tags\" *ngIf='(data.series.fields.news_category && data.series.fields.news_category.trim().length > 0) && data.series.fields.doc_type==\"Website\"'>\n    <li>\n      <span class=\"fuse-chip fuse-chip--gray\">\n        <span class=\"fuse-chip__label fuse-chip__label--xs\">\n          {{ data.series.fields.news_category }}\n        </span>\n      </span>\n    </li>\n  </ul>\n        <ul class=\"fuse-result__tags ai-tag\">\n        \n                <li>\n                         <div class=\"fuse-chip fuse-chip--gray show-replies-btn\" *ngIf=\"data.series.fields?.related_obj\"\n role='button'\n               tabIndex='0'\n               (click)='data.series._showSM = !data.series._showSM'>\n                    <span \n     class=\"fuse-chip__label fuse-chip__label--xs\">\n                       {{ data.series._showSM ? 'Hide '  : 'Show ' }} Smart Matches\n    </span>\n <span class=\"heroicon-chev\">\n   \n   \n <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"size-6\" *ngIf=\"!data.series._showSM\">\n  <path fill-rule=\"evenodd\" d=\"M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z\" clip-rule=\"evenodd\" />\n</svg>\n   \n   <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" class=\"size-6\" *ngIf=\"data.series._showSM\">\n  <path fill-rule=\"evenodd\" d=\"M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z\" clip-rule=\"evenodd\" />\n</svg>\n\n\n</span>\n\n          </div> \n    </li>\n    </ul>\n    \n             <div class=\"fuse-crew-art-replies\"\n   [ngClass]=\"{ 'active': data.series._showSM }\">\n    \n    <div class=\"smart_match_container\">\n      <div class=\"match_item_card_container\" *ngFor='let item of data.series.fields.related_obj'>\n          \n          \n          <div class=\"score_container\">\n            <div class=\"smart-progress\">\n  <div class=\"barOverflow\">\n    <div class=\"bar\"\n[ngStyle]=\"{ transform: data.series._showSM? 'rotate(' + (45 + (item.relationship_percentage * 1.8)) + 'deg)': '45deg'}\"\n           [ngClass]=\"{\n    greenBorder: item.relationship_percentage >= 80,\n    orangeBorder: item.relationship_percentage >= 50 && item.relationship_percentage < 80,\n    redBorder: item.relationship_percentage < 50\n  }\"\n         ></div>\n    \n  </div>\n\n              \n  <span\n        class=\"score_number\"\n        [ngClass]=\"{\n    score_green: item.relationship_percentage >= 80,\n    score_warn: item.relationship_percentage >= 50 && item.relationship_percentage < 80,\n    score_dang: item.relationship_percentage < 50\n  }\"\n        \n        >{{item.relationship_percentage}}</span>\n                            <br>\n              <span class=\"score_label\">Relatedness Score</span>\n</div>\n            \n            \n          </div>\n         \n          <article class=\"match_item_container\">\n                    <a\n              class=\"fuse-result__link reply-link\"\n                       *ngIf=\"(widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)\"\n                       \n              [href]=\"item.custom_link || item.link\"\n                  [innerHTML]=\"(item.custom_description || item.description).slice(0,150) + '...'\">\n          </a>\n            \n                                <a\n              class=\"fuse-result__link reply-link\"\n                       *ngIf=\"!(widget.service.getGlobalOptions().ai_mode && data.series.fields.ai_title)\"\n                       \n              [href]=\"item.custom_link || item.link\"\n                  [innerHTML]=\"(item.custom_description || item.description).slice(0,150) + '...'\">\n          </a>\n            \n            <section class=\"fuse-result__content\"\n                     *ngIf=\"item.ai_summary || item.content || item.description\"\n                     [innerHTML]=\"(item.ai_summary || item.content || item.description).slice(0,250) + '...'\"\n                     >\n            \n            </section>\n            \n            \n          \n          </article>\n\n      </div>\n    </div>\n  </div>\n    \n  </article>\n "
+      },
+      "id": "custom-1",
+      "type": "fuse-list",
+      "defaultState": {
+        "widgetName": "* Results"
+      },
+      "definition": {
+        "init": function (widget) {
+      this.base.init(widget);
+      widget.data.selectTag = function(tag) {
+        var state = widget.service.getWidgetById('textfacet-4').component.state;
+        if(!state.selected) {
+          state.selected = {};
+        }
+        if(state.selected[tag] !== true) {
+          state.selected[tag] = true;
+          widget.service.setState();
+        }
+      };
+    },
+        "onData": function (w, args) {
+      this.base.onData.apply(this, arguments);
+
+      var searchW = w.service.getWidgetById('search-1').component;
+      w.data.hasSearch = !!searchW.state.searchString;
+    },
+        "getQuery": function (w) {
+    var location_origin = location.origin;
+    var location_href = location.href;
+    var current_url = "\"" + location_origin + '/search\"';
+    if (location_origin === "https://fuse.shooju.com") {
+        return "";
+    } else if (location_href.startsWith("https://france.crewnetwork.org/en/search")) {
+        return "(NOT sid:(crew\\custom\\storyblok,crew\\eventsair,crew\\custom\\events) OR not language:\"fr\" website_embed=" + current_url + ')';
+    } else if (location_href.startsWith("https://france.crewnetwork.org/search")) {
+        return "(NOT sid:(crew\\custom\\storyblok,crew\\eventsair,crew\\custom\\events) OR not language:\"en\" website_embed=" + current_url + ')';
+    } else {
+        return "(NOT sid:(crew\\custom\\storyblok,crew\\eventsair,crew\\custom\\events) OR website_embed=" + current_url + ')';
+    }
+}
+      }
+    },
+    {
+      "settings": {
+        "field": "xxx",
+        "name": "Country",
+        "maxFacets": 5,
+        "level": 0,
+        "urlParam": true
+      },
+      "id": "fuse-textfacet-2",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "widgetName": "Country",
+        "collapsed": true
+      }
+    },
+    {
+      "settings": {
+        "field": "xxx",
+        "name": "State",
+        "maxFacets": 5,
+        "level": 0,
+        "urlParam": true
+      },
+      "id": "fuse-textfacet-1",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "widgetName": "State",
+        "collapsed": true
+      }
+    },
+    {
+      "settings": {
+        "field": "doc_date@period:y",
+        "name": "Year",
+        "maxFacets": 9999,
+        "level": 0,
+        "sort": "term.desc",
+        "urlParam": true
+      },
+      "id": "textfacet-7",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "widgetName": "doc_date year",
+        "collapsed": true
+      }
+    },
+    {
+      "settings": {
+        "clearLabel": "Cancel",
+        "formatLabel": function (filter, full) {
+      if (full && filter.widgetLabel) {
+        return filter.widgetLabel + " - " + filter.label;
+      }
+      return filter.label;
+    }
+      },
+      "id": "subfilters-1",
+      "type": "subfilters",
+      "defaultState": {
+        "widgetName": "Sub Filters 1"
+      },
+      "definition": {
+        "template": "<div class='sj-sub-filters'>\n    <ul>\n        <li class='sj-sub-filters-clear-all' *ngIf='widget.data.filters && widget.data.filters.length'\n            (click)='widget.data.clearFilters()'>\n             {{ widget.settings.clearLabel || 'Clear All' }}\n        </li>\n        <li *ngFor='let filter of widget.data.filters'>\n            <button (click)='widget.data.clearFilter(filter)' type=\"button\" [attr.aria-label]=\"'Remove Filter: ' + widget.settings.formatLabel(filter, true)\" title=\"Remove Filter: {{ widget.settings.formatLabel(filter,true) }}\" *ngIf=\"widget.data.formatLabel(filter)\">\n                <span>\n                    {{ widget.data.formatLabel(filter) }}\n                </span>\n                <i>\n                    <svg width=\"12\" height=\"10\" fill=\"#FFF\" viewBox=\"290 290 1300 1300\">\n                        <path d=\"M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z\"/>\n                    </svg>\n                </i>\n            </button>\n        </li>\n    </ul>\n</div>"
+      }
+    },
+    {
+      "settings": {
+        "field": "news_category",
+        "name": "News Category",
+        "maxFacets": 9999,
+        "level": 0,
+        "sort": "term.asc",
+        "urlParam": "news_category",
+        "_termsToShow": {
+          "CREW Brief": 1,
+          "Industry Brief": 1,
+          "Member-to-Member Business": 1,
+          "News Release": 1,
+          "Spotlight": 1
+        },
+        "adjustFacets": function (w, terms) {
+      // show only request terms CUST-14517
+      return terms.filter(function(t) {
+        return w.settings._termsToShow[t.term];
+      });
+    }
+      },
+      "id": "fuse-textfacet-3",
+      "type": "fuse-textfacet",
+      "defaultState": {
+        "widgetName": "News Category",
+        "collapsed": true
+      }
+    },
+    {
+      "settings": {
+        "fields": [
+          "description"
+        ],
+        "recap_period": 7
+      },
+      "definition": {
+        "defaultState": {
+          "timestamp": "not set"
+        },
+        "init": function (widget) {
+			widget.data = {
+				widget : widget,
+				loading : true,
+              	recap_id: "",
+              	recap_fq:"",
+              	active: false,
+              	recap_on_click:()=>{
+                 const ai_recap_w =widget.service.getWidgetById('ai-recap');
+                  let current_fq =widget.service.getGlobalQuery(widget);
+                  
+                  console.log("loading",widget.data.loading);
+                 
+                  if (!widget.data.loading){
+                    console.log("im not loading");
+                   
+                                    if (widget.service.getGlobalOptions().recap_mode && (current_fq !== widget.data.recap_fq)) {
+                                      widget.data.loading = true;
+ ai_recap_w.data.loading=true;
+                                                  let cust = "crew";
+                                      if (widget.s.g.source != 'editor'){
+                                        cust = widget.service.authService.auth.user.split('.').at(-1);
+                                        
+                                      }
+                                     
+                   
+                                      var url = '/processors/util_fuse_ai/call/ai_recap';
+                                      widget.service.sjclient.request(url, 'GET', {     
+            customer: cust,
+            filter_query: widget.service.getGlobalQuery(widget),
+            period: widget.settings.recap_period,
+            location: widget.service.getGlobalOptions().get_view_details().id
+          }, {}, function(response) {
+      
+                                        
+            let answer = "error: not a valid response";
+            let series_list = [];                           
+                                        
+            if ("error" in response.result){
+              answer = response.result.error;
+              
+            } 
+            
+            if ("answer" in response.result){
+              answer = response.result.answer;
+              series_list = response.result.series_sources;
+            }
+            
+                                          ai_recap_w.data.setText(answer, series_list);
+                                        widget.data.recap_fq =current_fq;
+                                        ai_recap_w.data.loading = false;
+                                        widget.data.loading=false;
+      
+   //end of fun 1
+                                        //////////////////////////////////
+          
+          });
+                                     
+                                    }
+                  }
+                },
+              	get_AIrecap: ()=>{
+
+                  
+                 const ai_recap_w =widget.service.getWidgetById('ai-recap');
+                  
+                  if (!widget.data.loading){
+    
+                                    if (widget.service.getGlobalOptions().recap_mode) {
+                                      widget.data.loading = true;
+ ai_recap_w.data.loading=true;
+     let cust = "crew";
+       
+                                      if (widget.s.g.source != 'editor'){
+                                        cust = widget.service.authService.auth.user.split('.').at(-1);
+                                        
+                                      }
+                                      
+                                      let r_id =   crypto.randomUUID();
+                                       widget.data.recap_id=r_id;
+                   
+                                      var url = '/processors/util_fuse_ai/call/ai_recap';
+                                      widget.service.sjclient.request(url, 'GET', {     
+            customer: cust,
+            filter_query: widget.service.getGlobalQuery(widget),
+            period: widget.settings.recap_period,
+            location: widget.service.getGlobalOptions().get_view_details().id
+          }, {}, function(response) {
+      
+                                        
+            let answer = "error: not a valid response";
+                                        
+                                        let series_list = []
+            if ("error" in response.result){
+              answer = response.result.error;
+            } 
+            
+            if ("answer" in response.result){
+              answer = response.result.answer;
+              series_list = response.result.series_sources;
+            }
+            
+                                        if (r_id ===widget.data.recap_id || widget.data.recap_id === "" ) {
+                                          ai_recap_w.data.setText(answer, series_list);
+ widget.data.recap_id=r_id;
+                                        }
+                                         			ai_recap_w.data.loading = false;
+       widget.data.loading=false;
+      
+    
+          
+          });
+                                     
+                                    }
+                  }
+                }
+            };
+    },
+        "onData": function (widget, data) {
+      widget.data.loading = false;
+      widget.data.get_AIrecap(true);
+		},
+        "destroy": function (widget) {
+			// called before widget destroy
+		},
+        "styles": ":root{\n  --btn-bg: #f5f7fb;\n  --btn-text: #1b1f28;\n  --btn-border: #d9dee8;\n  --btn-active-bg: transparent;\n  --btn-active-text: #0a0a0b;\n  --btn-hover: rgba(0,0,0,.06);\n  --btn-focus: 0 0 0 3px rgba(4,167,200,.35);\n}\n\n.waviy {\n  position: relative;\n}\n\n.waviy span {\n  position: relative;\n  display: inline-block;\n  color: #fff;\n  font-weight: bold;\n  animation: waviy 1s 4;\n  animation-delay: calc(.1s * var(--i));\n}\n\n.waviy b{\n  color:red;\n text-align: center;\n}\n@keyframes waviy {\n  0%,40%,100% {\n    transform: translateY(0)\n  }\n  20% {\n    transform: translateY(-20px)\n  }\n}\n\n.rgb-text {\n  font-weight: bold;\n\n      /* your gradient */\n      background-image: linear-gradient(\n        45deg,\n        rgb(255, 192, 192),\n        rgb(255, 81, 0),\n        rgb(255, 153, 0),\n        rgb(251, 255, 0),\n        rgb(164, 205, 50),\n        rgb(0, 128, 28),\n        rgb(0, 128, 79),\n        rgb(135, 235, 157),\n        rgb(0, 238, 255),\n        rgb(0, 132, 255),\n        rgb(119, 0, 255),\n        rgb(242, 192, 255),\n        rgb(255, 192, 200)\n      );\n\n      background-size: 400% 400%;      /* big so it has room to move */\n      background-position: 0% 50%;\n\n      color: transparent;\n      -webkit-background-clip: text;\n      background-clip: text;\n      -webkit-text-fill-color: transparent;\n\n      text-shadow: 0 0 10px rgba(0, 0, 0, 0.45);\n\n      /* TWO animations:\n         1) rainbowCycle: runs twice, does the cycling effect\n         2) toWhite: tiny animation that fires after 2 cycles, makes text solid white\n      */\n      animation:\n        rainbowCycle 5s alternate infinite linear,\n        toWhite 0.01s linear 10s forwards;  /* 2s * 2 = 4s total */\n    }\n\n    /* This gives the \"cycling\" look: left ΓåÆ right ΓåÆ left */\n    @keyframes rainbowCycle {\n      0% {\n        background-position: 0% 50%;\n      }\n      50% {\n        background-position: 100% 50%;\n      }\n      100% {\n        background-position: 0% 50%;\n      }\n    }\n\n    /* After the cycles, switch to solid white */\n    @keyframes toWhite {\n      0% {\n        background-image: inherit;\n        color: transparent;\n        -webkit-text-fill-color: transparent;\n      }\n      100% {\n        background-image: none;\n        color: #ffffff;\n        -webkit-text-fill-color: #ffffff;\n      }\n    }\n\n\n.ai-tools-title{\n  display:inline-flex;\n  justify-content: flex-start !important;\n  gap: 2px;\n  color: #fff;\n}\n\n.ai-btn-container{\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: stretch;\n  \n}\n\n.ai-tools-container{\n  display: flex;\n  flex-direction:column;\n  justify-content:center;\n  align-items:center;\n  height: 100%;\n}\n\n.btn-group {\n  display: flex;\n  flex-direction:column;\n  justify-content: center;\n  border-radius: 4px;\n  width: 100%;\n  align-items: flex-start;\n  gap: 2px;\n}\n\n.btn-input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.ai-only-btn{\n  display: inline-flex !important;\n  z-index: 0;\n  align-items: center;\n  justify-content: stretch;\n  padding: .55rem .7rem !important;\n  user-select: none;\n  cursor: pointer;\n  flex: 1;\n  background: none !important;\n  width: auto !important;\n  height: auto !important;\n  margin-right: 0 !important;\n}\n  \n}\n\n.btn{\n  display: inline-flex;\n  z-index: 0;\n  align-items: center;\n  justify-content: stretch;\n  padding: .55rem .7rem !important;\n  user-select: none;\n  cursor: pointer;\n    flex: 1;\n}\n\n.ai-btn {\n  position: relative;\n  display: inline-flex;\n  z-index: 0;\n  background: var(--btn-bg);\n  overflow: hidden;\n  \t&::before {\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\tz-index: -2;\n\t\tleft: -50%;\n\t\ttop: -50%;\n\t\twidth: 200%;\n\t\theight: 200%;\n\t\tbackground-color: #399953;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-size: 50% 50%, 50% 50%;\n\t\tbackground-position: 0 0, 100% 0, 100% 100%, 0 100%;\n  background: conic-gradient(\n    from 0deg,\n    #ff0066,\n    #ff00ff,\n    #7d4dff,\n    #00c3ff,\n    #00ffea,\n    #00ff6a,\n    #e0ff00,\n    #ff6b00,\n    #ff0066\n  );\n    \n    filter: blur(8px);\n    opacity: .65;\n      \n\t\t/*animation: rotate 2s linear infinite;*/\n      animation: spinRainbow 1.5s linear  1 forwards;\n\t}\n\t\n\t&::after {\n\t\tcontent: '';\n\t\tposition: absolute;\n\t\tz-index: -1;\n\t\tleft: 1.5px;\n\t\ttop: 1.5px;\n\t\twidth: calc(100% - 3px);\n\t\theight: calc(100% - 3px);\n\t\tbackground: var(--t-light);\n\t\tborder-radius: 5px;\n\t}\n}\n\n\n@keyframes rotate {\n\t100% {\n\t\ttransform: rotate(1turn);\n\t}\n}\n\n@keyframes spinRainbow {\n  from { transform: rotate(0deg); }\n  to   { transform: rotate(360deg); }\n}\n\n.ai-olny-btn.btn-border {\n  border-left: 1px solid var(--btn-border);\n}\n\n.ai-only-btn.btn-border {\n  border-left: 1px solid var(--btn-border);\n}\n\n\n.btn.btn-border {\n  border-left: 1px solid var(--btn-border);\n}\n\n.ai-only-btn:hover { background: color-mix(in oklab, var(--btn-bg), #000 6%) !important; } /* fallback: use var(--btn-hover) */\n.ai-only-btn:active { transform: translateY(1px); }\n\n.btn:hover { background: color-mix(in oklab, var(--btn-bg), #000 6%); } /* fallback: use var(--btn-hover) */\n.btn:active { transform: translateY(1px); }\n\n/* Active state via :checked */\n.btn-checked {\n  background: transparent;\n  color: var(--btn-active-text) !important;\n  border-color: transparent !important;\n}\n\n.setActive{\n   background: var(--fuse-default-color-secondary) !important;\n    background-color: var(--fuse-default-color-secondary) !important;\n  color: var(--btn-active-text) !important;\n  border-color: transparent !important;\n  box-shadow: 0 0 0 2px color-mix(in oklab, var(--btn-active-bg), #fff 85%),\n              0 6px 18px -6px color-mix(in oklab, var(--btn-active-bg), #000 70%) !important;\n}\n\n/* Keyboard focus */\n\n.btn-input:focus-visible + .ai-only-btn {\n  box-shadow: var(--btn-focus);\n  outline: none;\n}\n\n\n.btn-input:focus-visible + .btn {\n  box-shadow: var(--btn-focus);\n  outline: none;\n}\n\n/* Disabled example */\n.ai-only-btn[aria-disabled=\"true\"] {\n  opacity: .6;\n  cursor: not-allowed;\n  pointer-events: none;\n}\n\n.btn[aria-disabled=\"true\"] {\n  opacity: .6;\n  cursor: not-allowed;\n  pointer-events: none;\n}\n\n.ai-response-container{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  z-index: 9;\n}\n\n\n\n.fuse-ai-insights-container{\n  z-index: 99 !important;\n}\n\n.fuse-ai-insights-contents_recap{\n  text-align: justify;\n  padding: 20px !important;\n}\n\n\n\n.center-loader{\n  display:flex;\n  flex-direction:column;\n  justify-content:center;\n  width:100% !important;\n}\n\n.center-loader:after{\n  background-color: #fff !important;\n}\n\n\n\n.center-loader widget{\n  position:relative;\n  z-index:9;\n}\n\n.chat-user-container-chat > p > a{\n  color:var(--fuse-default-color-secondary);\n\n}\n\n\n.recap-container{\n  background-color: #fff;\n  height: 100%;\n  padding: 20px;\n}\n\n.no_shadow{\n    box-shadow:none !important;\n}\n\n.chat-user-container-chat{\n  display: flex;          \n  flex-direction: column;\n  gap: 8px;\n  padding-right: 16px;\n}\n\n.chat-user-container-chat.intro{\n  width: auto !important;\n  height:auto;\n}\n\n.fuse-ai-insights-contents_recap{\n  max-height: 350px;\n  overflow-y: auto\n}\n\n.chat-user-container-chat p {\n min-height: 20px;\n overflow-y: auto;\n position: relative; \n text-align: justify;\n}\n\n.chat-user-container-chat svg {\n\tposition: absolute;\n\tright: 14px;\n\ttop: 355px;\n\twidth: 30px;\n\theight: 30px;\n}\n\n.tooltip-container {\n  position: relative;\n  display: inline-block;\n}\n\n.ai-only-btn svg{\n  margin-right: .2em;\n  color: var(--fuse-default-color-primary);\n}\n\n.btn svg{\n  margin-right: .2em;\n  color: var(--fuse-default-color-primary);\n}\n\n.ai-only-btn{\n  position: relative !important;\n}\n\n\n.btn{\n  position: relative !important;\n}\n\n\n.tooltip-text {\n  visibility: hidden;\n  max-width: 300px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 6px;\n  padding: 6px;\n  position: absolute;\n  bottom: 125%;\n  left: 55%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n  font-size: 12px;\n}\n\n.tooltip-text::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border-width: 5px;\n  border-style: solid;\n  border-color: #333 transparent transparent transparent;\n}\n\n.ai-only-btn:hover .tooltip-text {\n  visibility: visible !important;\n  opacity: 1;\n}\n\n.btn:hover .tooltip-text {\n  visibility: visible !important;\n  opacity: 1;\n}",
+        "template": "<div class=\"ai-tools-container \">\n  <legend class=\"fuse-facet__name\">\n\n  \t<button class=\"fuse-facet__toggle\"\n            (click)=\"expanded = !expanded\"\n            [attr.aria-expanded]=\"!expanded\">\n      \n      \n         \n            <div class=\"waviy\">\n  <div><span style=\"--i:1\">AI tools</span>\n  </div>\n   \n\n  </div>\n   \n<svg aria-hidden=\"true\" class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M19 9l-7 7-7-7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path></svg>\n      \n    </button>\n  </legend>\n<div class=\"btn-group\" aria-label=\"Filters\" *ngIf=\"!expanded\">\n\n  \n  \n  \n  \n  <div class=\"ai-btn-container\">\n<input type=\"checkbox\" id=\"b1\" class=\"btn-input\"\n       [(ngModel)]=\"isCheckedRecap\" (ngModelChange)='widget.service.g.toggleRecapMode(isCheckedRecap, widget.service); widget.data.recap_on_click()'\n       [disabled]=\"widget.service.getGlobalOptions().ai_mode\"\n       >\n<label class=\"ai-only-btn\" for=\"b1\" \n       [ngClass]=\"widget.service.getGlobalOptions().recap_mode? 'ai-btn': ''\"\n       [attr.aria-disabled]=\"widget.service.getGlobalOptions().ai_mode\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-newspaper-icon lucide-newspaper\"><path d=\"M15 18h-5\"/><path d=\"M18 14h-8\"/><path d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\"/><rect width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\"/>\n  </svg>\n                <span class=\"ai-button-text fuse-filter__name\">AI Recap</span>\n  <span class=\"tooltip-text\">{{widget.service.getGlobalOptions().recap_mode?  'Back to results' : 'Get an AI-powered overview of recent high points based on the last 7 days'}}</span>\n</label>\n\n\n<!--<div class=\"tooltip-container\">\n  <button class=\"round-button\" (click)=\"widget.data.toggle_btn()\">\n {{widget.data.active?  'Back to Results' : 'AI recap'}}\n  </button>\n  <span class=\"tooltip-text\">Generated recently</span>\n</div>-->\n</div>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <div class=\"ai-btn-container\">  \n<input type=\"checkbox\" id=\"b2\" class=\"btn-input\"\n         [(ngModel)]=\"isCheckedAI\" (ngModelChange)='widget.service.g.toggleAIMode(isCheckedAI, widget.service)'\n          [disabled]=\"widget.service.getGlobalOptions().recap_mode\"\n         >\n  <label  for=\"b2\" class=\"ai-only-btn btn-border\"\n          [ngClass]=\"{'hidden-list': widget.service.getGlobalOptions().recap_mode, 'ai-btn' : widget.service.getGlobalOptions().ai_mode,\n                     'btn-checked': widget.service.getGlobalOptions().ai_mode\n                     }\"\n         [attr.aria-disabled]=\"widget.service.getGlobalOptions().recap_mode\"> \n    \n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"\n     viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\"\n     stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n\n  <!-- Sparkle 1 -->\n  <path d=\"M4 5.5 L4.5 7 L6 7.5 L4.5 8 L4 9.5 L3.5 8 L2 7.5 L3.5 7 Z\"/>\n  <!-- Short Line 1 (more space from spark) -->\n  <line x1=\"10\" y1=\"7.5\" x2=\"18\" y2=\"7.5\"/>\n\n  <!-- Sparkle 2 -->\n  <path d=\"M4 11.5 L4.5 13 L6 13.5 L4.5 14 L4 15.5 L3.5 14 L2 13.5 L3.5 13 Z\"/>\n  <!-- Short Line 2 -->\n  <line x1=\"10\" y1=\"13.5\" x2=\"18\" y2=\"13.5\"/>\n\n  <!-- Sparkle 3 -->\n  <path d=\"M4 17.5 L4.5 19 L6 19.5 L4.5 20 L4 21.5 L3.5 20 L2 19.5 L3.5 19 Z\"/>\n  <!-- Short Line 3 -->\n  <line x1=\"10\" y1=\"19.5\" x2=\"18\" y2=\"19.5\"/>\n\n</svg>\n              <span class=\"ai-button-text fuse-filter__name\">AI Title & Summaries</span>\n    \n          <span class=\"tooltip-text\">It shows an AI-generated title and summary in your result list.</span>\n</label>\n</div>\n  \n  \n  \n\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  <!--<div class=\"ai-btn-container\">  \n<input type=\"checkbox\" id=\"b3\" class=\"btn-input\"\n         [(ngModel)]=\"isCheckedChat\" (ngModelChange)='widget.service.g.toggleChatMode(isCheckedChat, widget.service)'\n         \n         >\n  <label for=\"b3\" class=\"ai-only-btn btn-border\"\n         [ngClass]=\"{'ai-btn': widget.service.getGlobalOptions().chat_mode , 'btn-checked': widget.service.getGlobalOptions().chat_mode}\"> \n    \n<svg *ngIf=\"!widget.service.getGlobalOptions().chat_mode\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bot-icon lucide-bot\"><path d=\"M12 8V4H8\"/><rect width=\"16\" height=\"12\" x=\"4\" y=\"8\" rx=\"2\"/><path d=\"M2 14h2\"/><path d=\"M20 14h2\"/><path d=\"M15 13v2\"/><path d=\"M9 13v2\"/></svg>\n    \n    <svg *ngIf=\"widget.service.getGlobalOptions().chat_mode\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bot-off-icon lucide-bot-off\"><path d=\"M13.67 8H18a2 2 0 0 1 2 2v4.33\"/><path d=\"M2 14h2\"/><path d=\"M20 14h2\"/><path d=\"M22 22 2 2\"/><path d=\"M8 8H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 1.414-.586\"/><path d=\"M9 13v2\"/><path d=\"M9.67 4H12v2.33\"/></svg>\n    \n                  <span class=\"ai-button-text fuse-filter__name\">AI Chatbot</span>\n    \n    \n          <span class=\"tooltip-text\">Chat</span>\n</label>\n</div>-->\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n</div>\n  </div>"
+      },
+      "id": "ai-tool-container",
+      "type": "custom",
+      "defaultState": {
+        "widgetName": "ai-tool-container"
+      }
+    },
+    {
+      "settings": {
+        "fields": [
+          "description"
+        ]
+      },
+      "definition": {
+        "defaultState": {
+          "timestamp": "not set"
+        },
+        "init": function (widget) {
+			// widget created (other widgets may not be created yet)
+			widget.data = {
+				widget : widget,
+				loading : true,
+              	start_convo: function(){
+                  widget.service.getGlobalOptions().start_convo_mode = true;
+                   widget.service.getGlobalOptions().chat_mode = true;	
+                  const cb = document.getElementById("b3");
+                  
+                    cb.checked = true;
+                },
+				refresh : function () {
+					this.widget.service.setState(); // make search request
+				}
+			};
+		},
+        "onData": function (widget, data) {
+			// handle search response
+			widget.data.response = data;
+			widget.state.timestamp = new Date().getTime();
+			widget.service.setState(true); // push state, but without search request
+			widget.data.loading = false;
+		},
+        "destroy": function (widget) {
+			// called before widget destroy
+		},
+        "styles": ".start-convo-btn{\n  border: 1px solid var(--btn-border) !important;\n  border-radius: 99px !important;\n  padding: 6px 6px !important;\n  font-size: .75em !important;\n  color: var(--fuse-default-color-primary) !important;\n  font-weight: bold !important;\n  outline: none !important;\n  transition: all .2s ease;\n  height:auto !important;\n  line-height: normal !important;\n  letter-spacing: normal !important;\n}\n\n\n.start-convo-btn:hover{\n  background-color: rgba(158, 145, 247, 0.5) !important;\n}",
+        "template": "<button type=\"button\" (click)=\"widget.data.start_convo()\" \n        class=\"start-convo-btn\">Start a conversation</button>"
+      },
+      "id": "start-convo-btn",
+      "type": "custom",
+      "defaultState": {
+        "widgetName": "start convo btn"
+      }
+    },
+    {
+      "settings": {
+        "fields": [
+          "description"
+        ],
+        "generateText": function (widget) {
+      if (!widget.data.aiInsight) {
+        return;
+      }
+      
+      let i = 0;
+      const wordsList = widget.data.aiInsight.split(' ');
+      widget.data.textToDisplay = '';
+      
+
+      function type() {
+        if (i < wordsList.length) {
+          i += 3;
+          widget.data.textToDisplay = wordsList.slice(0, i).join(" ").replaceAll('\n', '<br>');
+          setTimeout(type, 50);
+        }
+      }
+      type();
+    },
+        "getSearchedKeywords": function (service) {
+      var w = service.getWidgetById('search-1');
+      var query = w.component.state.searchString;
+      if(query) {
+        return query.trim();
+      }
+    }
+      },
+      "definition": {
+        "defaultState": {
+          "timestamp": "not set",
+          "aiInsightsLoading": false,
+          "hasAiInsightsData": false
+        },
+        "init": function (widget) {
+      // widget created (other widgets may not be created yet)
+      widget.data = {
+        widget : widget,
+        loading : true,
+        refresh : function () {
+          this.widget.service.setState(); // make search request
+        }
+      };
+    },
+        "afterInit": function (widget) {
+      // template was rendered, all widgets have created and have actual state
+    },
+        "getQuery": function (widget) {
+      // widget query part
+    },
+        "getFields": function (widget) {
+      // array of required field names
+      return widget.settings.fields;
+    },
+        "getFacets": function (widget) {
+      // array of required facets
+    },
+        "beforeSearch": function (widget) {
+      // called before search request
+      widget.data.loading = true;
+    },
+        "onData": function (w, data) {
+      var viewDetails = w.s.getGlobalOptions().get_view_details();
+      var highlight = w.settings.getSearchedKeywords(w.s);
+      if (data.total > 0 && highlight !== undefined) {
+        if (highlight !== w.state.currentUserInput) {
+          w.state.aiInsightsLoading = true;
+         w.service.getGlobalOptions().inside_render = false;
+          w.state.hasAiInsightsData = true;
+          w.state.currentUserInput = highlight;
+          w.service.setState(true);
+          var customer = w.service.authService.auth.user.split('.').at(-1);
+          var filterQuery = w.service.getGlobalQuery(w);
+          var url = '/processors/util_fuse_ai/call/get_insights';
+          w.service.sjclient.request(url, 'GET', {
+            customer: customer,
+            highlight: highlight,
+            filter_query: w.s.getGlobalOptions().filter_query
+          }, {}, function (response) {
+            if (response.ai_insight) {
+              w.data.aiInsight = response.ai_insight;
+              w.state.aiInsightsLoading = false;
+              w.service.setState(true);
+              w.settings.generateText(w);
+              w.service.getGlobalOptions().start_convo_mode = false;
+              w.service.getGlobalOptions().inside_render = true;
+                   /*let messagesViewWidget = w.service.getWidgetById('chat-messages').data;
+              
+              messagesViewWidget.setQuestion(highlight); messagesViewWidget.setAnswer(response.ai_insight, response.content[1]);*/
+                   
+                           console.log('response Insight:', response.content[1]);      
+
+              console.log('AI Insight:', w.data.aiInsight);
+            }
+          });
+        }
+      } else {
+        /*let messagesViewWidget = w.service.getWidgetById('chat-messages').data;
+        messagesViewWidget.messages = [];*/
+        w.state.aiInsightsLoading = false;
+        w.state.hasAiInsightsData = false;
+        w.state.currentUserInput = highlight;
+        w.service.setState(true);
+        w.service.getGlobalOptions().inside_render = false;
+      }
+    },
+        "destroy": function (widget) {
+      // called before widget destroy
+    },
+        "styles": ".ai-results-full-conatiner{\n  display: flex;\n  flex-direction:column;\n  width:100%;\n  background-color: #F0F0F0 !important;\n  gap: 10px;\n}\n\n.fuse-ai-results-container{\n  padding: 1em 1.5em !important;\n  min-width: 0 !important; \n}\n\n.fuse-ai-insights-container{\n  box-shadow: none !important;\n  padding: 0px !important;\n}\n\n.fuse-result .fuse.fuse-result__body.fuse-ai-loading-container {\n  height: 340px;\n}\n\n.fuse-result.fuse-ai-insights-container {\n  margin-bottom: 15px;\n}\n\n.fuse-result .fuse.fuse-result__body.fuse-ai-loading-container {\n  width: 100%;\n  padding: 0;\n}\n\n.fuse-result .fuse-ai-loading-container .fuse-ai-loading-animation {\n  position: relative;\n  z-index: 1;\n  width: 100%;\n  height: 100%;\n  border-radius: 0.25em;\n  overflow: hidden;\n  background-color: #F0F0F0 !important;\n  &::before {\n    content: '';\n    position: absolute;\n    left: -50%;\n    top: 5%;\n    width: 200%;\n    height: 90%;\n    background-color: #88E6F7 !important;\n    background-repeat: no-repeat;\n    background-size: 50%;\n    background-position: 0 0, 100% 0, 100% 100%, 0 100%;\n    background-image: linear-gradient(#88E6F7, #A088F7), linear-gradient(#A088F7, #88E6F7) !important;\n    animation: fuse-rotate 5s cubic-bezier(0.4, -0.4, 0.4, -0.4) infinite;\n  }\n  &::after {\n    content: '';\n    padding: 5px;\n    position: absolute;\n    left: 3px;\n    top: 3px;\n    width: calc(100% - 6px);\n    height: calc(100% - 6px);\n    background: #F0F0F0 !important;\n    border-radius: 0.25em;\n  }\n}\n\n@keyframes fuse-rotate {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n\n.fuse-result .fuse-ai-loading-container .fuse-ai-wand-box {\n  z-index: 2;\n  justify-content: center;\n  position: relative;\n  display: flex;\n  width: 90%;\n  height: 90%;\n  top: -95%;\n  left: 5%;\n}\n\n.fuse-result .fuse.fuse-result__body.fuse-ai-loading-container .animated-border {\n  align-self: center;\n  border-radius: 5px;\n  border-width: 2px;\n  border-style: solid;\n  font-size: 40px;\n  padding: 20px;\n  height: 84px;\n  width: 84px;\n  animation: fuse-border-color-change 3s infinite alternate;\n}\n\n.fuse-flashing-icon {\n  animation: fuse-color-change 3s infinite alternate;\n}\n\n@keyframes fuse-border-color-change {\n  0% {\n    border-color: #F0F0F0;\n  }\n  35% {\n    border-color: #F0F0F0;\n  }\n  45% {\n    border-color: #88E6F7;\n  }\n  55% {\n    border-color: #A088F7;\n  }\n  65% {\n    border-color: #F0F0F0;\n  }\n  100% {\n    border-color: #F0F0F0;\n  }\n}\n\n@keyframes fuse-color-change {\n  0% {\n    color: #F0F0F0;\n  }\n  35% {\n    color: #F0F0F0;\n  }\n  45% {\n    color: #88E6F7;\n  }\n  55% {\n    color: #A088F7;\n  }\n  65% {\n    color: #F0F0F0;\n  }\n  100% {\n    color: #F0F0F0;\n  }\n}\n\n.fuse-result .fuse-ai-loading-container .fuse-ai-insights-container {\n  display: inline-block;\n  z-index: 3;\n  position: relative;\n  height: 30px;\n  top: calc(-190% + 25px);\n  left: calc(0% + 15px);\n}\n\n.fuse-result .fuse-ai-loading-container .fuse-ai-insights-container .fuse-ai-insights-title {\n  font-size: 16px;\n  font-weight: 700;\n  color: #535054;\n  padding: 10px 15px;\n  border: 2px solid rgba(158, 145, 247, 0.5);\n  border-radius: 25px;\n  background: rgba(158, 145, 247, 0.3) !important;\n  animation: fuse-ai-insights-animation 2s;\n}\n\n@keyframes fuse-ai-insights-animation {\n  0% {\n    border-color: #F0F0F0 !important;\n    background: #F0F0F0 !important;\n    color: #F0F0F0 !important;\n  }\n  75% {\n    border-color: #F0F0F0 !important;\n    background: #F0F0F0 !important;\n    color: #F0F0F0 !important;\n  }\n  100% {\n    border-color: rgba(158, 145, 247, 0.5) !important;\n    background: rgba(158, 145, 247, 0.3) !important;\n  }\n}\n\n.fuse-result .fuse-ai-loading-container .fuse-ai-insights-container .fuse-ai-insights-title .fuse-ai-insights-wand-loading {\n  color: #535054;\n  animation: fuse-ai-insights-wand-animation 2s;\n}\n\n@keyframes fuse-ai-insights-wand-animation {\n  0% {\n    color: #F0F0F0;\n  }\n  25% {\n    color: #F0F0F0;\n  }\n  50% {\n    color: #88E6F7;\n  }\n  75% {\n    color: #A088F7;\n  }\n  100% {\n    color: #535054;\n  }\n}\n\n.fuse-ai-insights-container .fuse-ai-results-container {\n  width: 100%;\n  background: #F0F0F0 !important;\n  border-radius: .25em;\n  border-left: 7px solid #A088F7 !important;\n}\n\n.fuse-ai-insights-container .fuse-ai-results-container:hover { /* Example trigger for animation */\n  background-size: 5px 100%; /* Grow to full height on hover */\n}\n\n.fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-title {\n  margin-bottom: .75em;\n  border: none;\n  color: #0A0A0A;\n}\n\n.insights-tag{\n  \n}\n\n.fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-title, .fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-contents, .fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-tag, .fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-tag .fuse-ai-insights-chip {\n  border: none;\n}\n\n.fuse-ai-insights-container .fuse-ai-results-container .fuse-ai-insights-tag .fuse-ai-insights-chip {\n  border: 2px solid rgba(158, 145, 247, 0.5);\n  background: rgba(158, 145, 247, 0.3) !important;\n}",
+        "template": "<div class=\"fuse-result fuse-ai-insights-container\">\n  <div class=\"fuse fuse-result__body fuse-ai-loading-container\" *ngIf=\"widget.state.aiInsightsLoading; else elseBlock\">\n    <div class=\"fuse-ai-loading-animation\"></div>\n    <div class=\"fuse-ai-wand-box\"><span class=\"animated-border\"><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-flashing-icon\"></i></span></div>\n    <div class=\"fuse-ai-insights-container\"><span class=\"fuse-ai-insights-title\"><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-ai-insights-wand-loading\"></i> AI Insights</span></div>\n  </div>\n\n  <ng-template #elseBlock> \n    <article class=\"fuse-result__body fuse-ai-results-container\" *ngIf=\"widget.state.hasAiInsightsData\">\n      <h4 class=\"fuse-result__heading fuse-ai-insights-title\"><span><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-ai-insight-wand\"></i> AI Insights</span></h4>\n      <p class=\"fuse-result__description fuse-ai-insights-contents\" [innerHTML]=\"widget.data.textToDisplay\"></p>\n\n      <ul class=\"fuse-result__tags fuse-ai-insights-tag\">\n        <li style=\"flex:1\">\n          <span class=\"fuse-chip fuse-chip--gray fuse-ai-insights-chip\">\n            <i class=\"fa-solid fa-wand-sparkles fa-rotate-90\"></i>\n            <span class=\"fuse-chip__label fuse-chip__label--xs\">\n              AI-generated response may be inaccurate or misleading. Please verify with sources.\n            </span>\n          </span>\n        </li>\n        \n      </ul>\n\n    </article>\n  </ng-template>\n</div>"
+      },
+      "id": "ai-ins",
+      "type": "custom",
+      "defaultState": {
+        "widgetName": "ai-ins"
+      }
+    },
+    {
+      "settings": {
+        "fields": [
+          "description"
+        ],
+        "spinerClass": {
+          "background-color": "var(--fuse-default-color-secondary)"
+        },
+        "typingSpeed": 0.0001,
+        "maxCharsToType": 1500,
+        "userChatClass": {
+          "background": "var(--fuse-default-color-secondary)",
+          "max-width": "50%",
+          "color": "#fff",
+          "padding": "10px",
+          "border-radius": "7px"
+        },
+        "aiChatClass": {
+          "background": "#fff",
+          "color": "#000",
+          "padding": "10px 25px",
+          "border-radius": "7px",
+          "margin-left": "20px"
+        },
+        "intro": "Tell me what you need!!",
+        "placeholder": "Type your message"
+      },
+      "definition": {
+        "defaultState": {
+          "timestamp": "not set"
+        },
+        "init": function (widget) {
+     var getBotResponse = function(widget,query)  {
+       
+       
+       let messages = widget.data.messages.slice(-15, -1);
+       
+       
+       //userToSend = "hlmre";
+       
+        return new Promise(function(resolve) {
+          var url = '/processors/util_fuse_ai/call/search_qav0';
+          widget.service.sjclient.request(url, 'POST', {
+            
+            customer: widget.data.bot_user,
+            query: query,
+            filter_query: widget.service.getGlobalOptions().filter_query,
+            location: widget.service.getGlobalOptions().get_view_details().id
+          
+          }, {settings: {
+            messages: messages
+          }}, function(response) {
+            resolve(response);
+          });
+        });
+      };
+      
+			widget.data = {
+				widget : widget,
+              	svgClick: false,
+                handleSVGClick: function() {
+  widget.data.svgClick = true;
+  setTimeout(() => widget.data.svgClick = false, 300); 
+},
+               getCompletion: function(widget, query) {
+                 if(query!==""){
+                   let question = query;
+                   let messagesViewWidget =widget.data;
+                 widget.data.loading = true;
+                 
+      messagesViewWidget.setQuestion(query);
+                  
+                 getBotResponse(widget, query).then(function(response) {
+                   
+                   
+                   let answer = "error: not a valid response";
+                   let content_links = [];
+                   
+                  if ("error" in response.result){
+                    answer = response.result.error;
+                  } 
+                   
+                   if ("answer" in response.result){
+                    answer = response.result.answer;
+                     content_links = response.result.content_links;
+                  } 
+                   
+       messagesViewWidget.setAnswer(answer,content_links);
+                   widget.data.loading = false;
+      });
+                   
+                 }
+                 
+
+               },
+              scrollToBottom: function (){
+                
+                
+                  setTimeout(() => {
+            const container = document.querySelector('[sjid="custom-15"]');
+                container.scrollTo({ top: container.scrollHeight, behavior: 'smooth'});
+  }, 0);
+                
+
+              },  
+              	bot_user :(widget.s.g.source != 'editor')  ?widget.service.authService.auth.user.split('.').at(-1) : "crew",
+				loading : false,
+              	submitting: false,
+              	selectedConvo: "",
+              	series: [],
+              	validateNegativeF: function(category, details, severity){
+                  let resutls = [];
+                  
+                  if (!category || category.length === 0) {
+                    resutls.push(false);
+                  } else{
+                    resutls.push(true);
+                  }
+                  
+                  if (details && details.length>10) {
+                     resutls.push(true);
+                    
+                  } else{
+                    resutls.push(false);
+                  }
+                  
+                                   if (severity) {
+                     resutls.push(true);
+                    
+                  } else{
+                    resutls.push(false);
+                  }
+                  
+                  return [resutls.every(Boolean),resutls];
+                  
+                },
+              	submitNegativeFeedback: function(value, widget){
+                  let cust = "other";
+                  widget.data.submitting = true;
+                  let convo = widget.data.messages.find(con => con.feedback_id === widget.data.selectedConvo );
+                  convo.positiveClicked = false;
+                  convo.negativeClicked = true;
+                  const date = Date.now();
+                  convo.doc_date = date;
+                  
+                  convo = {...convo, ...value};
+                          
+                                    var url = '/processors/util_fuse_ai/call/ai_feedback';
+          widget.service.sjclient.request(url, 'POST', {
+            customer: widget.data.bot_user,
+          }, {
+            "settings":{
+              "convo": convo
+            }
+          }, function (response) {
+            widget.data.submitting = false;
+            widget.data.modalState = false;
+            console.log(response);
+            console.log(convo);
+            console.log(widget.data.messages);
+          });
+                  
+                },
+              	modalState: false,
+              	openModal: function(widget,convo){
+                  
+                  if (convo.negativeClicked){
+                    
+                    convo.negativeClicked = false;
+                                      const date = Date.now();
+                  convo.doc_date = date;
+                    
+                    var url = '/processors/util_fuse_ai/call/ai_feedback';
+          widget.service.sjclient.request(url, 'POST', {
+            customer: widget.data.bot_user,
+          }, {
+            "settings":{
+              "convo": convo
+            }
+          }, function (response) {
+            widget.data.submitting = false;
+            console.log(response);
+            console.log(widget.data.messages);
+          });
+                    
+                    
+
+                  }else {
+                    widget.data.modalState = true;
+                    widget.data.selectedConvo = convo.feedback_id;
+                  }
+                },
+                closeModal: function(widget){
+                  widget.data.modalState = false;
+                  widget.data.selectedConvo = "";
+                },
+              	setPositive: function(convo, widget){
+          
+                                      const date = Date.now();
+                  
+                  if (convo.positiveClicked || convo.positiveClicked === true){
+                    convo.positiveClicked=false;
+
+                 
+                  } else{
+                    convo.positiveClicked = true;
+                    convo.negativeClicked = false; 
+                    
+                  }
+                  
+                   convo.doc_date = date;
+              
+                  var url = '/processors/util_fuse_ai/call/ai_feedback';
+          widget.service.sjclient.request(url, 'POST', {
+            customer: widget.data.bot_user,
+          }, {
+            "settings":{
+              "convo": convo
+            }
+          }, function (response) {    
+              console.log(response);
+          });
+                },
+              	current_response: "",
+                scrollToBottom: function (){
+  const el = document.getElementById('chat-container');
+  if (!el) return;
+  requestAnimationFrame(() => {
+    el.scrollTo({ top: el.scrollHeight, behavior: 'smooth' });
+  });
+},
+              	messages: [],
+              	setQuestion: function(value){
+                  this.widget.data.messages.push({
+                    question: value
+                  });
+                },
+                setAnswer: function(value, content_links){
+                                                        const date = Date.now();
+                  
+                 const messages = this.widget.data.messages;
+                  let i = 0;
+                  const uId = crypto.randomUUID();
+                  messages[messages.length - 1].feedback_id = uId;
+                  messages[messages.length - 1].doc_date = date;
+                  
+                  function typeChar() {
+                    
+                    if (i <= value.length) {
+      let partialText = value.slice(0, i);
+          messages[messages.length - 1].answer = partialText;// 
+      i++;
+      setTimeout(typeChar, widget.settings.typingSpeed);}
+                    
+                  }
+                  
+                  
+                  if (value.length < widget.settings.maxCharsToType){
+                    typeChar();
+                  }
+              	else{
+              messages[messages.length - 1].answer =value;
+            }
+                  
+                  messages[messages.length - 1].content_links = content_links;
+
+                  widget.data.scrollToBottom();
+                   
+                },
+				refresh : function () {
+					this.widget.service.setState(); // make search request
+				}
+			};
+		},
+        "styles": ".chat-list-container{\n  flex:1;\n  overflow-y: auto;\n  \n}\n\n.chat-container{\n  display: flex;\n  flex-direction: column;\n  width:100%;\n  height: 40vh;\n  padding: 12px;\n  background-color: #f9f9f9!important;\n  border: 1px solid #ccc;\n  border-radius: 8px;\n  gap: 15px;\n opacity:1;\n  margin-bottom:20px;\n transition: all 0.3s;\n}\n\n.chat-list-container{\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n.vero-loader-container{\n  width:97%;\n}\n\n.typing-spinner {\n  display: flex;\n  gap: 4px;\n  align-items: center;\n  justify-content: flex-start;\n  height: 20px;\n}\n\n.typing-spinner span {\n  width: 8px;\n  height: 8px;\n  background-color: var(--fuse-default-color-secondary);\n  border-radius: 50%;\n  display: inline-block;\n  animation: bounce 1.4s infinite ease-in-out;\n}\n\n.typing-spinner span:nth-child(1) {\n  animation-delay: 0s;\n}\n.typing-spinner span:nth-child(2) {\n  animation-delay: 0.2s;\n}\n.typing-spinner span:nth-child(3) {\n  animation-delay: 0.4s;\n}\n\n@keyframes bounce {\n  0%, 80%, 100% {\n    transform: scale(0);\n  }\n  40% {\n    transform: scale(1);\n  }\n}\n.chat-message, .chat-intro p{ \n  display: flex;\n  flex-direction:column;\n  gap: 10px;\n  margin-top:20px;\n  margin-bottom: 20px;\n  width:100%;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  word-wrap: break-word;\n  font-size: 15px;\n  padding: 0px 14px;\n}\n\n.chat-user-container{\n  display: flex;          \n  flex-direction: column;\n  gap: 8px;\n  padding-right: 16px;\n}\n\n.chat-user-container p {\n  min-height: 20px;\n  position: relative; \n  align-self: flex-end; \n}\n\n.chat-user-container p:after {\n\tcontent: '';\n\tposition: absolute;\n\tright: -15px;\n\ttop: 45%;\n\twidth: 0;\n\theight: 0;\n\tborder: 20px solid transparent;\n\tborder-left-color: var(--fuse-default-color-secondary);\n\tborder-right: 0;\n\tborder-bottom: 0;\n}\n\n.chat-intro, .chat-answer-conatiner{\n  display:inline-block;\n}\n\n\n.chat-intro p {\n  max-width: fit-content !important;\n}\n\n.chat-answer-conatiner{\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  padding-left: 16px;\n  white-space: pre-wrap;\n  text-align: justify;\n  max-width:fit-content;\n  overflow: visible; \n}\n\n.chat-answer {\n  min-height: 20px;\n  position: relative;\n  max-height: 300px;\n  overflow-y: auto;\n  align-self: flex-start; \n}\n\n.chat-answer a{\n  color: var(--fuse-default-color-secondary);\n}\n\n.chat-buble-answer-conatiner{\n  position: relative;\n}\n\n.chat-buble-answer-conatiner:after {\n\tcontent: '';\n\tposition: absolute;\n  \tleft:0px;\n\ttop: 28%;\n\twidth: 0;\n\theight: 0;\n\tborder: 10px solid transparent !important;\n\tborder-right-color: #fff !important;\n\tborder-left: 0;\n\tborder-bottom: 0;\n}\n\n\n\n@keyframes typing {\n  0% { width: 0; border-right: 2px solid black; }\n  90% { border-right: 2px solid black; }\n  100% { width: 100%; border-right: none; } /* remove cursor at the end */\n}\n\n\n\n*{\n--positve-feedback-color: #28a745;\n}\n\n.ai-feedback-container {\n  margin-top: 8px;\n  display: flex;\n  flex-direction:row;\n  align-items:center;\n  gap:8px;\n  width:100%;\n  justify-content: end;\n}\n\n.ai-feedback-btn{\n  color: #cecece;\n  transition:all .4s ease;\n  cursor: pointer;\n}\n\n.ai-positive-btn-container {\n  width: 20px;\n  height: 20px;\n  background: transparent;\n  position: relative;\n  padding: 0;\n  text-align: center;\n}\n\n/* shared wrappers */\n.icon-wrapper,\n.icon-wrapper-2 {\n  font-size: 15px;\n  text-align: center;\n  position: relative;\n  cursor: pointer;\n  display: inline-block;\n}\n\n.thumbs-down{\n  transition: all .3s ease; \n} \n\n\n.icon-wrapper-2:hover .p-icon svg, .thumbs-down:hover {\n  transform: scale(1.2)\n}\n\n/*  A2DAAB base icon color */\n.icon-wrapper .p-icon,\n.icon-wrapper-2 .p-icon { color: #cecece;\n}\n.icon-wrapper .p-icon svg,\n.icon-wrapper-2 .p-icon svg { transform: scale(1);\n transition: all .3s ease; \n}\n\n/* animated state on wrapper */\n.icon-wrapper.anim .p-icon i,\n.icon-wrapper-2.anim .p-icon i {\n  animation: icon-animation cubic-bezier(0.165, 0.84, 0.44, 1) 1.2s;\n}\n.icon-wrapper.anim .p-icon,\n.icon-wrapper-2.anim .p-icon { color: var(--positve-feedback-color); }\n\n\n/* circular border pulse */\n.icon-wrapper .border,\n.icon-wrapper-2 .border {\n  position: absolute;\n  top: -6px; left: -6px;\n  width: 25px; height: 25px;\n  z-index: 0;\n  transition: all .5s ease;\n  transform-origin: 0 0;\n}\n.icon-wrapper .border span,\n.icon-wrapper-2 .border span {\n  position: absolute; left: 0; width: 100%; height: 100%;\n  border-radius: 50%;\n  border: 1px solid var(--positve-feedback-color);;\n  transform: scale(0.001);\n}\n.icon-wrapper.anim .border span,\n.icon-wrapper-2.anim .border span {\n  animation: border-animation cubic-bezier(0.075,0.82,0.165,1) 1s forwards;\n}\n\n/* satellites: 6 dots flying out */\n.icon-wrapper .satellite,\n.icon-wrapper-2 .satellite {\n  position: absolute;\n  left: 50%; top: 50%;\n  width: 80px; height: 80px;\n  margin-left: -40px; margin-top: -40px;\n}\n.icon-wrapper .satellite span,\n.icon-wrapper-2 .satellite span {\n  position: absolute;\n  width: 20px; height: 20px;           /* $satellite-size */\n  border-radius: 50%;\n  margin-top: -10px;                    /* -$satellite-size/2 */\n  margin-left: -10px;\n  transition: all .5s ease;\n  transform-origin: center 0;\n  transform: translate(0,0) scale(0);\n  animation-timing-function: cubic-bezier(0.165,0.84,0.44,1);\n  animation-duration: 1.5s;\n  animation-fill-mode: forwards;\n}\n\n/* satellite positions + colors + keyframes */\n.icon-wrapper.anim .satellite span:nth-child(1),\n.icon-wrapper-2.anim .satellite span:nth-child(1) {\n  top: 0; left: 50%; background: rgb(152,138,222);\n  animation-name: satellite-top;\n}\n.icon-wrapper.anim .satellite span:nth-child(2),\n.icon-wrapper-2.anim .satellite span:nth-child(2) {\n  top: 25%; left: 100%; background: rgb(222,138,160);\n  animation-name: satellite-top-right;\n}\n.icon-wrapper.anim .satellite span:nth-child(3),\n.icon-wrapper-2.anim .satellite span:nth-child(3) {\n  top: 75%; left: 100%; background: rgb(138,174,222);\n  animation-name: satellite-bottom-right;\n}\n.icon-wrapper.anim .satellite span:nth-child(4),\n.icon-wrapper-2.anim .satellite span:nth-child(4) {\n  top: 100%; left: 50%; background: rgb(138,222,173);\n  animation-name: satellite-bottom;\n}\n.icon-wrapper.anim .satellite span:nth-child(5),\n.icon-wrapper-2.anim .satellite span:nth-child(5) {\n  top: 75%; left: 0; background: rgb(222,197,138);\n  animation-name: satellite-bottom-left;\n}\n.icon-wrapper.anim .satellite span:nth-child(6),\n.icon-wrapper-2.anim .satellite span:nth-child(6) {\n  top: 25%; left: 0; background: rgb(138,209,222);\n  animation-name: satellite-top-left;\n}\n\n/* keyframes from SCSS variables:\n   satellite-move = 20px * 7 = 140px\n   140 / 2.236 Γëê 62.5; 2 * that Γëê 125 */\n@keyframes border-animation {\n  0%   { border-width: 20px; opacity: 1; }\n  40%  { opacity: 1; }\n  100% { transform: scale(1.2); border-width: 0; opacity: 0; }\n}\n\n@keyframes satellite-top {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(0,-140px); }\n}\n@keyframes satellite-bottom {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(0,140px); }\n}\n@keyframes satellite-top-right {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(125px,-62.5px); }\n}\n@keyframes satellite-bottom-right {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(125px,62.5px); }\n}\n@keyframes satellite-bottom-left {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(-125px,62.5px); }\n}\n@keyframes satellite-top-left {\n  0%   { transform: scale(1) translate(0,0); }\n  100% { transform: scale(0) translate(-125px,-62.5px); }\n}\n\n@keyframes icon-animation {\n  0% { transform: scale(0); }\n  100% { transform: scale(1); }\n}\n\n/* ===== Spark ring (expanded from mixin/loop) ===== */\n\n.icon-wrapper-2 .spark {\n  position: absolute;\n  top: 0px;\n  width: 20px; height: 20px;           /* circle size */\n  border-radius: 50%;\n}\n.icon-wrapper-2 .spark span {\n  position: absolute;\n  width: 15px; height: 4px;            /* spark size */\n  top: 50%; left: 50%;\n  margin-top: -2px;                    /* -spark-height/2 */\n  margin-left: -12.5px;                /* -spark-width/2 */\n  background: var(--positve-feedback-color);\n  border-radius: 2px;\n}\n\n/* place 20 sparks around the circle (18┬░ steps), initial scale(0) */\n.icon-wrapper-2 .spark span:nth-of-type(1)  { transform: rotate(  0deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(2)  { transform: rotate(-18deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(3)  { transform: rotate(-36deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(4)  { transform: rotate(-54deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(5)  { transform: rotate(-72deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(6)  { transform: rotate(-90deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(7)  { transform: rotate(-108deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(8)  { transform: rotate(-126deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(9)  { transform: rotate(-144deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(10) { transform: rotate(-162deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(11) { transform: rotate(-180deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(12) { transform: rotate(-198deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(13) { transform: rotate(-216deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(14) { transform: rotate(-234deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(15) { transform: rotate(-252deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(16) { transform: rotate(-270deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(17) { transform: rotate(-288deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(18) { transform: rotate(-306deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(19) { transform: rotate(-324deg) translate(30px) scale(0); }\n.icon-wrapper-2 .spark span:nth-of-type(20) { transform: rotate(-342deg) translate(30px) scale(0); }\n\n/* animate sparks on .anim state */\n.icon-wrapper-2.anim .spark span:nth-of-type(1)  { animation: spark-animation-1  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(2)  { animation: spark-animation-2  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(3)  { animation: spark-animation-3  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(4)  { animation: spark-animation-4  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(5)  { animation: spark-animation-5  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(6)  { animation: spark-animation-6  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(7)  { animation: spark-animation-7  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(8)  { animation: spark-animation-8  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(9)  { animation: spark-animation-9  1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(10) { animation: spark-animation-10 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(11) { animation: spark-animation-11 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(12) { animation: spark-animation-12 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(13) { animation: spark-animation-13 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(14) { animation: spark-animation-14 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(15) { animation: spark-animation-15 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(16) { animation: spark-animation-16 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(17) { animation: spark-animation-17 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(18) { animation: spark-animation-18 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(19) { animation: spark-animation-19 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n.icon-wrapper-2.anim .spark span:nth-of-type(20) { animation: spark-animation-20 1.5s cubic-bezier(0.075,0.82,0.165,1); }\n\n/* generate 20 keyframes (96px = 80 * 1.2) */\n@keyframes spark-animation-1  { 0%{opacity:1;transform:rotate(0deg)   translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(0deg)   translate(56px) scale(0);} }\n@keyframes spark-animation-2  { 0%{opacity:1;transform:rotate(-18deg) translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(-18deg) translate(56px) scale(0);} }\n@keyframes spark-animation-3  { 0%{opacity:1;transform:rotate(-36deg) translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(-36deg) translate(56px) scale(0);} }\n@keyframes spark-animation-4  { 0%{opacity:1;transform:rotate(-54deg) translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(-54deg) translate(56px) scale(0);} }\n@keyframes spark-animation-5  { 0%{opacity:1;transform:rotate(-72deg) translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(-72deg) translate(56px) scale(0);} }\n@keyframes spark-animation-6  { 0%{opacity:1;transform:rotate(-90deg) translate(30px) scale(1);} 80%{opacity:1;} 100%{opacity:0;transform:rotate(-90deg) translate(56px) scale(0);} }\n@keyframes spark-animation-7  { 0%{opacity:1;transform:rotate(-108deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-108deg) translate(56px) scale(0);} }\n@keyframes spark-animation-8  { 0%{opacity:1;transform:rotate(-126deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-126deg) translate(56px) scale(0);} }\n@keyframes spark-animation-9  { 0%{opacity:1;transform:rotate(-144deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-144deg) translate(56px) scale(0);} }\n@keyframes spark-animation-10 { 0%{opacity:1;transform:rotate(-162deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-162deg) translate(56px) scale(0);} }\n@keyframes spark-animation-11 { 0%{opacity:1;transform:rotate(-180deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-180deg) translate(56px) scale(0);} }\n@keyframes spark-animation-12 { 0%{opacity:1;transform:rotate(-198deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-198deg) translate(56px) scale(0);} }\n@keyframes spark-animation-13 { 0%{opacity:1;transform:rotate(-216deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-216deg) translate(56px) scale(0);} }\n@keyframes spark-animation-14 { 0%{opacity:1;transform:rotate(-234deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-234deg) translate(56px) scale(0);} }\n@keyframes spark-animation-15 { 0%{opacity:1;transform:rotate(-252deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-252deg) translate(56px) scale(0);} }\n@keyframes spark-animation-16 { 0%{opacity:1;transform:rotate(-270deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-270deg) translate(56px) scale(0);} }\n@keyframes spark-animation-17 { 0%{opacity:1;transform:rotate(-288deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-288deg) translate(56px) scale(0);} }\n@keyframes spark-animation-18 { 0%{opacity:1;transform:rotate(-306deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-306deg) translate(56px) scale(0);} }\n@keyframes spark-animation-19 { 0%{opacity:1;transform:rotate(-324deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-324deg) translate(56px) scale(0);} }\n@keyframes spark-animation-20 { 0%{opacity:1;transform:rotate(-342deg) translate(30px) scale(1);}80%{opacity:1;}100%{opacity:0;transform:rotate(-342deg) translate(56px) scale(0);} }\n\n.modal {\n  display: none;               /* hidden by default */\n  position: fixed;\n  z-index: 9999999;\n  left: 0;\n  top: 0;\n  width: 100%; \n  height: 100%;\n  background-color: rgba(0,0,0,0.5); /* semi-transparent background */\n  justify-content: center;\n  align-items: center;\n  pointer-events: auto; \n}\n\n/* Modal content box */\n.modal-content {\n  background: #fff;\n  padding: 20px;\n  border-radius: 8px;\n  max-width: 500px;\n  width: 90%;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n  position: relative;\n  animation: fadeIn 0.3s ease;\n}\n\n/* Close button */\n.close {\n  position: absolute;\n  top: 10px;\n  right: 15px;\n  font-size: 24px;\n  font-weight: bold;\n  cursor: pointer;\n  background: transparent !important;\n  outline: none !important;\n  border: none !important;\n}\n\n@keyframes fadeIn {\n  from { opacity: 0; transform: translateY(-10px); }\n  to   { opacity: 1; transform: translateY(0); }\n}\n\n.negative-feedback-container{\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.app-modal__content{\n  position: relative;\n  background: #fff;\n  padding: 30px;\n  width: 25%;\n}\n\n.modal-title { margin: 0 0 .5rem; font-size: 1.1rem; }\n.field { \n  display: block !important; \n  margin: .75rem 0 !important; \n}\n.field .label { display:block; font-weight:600; margin-bottom:.35rem; }\n.field select, .field textarea {\n  width: 100% !important; padding: .6rem .7rem !important; border:1px solid #d9dee8 !important; border-radius:8px !important;\n}\n.grid-2 { display:grid !important; grid-template-columns:1fr 1fr; gap:1rem !important; }\n.check { display:flex !important; align-items:center !important; gap:.5rem !important; margin:.75rem 0 !important; }\n.actions { display:flex !important; justify-content:flex-end !important; gap:.5rem !important; margin-top:1rem !important; }\n.btn { padding:.55rem .9rem !important; border-radius:8px !important; border:1px solid transparent !important; cursor:pointer !important; }\n.btn.primary { background: var(--fuse-default-color-secondary) !important; color:#fff !important; }\n\n.btn.primary:disabled {\n  background-color: #ccc !important;\n  color: #666 !important;\n  cursor: not-allowed !important;\n  opacity: 0.7 !important;\n}\n\n.btn.secondary { background:#f5f7fb !important; border-color:#d9dee8 !important; }\n.error { color:#c62828 !important; font-size:.85rem !important; margin-top:.25rem !important; display:block !important; }\n\n.input-container{\n  display: flex;\n  flex-direction: row;\n  height: 40px;\n  border-radius: 15px;\n  background:#fff !important;\n  width: 100%;\n  justify-content:space-around;\n  align-items:center;\n  padding:10px;\n}\n\n.chat_input {\n  outline: none !important;\n  border: none !important;\n  background: transparent !important;\n  height: 100% !important;\n  flex: 2 !important;\n  box-sizing: border-box !important;\n}\n\ninput:focus {\n  outline: none !important;\n  box-shadow: none !important;\n  outline-style: none !important;\n}\n\n.chat_input::placeholder{\n  color: #999 !important;\n  font-style: italic !important;\n}\n\n.send-button{\n  display: flex !important;\n  flex-direction:column !important;\n  align-items:center !important;\n  justify-content: center !important;\n  cursor: pointer !important;\n  height: 100% !important;\n}\n.send-button > svg{\n  height: 15px !important;\n  width: 15px !important;\n\n}\n\n.send-button.clicked {\n  animation: clickPulse 0.3s ease !important;\n}\n\n@keyframes clickPulse {\n  0% { transform: scale(1); }\n  50% { transform: scale(0.85); opacity: 0.8; }\n  100% { transform: scale(1); opacity: 1; }\n}\n\n",
+        "template": "<div class=\"chat-container\">\n\n<div id=\"chat-container\" class=\"chat-list-container\">\n  \n\n  \n  <div class=\"chat-message\" *ngFor=\"let convo of widget.data.messages; let i = index\">\n  <div class=\"chat-user-container\"\n       *ngIf=\"widget.service.getGlobalOptions().start_convo_mode\">\n    <p [ngStyle]=\"widget.settings.userChatClass\">{{convo.question}}</p>\n   </div>\n    \n<div *ngIf=\"!convo.answer && widget.service.getGlobalOptions().start_convo_mode\" class=\"typing-spinner\">\n  <span [ngStyle]=\"widget.settings.spinerClass\" ></span>\n  <span [ngStyle]=\"widget.settings.spinerClass\" ></span>\n  <span [ngStyle]=\"widget.settings.spinerClass\" ></span>\n</div>\n    \n      <div class=\"vero-loader-container\">\n    <widget id=\"chat-vero-loader\" *ngIf=\"!convo.answer && !widget.service.getGlobalOptions().start_convo_mode\" [widgetId]='\"custom-4\"'></widget>\n  </div>\n    \n    <div  class=\"chat-answer-conatiner\"\n         *ngIf=\"convo.answer && convo.answer!==''\" \n         >\n      \n      <div  class=\"chat-buble-answer-conatiner\">\n    <p [id]=\"'chat_answer' + i\" \n    [ngStyle]=\"widget.settings.aiChatClass\"\n       class=\"chat-answer\"  [innerHTML]=\"convo.answer\">\n      \n   </p>\n        </div>\n     <!-- Feedback starts here -->\n<div class=\"ai-feedback-container\">\n  \n    <div class=\".ai-positive-btn-container\"       (click)=\"widget.data.setPositive(convo, widget)\"\n         >\n  <div class=\"icon-wrapper-2\"\n        [ngClass]=\"{'anim':  convo.positiveClicked}\">\n    <span class=\"p-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-thumbs-up-icon lucide-thumbs-up\"><path d=\"M7 10v12\"/><path d=\"M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z\"/></svg>\n    </span>\n    <div class=\"border\"><span></span></div>\n    <div class=\"spark\">\n      <span></span><span></span><span></span><span></span>\n      <span></span><span></span><span></span><span></span>\n      <span></span><span></span><span></span><span></span>\n      <span></span><span></span><span></span><span></span>\n      <span></span><span></span><span></span><span></span>\n    </div>\n  </div>\n</div>\n  \n  \n    <div class=\"ai-feedback-btn thumbs-down\"\n         (click)=\"widget.data.openModal(widget,convo)\" [style.color]=\"convo.negativeClicked ? '#dc3545' : null\" >\n      <svg \n        xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-thumbs-down-icon lucide-thumbs-down\"><path d=\"M17 14V2\"/><path d=\"M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z\"/></svg>\n  </div>\n  \n\n  \n  \n</div>\n       <!-- Feedback ends here -->\n    </div>\n    \n  </div>\n  \n</div>\n\n<div id=\"negativeModal\" class=\"modal\"\n     [ngStyle]=\"{'display': widget.data.modalState? 'flex': 'none'}\"\n     >\n\n  \n  <div class=\"app-modal__content\">\n  <button class=\"close\" (click)=\"widget.data.closeModal(widget)\" aria-label=\"Close\">├ù</button>\n  <h2 class=\"modal-title\">Report an issue with this AI response</h2>\n\n  <form id=\"ai-feedback-form\" #f=\"ngForm\" (ngSubmit)=\"widget.data.submitNegativeFeedback(f.value, widget);\">\n    <!-- Hidden context you can fill before opening the modal -->\n    <input type=\"hidden\" name=\"responseId\" id=\"responseId\" value=\"\">\n\n    <label class=\"field\">\n      <span class=\"label\">WhatΓÇÖs wrong? <span\n *ngIf=\"!(widget.data.validateNegativeF(category,details,severity)[1][0])\"                                              >*</span></span>\n      <select name=\"category\" id=\"category\" [(ngModel)]=\"category\" required>\n        <option value=\"\" selected disabled>Choose a category</option>\n        <option>Incorrect / Hallucination</option>\n        <option>Incomplete / Missing info</option>\n        <option>Off-topic</option>\n        <option>Harmful / Unsafe</option>\n        <option>Biased / Inappropriate</option>\n        <option>Formatting / Code didnΓÇÖt run</option>\n        <option>Other</option>\n      </select>\n      <span\n             *ngIf=\"!(widget.data.validateNegativeF(category,details,severity)[1][0])\"\n            \n            class=\"error\">Please pick a category.</span>\n    </label>\n\n    <label class=\"field\">\n      <span class=\"label\">Describe the issue <span  *ngIf=\"!(widget.data.validateNegativeF(category,details,severity)[1][1])\" aria-hidden=\"false\">*</span></span>\n      <textarea name=\"details\" id=\"details\" rows=\"5\" [(ngModel)]=\"details\" required\n        placeholder=\"Tell us what went wrong, what you expected, and any examples.\"></textarea>\n<span  *ngIf=\"!(widget.data.validateNegativeF(category,details,severity)[1][1])\"\n      class=\"error\">Please add a short description.</span>\n    </label>\n\n    <div class=\"field grid-2\">\n      <label class=\"field\">\n        <span class=\"label\">Severity</span>\n        <select name=\"severity\" [(ngModel)]=\"severity\" id=\"severity\">\n          <option>Low</option>\n          <option selected>Medium</option>\n          <option>High</option>\n          <option>Critical</option>\n        </select>\n              <span  *ngIf=\"!(widget.data.validateNegativeF(category,details,severity)[1][2])\"\n      class=\"error\">Please pick a Severity.</span>\n      </label>\n      \n    </div>\n\n    <div class=\"actions\">\n      <button type=\"button\" class=\"btn secondary\" (click)=\"widget.data.closeModal(widget)\">Cancel</button>\n      <button type=\"submit\" class=\"btn primary\" id=\"submitBtn\" [disabled]=\"widget.data.submitting || !(widget.data.validateNegativeF(category,details,severity)[0])\" >{{ widget.data.submitting ? 'SendingΓÇª' : 'Send feedback' }}</button>\n    </div>\n  </form>\n</div>\n</div>\n  \n  \n  \n  \n  <div class=\"input-container\">\n<input id=\"promptInput\" #promptInput  class=\"chat_input\"\n        [disabled]=\"widget.data.loading\"\n       (keydown.enter)=\"widget.data.getCompletion(widget,promptInput.value); widget.data.scrollToBottom(); ;promptInput.value=''\" type=text placeholder=\"{{widget.settings.placeholder}}\"/>\n  \n \n<span class=\"send-button\"\n [class.clicked]=\"widget.data.svgClick\"     (click)=\"widget.data.getCompletion(widget,promptInput.value); widget.data.scrollToBottom(); ;widget.data.handleSVGClick();promptInput.value=''\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5\" />\n</svg>\n  </span>\n</div>\n  \n  \n  \n</div>"
+      },
+      "id": "chat-messages",
+      "type": "custom",
+      "defaultState": {
+        "widgetName": "chat-messages"
+      }
+    },
+    {
+      "definition": {
+        "beforeSearch": function (w) {
+      var res = this.base.beforeSearch.apply(this, arguments);
+      w.data.selectedFilters = w.data.filters.map(function(filter) { 
+        return filter.label;
+      }).join(', ');
+      return res;
+    },
+        "template": "<span class=\"fuse-current-filters ai-filters\" *ngIf='w.data.selectedFilters'>\n   We are generating a {{widget.settings.get_recap_period(widget)}} recap,using these selected filters:<strong>{{ w.data.selectedFilters }}</strong> {{widget.settings.get_search_string(widget)? 'with this ' + widget.settings.get_search_string(widget) : ''}}\n  </span>\n\n<span class=\"fuse-current-filters ai-filters\" *ngIf='!w.data.selectedFilters'>\n   We are generating a {{widget.settings.get_recap_period(widget)}} recap, using {{widget.settings.get_search_string(widget)? 'this ' + widget.settings.get_search_string(widget) : 'all the data'}}\n  </span>"
+      },
+      "id": "ai-sub-filter",
+      "type": "fuse-subfilters",
+      "defaultState": {
+        "widgetName": "ai-sub-filter"
+      },
+      "settings": {
+        "get_recap_period": (widget)=>{
+      let days_n = widget.service.getWidgetById('ai-tool-container').settings.recap_period;
+      
+      return `${days_n}-day`;
+    },
+        "get_search_string": (widget) =>{
+      var w = widget.service.getWidgetById('search-1');
+      var query = w.component.state.searchString;
+      
+      if(query===""){
+        return query;
+      } else{
+        return `keyword:"${query}"`;
+      }
+      
+    }
+      }
+    },
+    {
+      "settings": {
+        "fields": [
+          "description"
+        ],
+        "typingSpeed": 0.01,
+        "maxCharsToType": 1500,
+        "aiChatClass": {
+          "background": "#fff",
+          "max-width": "100%",
+          "color": "#000",
+          "padding": "10px",
+          "border-radius": "7px"
+        }
+      },
+      "definition": {
+        "defaultState": {
+          "timestamp": "not set"
+        },
+        "init": function (widget) {
+			// widget created (other widgets may not be created yet)
+			widget.data = {
+				widget : widget,
+              	innerHtml: "",
+              	series_list: [],
+              	loading: true,
+                setText: function(value,series_list){
+                  let i = 0;
+                  
+                  function typeChar() {
+                    if (i <= value.length) {
+      let partialText = value.slice(0, i);
+          widget.data.innerHtml = partialText;
+      i++;
+                      
+      setTimeout(typeChar, widget.settings.typingSpeed);
+    }
+                  }
+                  
+if (value.length < widget.settings.maxCharsToType){
+                    typeChar();
+                  }
+              	else{
+              widget.data.innerHtml=value;}
+                  
+                  widget.data.series_list =series_list;
+                   
+                },
+				refresh : function () {
+					this.widget.service.setState(); // make search request
+				}
+			};
+		},
+        "styles": ".ai-response-container{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  z-index: 9;\n}\n\n.fuse-ai-insights-container{\n  z-index: 99 !important;\n}\n\n.fuse-ai-insights-contents_recap{\n  text-align: justify;\n  padding: 20px !important;\n}\n\n\n\n.center-loader{\n  display:flex;\n  flex-direction:column;\n  justify-content:center;\n  width:100% !important;\n}\n\n.center-loader:after{\n  background-color: #fff !important;\n}\n\n\n\n.center-loader widget{\n  position:relative;\n  z-index:9;\n}\n\n.chat-user-container-chat > p > a{\n  color:var(--fuse-default-color-secondary);\n\n}\n\n\n.recap-container{\n  background-color: #fff;\n  height: 100%;\n  padding: 20px;\n}\n\n.no_shadow{\n    box-shadow:none !important;\n}\n\n.chat-user-container-chat{\n  display: flex;          \n  flex-direction: column;\n  gap: 8px;\n  padding-right: 16px;\n}\n\n.chat-user-container-chat.intro{\n  width: auto !important;\n  height:auto;\n}\n\n.fuse-ai-insights-contents_recap{\n  max-height: 350px;\n  overflow-y: auto\n}\n\n.chat-user-container-chat p {\n min-height: 20px;\n overflow-y: auto;\n position: relative; \n text-align: justify;\n}\n\n.chat-user-container-chat svg {\n\tposition: absolute;\n\tright: 14px;\n\ttop: 355px;\n\twidth: 30px;\n\theight: 30px;\n}",
+        "template": "<div class=\"recap-container\">\n<section class=\"ai-response-container\">\n      <div class=\"chat-user-container-chat intro\">\n    <p>\n      <widget [widgetId]='\"ai-sub-filter\"'></widget>\n        </p>\n   </div>\n  \n  \n  <div class=\"fuse-result fuse-ai-insights-container front\"  >\n    <div class=\"fuse fuse-result__body fuse-ai-loading-container\" *ngIf=\"widget.data.loading\">\n    <div class=\"fuse-ai-loading-animation\"></div>\n    <div class=\"fuse-ai-wand-box\"><span class=\"animated-border\"><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-flashing-icon\"></i></span></div>\n    <div class=\"fuse-ai-insights-container\"><span class=\"fuse-ai-insights-title\"><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-ai-insights-wand-loading\"></i> AI Recap</span></div>\n  </div>\n  \n\n         <article class=\"fuse-result__body fuse-ai-results-container\" *ngIf=\"!widget.data.loading\">\n\n      <h4 class=\"fuse-result__heading fuse-ai-insights-title\"><span><i class=\"fa-solid fa-wand-sparkles fa-rotate-90 fuse-ai-insight-wand\"></i> AI Recap</span></h4>\n      <p class=\"fuse-result__description fuse-ai-insights-contents fuse-ai-insights-contents_recap\" [innerHTML]=\"widget.data.innerHtml\"></p>\n\n           \n      <ul class=\"fuse-result__tags fuse-ai-insights-tag\">\n        <li>\n          <span class=\"fuse-chip fuse-chip--gray fuse-ai-insights-chip\">\n            <i class=\"fa-solid fa-wand-sparkles fa-rotate-90\"></i>\n            <span class=\"fuse-chip__label fuse-chip__label--xs\">\n              AI-generated response may be inaccurate or misleading. Please verify with sources.\n            </span>\n          </span>\n        </li>\n      </ul>\n\n    </article>\n    \n  </div>\n  \n\n  \n  </section>\n  \n    <ol class=\"fuse-results-list\">\n      <li class=\"fuse-result\" *ngFor=\"let item of widget.data.series_list\">\n  <article class=\"fuse-result__body\">\n  <h4 class=\"fuse-result__heading\">\n    <a class=\"fuse-result__link\" \n       [href]=\"item.fields.link\"\n       target=_blank\n      [innerHTML]=\"item.fields.custom_description || item.fields.description\">\n    </a>\n  </h4>\n  \n  <p class=\"fuse-result__date\"\n     [innerHTML]=\"widget.service.getGlobalOptions().dtToMonthDayYear(item.fields.doc_date)\"\n     >\n  </p>\n   \n  <p class=\"fuse-result__description\"\n     sj-line-limit=\"3\"  \n[innerHTML]=\"item.fields.content? item.fields.content : item.fields['description']\">\n  </p>\n\n  <ul class=\"fuse-result__tags\">\n    <li>\n      <span class=\"fuse-chip fuse-chip--gray\">\n        <svg class=\"fuse-chip__icon\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\">\n          </path>\n        </svg>\n        <span class=\"fuse-chip__label fuse-chip__label--xs\">\n          {{item.fields.doc_type}}\n        </span>\n      </span>\n    </li>\n  </ul>\n\n</article>\n        <li>\n  \n  </ol>\n\n  \n  \n</div>"
+      },
+      "id": "ai-recap",
+      "type": "custom",
+      "defaultState": {
+        "widgetName": "ai-recap"
+      }
+    }
+  ]
+};
+  
+	window.SJSearchLoader = window.SJSearchLoader || {};
+	window.SJSearchLoader.settingsName = configName;
+	window.SJSearchLoader.cdnUrl = cdnUrl;
+	window.SJSearchLoader.views = window.SJSearchLoader.views || {};
+  
+	window.SJSearchLoader.printViews = function () {
+	  return {
+		then: function (callback, errorCallback) {
+		  var pViews = Object.keys(window.SJSearchLoader.views).map(function (vid) {
+			return window.SJSearchLoader.views[vid];
+		  });
+		  var pCounter = pViews.length;
+		  var pErrors = 0;
+		  pViews.forEach(function (pView) {
+  
+			var viewPrinted = function (success) {
+			  pCounter--;
+			  if (!success) {
+				pErrors++;
+			  }
+			  if (!pCounter) {
+				if (pErrors) {
+				  pView.printed = false;
+				  errorCallback();
+				} else {
+				  pView.printed = true;
+				  callback();
+				}
+			  }
+			};
+  
+			pView.then(function (searchComponent) {
+			  searchComponent.service.prepareForPrint().then(function () {
+				viewPrinted(true);
+			  }, function () {
+				viewPrinted(false);
+			  });
+			});
+		  });
+		}
+	  }
+	};
+  
+	var readyCallback;
+	var readyComponent = false;
+  
+	var pendingCallback;
+  
+	if (window.SJSearchLoader.views[elementId]) {
+	  console.warn('View element ID already defined.... Duplicate....');
+	} else {
+	  window.SJSearchLoader.views[elementId] = {
+		then: function (callback) {
+		  if (readyComponent) {
+			callback(readyComponent);
+		  } else {
+			pendingCallback = callback;
+		  }
+		}
+	  };
+	  readyCallback = function (searchComponent) {
+		if (readyComponent) {
+		  return;
+		}
+		readyComponent = searchComponent;
+		if (readyComponent) {
+		  window.SJSearchLoader.views[elementId].ready = true;
+		} else {
+		  debugger;
+		}
+		if (pendingCallback) {
+		  pendingCallback(searchComponent);
+		}
+	  };
+	}
+  
+	var printCallback;
+	if (typeof evoPdfConverter != "undefined") {
+	  if (SJSearchLoader.print === undefined) {
+		if (window.manualConversionTimeout === undefined) {
+		  SJSearchLoader.print = null;
+		} else {
+		  SJSearchLoader.print = [];
+		  clearTimeout(window.manualConversionTimeout);
+		  window.manualConversionTimeout = setTimeout(function () {
+			SJSearchLoader.printed = true;
+			evoPdfConverter.startConversion();
+		  }, 5 * 60 * 1000); // 5 min max timeout
+		}
+	  }
+  
+  
+	  if (SJSearchLoader.print) {
+		var printIndex = SJSearchLoader.print.length;
+		SJSearchLoader.print[printIndex] = false;
+		printCallback = function () {
+		  SJSearchLoader.print[printIndex] = true;
+		  if (!SJSearchLoader.printed) {
+			for (i = 0; i < SJSearchLoader.print.length; i++) {
+			  if (!SJSearchLoader.print[i]) {
+				return;
+			  }
+			}
+			SJSearchLoader.printed = true;
+			clearTimeout(window.manualConversionTimeout);
+			evoPdfConverter.startConversion();
+		  }
+		}
+	  }
+	}
+  
+	var initSJS = function () {
+	  waitForPage(function () {
+		var el = document.getElementById(elementId);
+		if (el) {
+		  el.className += ' sj-search-embedded';
+		}
+	  });
+	  try {
+		SJSearch.create('#' + elementId, definition, options, {
+		  onComplete: function (searchComponent) {
+			if (readyCallback) {
+			  readyCallback(searchComponent);
+			}
+			if (printCallback) {
+			  try {
+				searchComponent.service.prepareForPrint().then(function () {
+				  printCallback();
+				}, function () {
+				  printCallback();
+				});
+			  } catch (e) {
+				printCallback();
+				console.error(e);
+			  }
+			}
+		  },
+		  onError: function () {
+			if (readyCallback) {
+			  readyCallback();
+			}
+			if (printCallback) {
+			  printCallback();
+			}
+		  }
+		}
+		);
+	  } catch (e) {
+		if (readyCallback) {
+		  readyCallback();
+		}
+		if (printCallback) {
+		  printCallback();
+		}
+		throw e;
+	  }
+	}
+  
+	function load(url) {
+	  var ready = false;
+	  return {
+		then: function (callback) {
+		  if (ready) {
+			callback();
+			return;
+		  }
+		  var element = document.createElement('script');
+		  element['src'] = url;
+		  document.head.appendChild(element);
+		  element.onload = function () {
+			ready = true;
+			callback();
+		  };
+		  element.onerror = function () {
+			if (readyCallback) {
+			  readyCallback();
+			}
+			if (printCallback) {
+			  printCallback();
+			}
+		  };
+		}
+	  }
+	}
+  
+	function loadLoader(callback) {
+	  if (!window.SJSearchLoader.activeLoader) {
+		window.SJSearchLoader.activeLoader = load(loaderUrl);
+	  }
+	  window.SJSearchLoader.activeLoader.then(callback);
+	}
+  
+	function init() {
+	  initSJS();
+	}
+  
+	function waitForPage(callback) {
+	  if (document.readyState == 'complete' || document.readyState == 'interactive') { // page can be already loaded
+		callback();
+		return;
+	  }
+	  document.addEventListener("DOMContentLoaded", function () {
+		callback();
+	  }); // or not loaded
+	}
+  
+	if (window.SJSearch && window.SJSearch.create && window.SJSearchLoader) {
+	  init();
+	} else {
+	  var hasLoader = window.SJSearchLoader && window.SJSearchLoader.load;
+	  var hasSjSearch = window.SJSearch;
+  
+	  if (!hasSjSearch) {
+		if (hasLoader) {
+		  window.SJSearchLoader.load(function (SJSearch) {
+			hasSjSearch = true;
+			hasSjSearch && init();
+		  });
+		} else {
+		  loadLoader(function () {
+			if (window.SJSearchLoader && SJSearchLoader.load) {
+			  window.SJSearchLoader.load(function (SJSearch) {
+				hasSjSearch = true;
+				hasSjSearch && init();
+			  });
+			}
+		  });
+		}
+	  }
+	}
+  
+  })(); 
+===HTTP:200 URL:https://fuse.fusesearch.app/api/1/views/enfrubcpebykhaguhvos.js?element_id=sjview_enfrubcpebykhaguhvos===
+{"success":false,"error":"not_found","description":"resource not found","request_id":"ciBFgUxMtsmQZy4"}
+===HTTP:200 URL:https://fuse.fusesearch.app/api/1/views/enfrubcpebykhaguhvos/documents===
+{"success":false,"error":"not_found","description":"resource not found","request_id":"MGDq5hTlU5tsa8v"}
+===HTTP:200 URL:https://fuse.fusesearch.app/api/1/views/enfrubcpebykhaguhvos/records===
+{"success":false,"error":"invalid_credentials","description":"Invalid 'user' and\/or 'api_secret'.","request_id":"PpXxYEpBHp6QjSo"}
+===HTTP:200 URL:https://fuse.fusesearch.app/api/1/views/enfrubcpebykhaguhvos.json===
