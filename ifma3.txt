@@ -1,0 +1,1064 @@
+<<<IFMA|Denver|https://ifmadenver.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Los-Angeles|https://www.ifmala.org/board.php|bytes=357|MANUAL>>>
+<html>
+<head>
+<title>403 - Access denied.</title>
+</head>
+<body>
+<h2>Access denied</h2>
+Request forbidden by administrative rules. Please contact <a href="mailto:support@wildapricot.com?subject=Please%20allow%20access%20to%20Other">support@wildapricot.com</a> for more information and provide your IP address and requested URL.</a>
+</body>
+</html>
+
+<<<END>>>
+<<<IFMA|Atlanta|https://www.ifmaatlanta.org/board.php|bytes=83826|OK>>>
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+			<meta name="theme-color" content="#ef494b"/>	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.4 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Page Not Found - Atlanta Chapter of the International Facility Management Association</title>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.ifmaatlanta.org\/#website","url":"https:\/\/www.ifmaatlanta.org\/","name":"Atlanta Chapter of the International Facility Management Association","description":"resource for professional development and innovative solutions in strategic facility management","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.ifmaatlanta.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Atlanta Chapter of the International Facility Management Association &raquo; Feed" href="https://www.ifmaatlanta.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Atlanta Chapter of the International Facility Management Association &raquo; Comments Feed" href="https://www.ifmaatlanta.org/comments/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFF;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--accent: #ef494b;--wp--preset--color--dark-gray: #111;--wp--preset--color--light-gray: #767676;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-dark-gray-color{color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-color{color: var(--wp--preset--color--light-gray) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-dark-gray-background-color{background-color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-background-color{background-color: var(--wp--preset--color--light-gray) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-dark-gray-border-color{border-color: var(--wp--preset--color--dark-gray) !important;}.has-light-gray-border-color{border-color: var(--wp--preset--color--light-gray) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='bbp-default-css' href='https://www.ifmaatlanta.org/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.15' media='all' />
+<link rel='stylesheet' id='events-manager-css' href='https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/css/events-manager.min.css?ver=7.4.3' media='all' />
+<style id="events-manager-inline-css">
+body .em { --font-family : inherit; --font-weight : inherit; --font-size : 1em; --line-height : inherit; }
+/*# sourceURL=events-manager-inline-css */
+</style>
+<link rel='stylesheet' id='events-manager-pro-css' href='https://www.ifmaatlanta.org/wp-content/plugins/events-manager-pro/includes/css/events-manager-pro.css?ver=3.9.1' media='all' />
+<link rel='stylesheet' id='sr7css-css' href='//www.ifmaatlanta.org/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.58' media='all' />
+<link rel='stylesheet' id='bigger-picture-css' href='https://www.ifmaatlanta.org/wp-content/plugins/youtube-channel/assets/lib/bigger-picture/css/bigger-picture.min.css?ver=3.25.2' media='all' />
+<link rel='stylesheet' id='youtube-channel-css' href='https://www.ifmaatlanta.org/wp-content/plugins/youtube-channel/assets/css/youtube-channel.min.css?ver=3.25.2' media='all' />
+<link rel='stylesheet' id='the7-font-css' href='https://www.ifmaatlanta.org/wp-content/themes/dt-the7/fonts/icomoon-the7-font/icomoon-the7-font.min.css?ver=14.4.0.1' media='all' />
+<link rel='stylesheet' id='wpbdp-zip-module-css' href='https://www.ifmaatlanta.org/wp-content/plugins/business-directory-zipcodesearch/resources/styles.css?ver=5.4.3' media='all' />
+<link rel='stylesheet' id='jquery-theme-css' href='https://www.ifmaatlanta.org/wp-content/plugins/business-directory-plugin/assets/css/jquery-ui.css?ver=6.4.27' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,600,700' media='all' />
+<link rel='stylesheet' id='dt-main-css' href='https://www.ifmaatlanta.org/wp-content/themes/dt-the7/css/main.min.css?ver=14.4.0.1' media='all' />
+<link rel='stylesheet' id='the7-custom-scrollbar-css' href='https://www.ifmaatlanta.org/wp-content/themes/dt-the7/lib/custom-scrollbar/custom-scrollbar.min.css?ver=14.4.0.1' media='all' />
+<link rel='stylesheet' id='the7-wpbakery-css' href='https://www.ifmaatlanta.org/wp-content/themes/dt-the7/css/wpbakery.min.css?ver=14.4.0.1' media='all' />
+<link rel='stylesheet' id='the7-core-css' href='https://www.ifmaatlanta.org/wp-content/plugins/dt-the7-core/assets/css/post-type.min.css?ver=2.7.13' media='all' />
+<link rel='stylesheet' id='the7-css-vars-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/css-vars.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='dt-custom-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/custom.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='dt-media-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/media.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='the7-mega-menu-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/mega-menu.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='the7-elements-albums-portfolio-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/the7-elements-albums-portfolio.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='bb-press.less-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/compatibility/bb-press.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='the7-elements-css' href='https://www.ifmaatlanta.org/wp-content/uploads/the7-css/post-type-dynamic.css?ver=41e0dfce5906' media='all' />
+<link rel='stylesheet' id='style-css' href='https://www.ifmaatlanta.org/wp-content/themes/dt-the7/style.css?ver=14.4.0.1' media='all' />
+<script id="jquery-core-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-mouse-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-sortable-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":0,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+</script>
+<script id="jquery-ui-resizable-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/resizable.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-draggable-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-controlgroup-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-checkboxradio-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-button-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/button.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-dialog-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/dialog.min.js?ver=1.14.2"></script>
+<script id="events-manager-js-extra">
+var EM = {"ajaxurl":"https://www.ifmaatlanta.org/wp-admin/admin-ajax.php","locationajaxurl":"https://www.ifmaatlanta.org/wp-admin/admin-ajax.php?action=locations_search","firstDay":"0","locale":"en","dateFormat":"yy-mm-dd","ui_css":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/css/jquery-ui/build.min.css","show24hours":"0","is_ssl":"1","autocomplete_limit":"10","calendar":{"breakpoints":{"small":560,"medium":908,"large":false},"month_format":"M Y"},"phone":"","datepicker":{"format":"m/d/Y"},"search":{"breakpoints":{"small":650,"medium":850,"full":false}},"url":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager","assets":{"input.em-uploader":{"js":{"em-uploader":{"url":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/em-uploader.js?v=7.4.3","event":"em_uploader_ready"}}},".em-event-editor":{"js":{"event-editor":{"url":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/events-manager-event-editor.js?v=7.4.3","event":"em_event_editor_ready"}},"css":{"event-editor":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/css/events-manager-event-editor.min.css?v=7.4.3"}},".em-recurrence-sets, .em-timezone":{"js":{"luxon":{"url":"luxon/luxon.js?v=7.4.3","event":"em_luxon_ready"}}},".em-booking-form, #em-booking-form, .em-booking-recurring, .em-event-booking-form":{"js":{"em-bookings":{"url":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/bookingsform.js?v=7.4.3","event":"em_booking_form_js_loaded"},"em-signature":{"url":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager-pro/includes/js/em-signature.js?v=1785804455","requires":"em-bookings"}},"css":{"em-signature":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager-pro/includes/css/em-signature.min.css?v=1785804455"}},"#em-opt-archetypes":{"js":{"archetypes":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/admin-archetype-editor.js?v=7.4.3","archetypes_ms":"https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/admin-archetypes.js?v=7.4.3","qs":"qs/qs.js?v=7.4.3"}}},"cached":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https://www.ifmaatlanta.org/wp-admin/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","booking_offset":"30","bookings":{"submit_button":{"text":{"default":"Send your booking","free":"Send your booking","payment":"Send your booking","processing":"Processing ..."}},"update_listener":""},"bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","cache":"1","api_nonce":"b052dafbdb","signature":{"hint":"Sign here","typeName":"Type your full name","yourName":"Your name","clear":"Clear","cancel":"Cancel","apply":"Apply signature","version":"Document version","draw":"Draw","type":"Type","redraw":"Please sign again"},"attendance_api_url":"https://www.ifmaatlanta.org/wp-json/events-manager/v1/attendance"};
+//# sourceURL=events-manager-js-extra
+</script>
+<script id="events-manager-js" src="https://www.ifmaatlanta.org/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=7.4.3"></script>
+<script id="events-manager-pro-js" src="https://www.ifmaatlanta.org/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=3.9.1"></script>
+<script async data-wp-strategy="async" id="tp-tools-js" data-jetpack-boost="ignore" src="//www.ifmaatlanta.org/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.58"></script>
+<script async data-wp-strategy="async" id="sr7-js" data-jetpack-boost="ignore" src="//www.ifmaatlanta.org/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.58"></script>
+<script id="jquery-ui-menu-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/menu.min.js?ver=1.14.2"></script>
+<script id="wp-dom-ready-js" src="https://www.ifmaatlanta.org/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-hooks-js" src="https://www.ifmaatlanta.org/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://www.ifmaatlanta.org/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://www.ifmaatlanta.org/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="jquery-ui-autocomplete-js" src="https://www.ifmaatlanta.org/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.14.2"></script>
+<script id="wpbdp-zipcodesearch-js-js" src="https://www.ifmaatlanta.org/wp-content/plugins/business-directory-zipcodesearch/resources/zipcodesearch.js?ver=5.4.3"></script>
+<script id="dt-above-fold-js-extra">
+var dtLocal = {"themeUrl":"https://www.ifmaatlanta.org/wp-content/themes/dt-the7","passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading...","loadMore":"Load more"},"postID":null,"ajaxurl":"https://www.ifmaatlanta.org/wp-admin/admin-ajax.php","REST":{"baseUrl":"https://www.ifmaatlanta.org/wp-json/the7/v1","endpoints":{"sendMail":"/send-mail"}},"contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy.","fillTheCaptchaError":"Please, fill the captcha."},"captchaSiteKey":"","ajaxNonce":"65fbb87ab4","pageData":"","themeSettings":{"smoothScroll":"off","lazyLoading":false,"desktopHeader":{"height":180},"ToggleCaptionEnabled":"disabled","ToggleCaption":"Navigation","floatingHeader":{"showAfter":94,"showMenu":true,"height":150,"logo":{"showLogo":true,"html":"\u003Cimg class=\" preload-me\" src=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025-2.png\" srcset=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025-2.png 250w\" width=\"250\" height=\"60\"   sizes=\"250px\" alt=\"Atlanta Chapter of the International Facility Management Association\" /\u003E","url":"https://www.ifmaatlanta.org/"}},"topLine":{"floatingTopLine":{"logo":{"showLogo":false,"html":""}}},"mobileHeader":{"firstSwitchPoint":992,"secondSwitchPoint":778,"firstSwitchPointHeight":60,"secondSwitchPointHeight":60,"mobileToggleCaptionEnabled":"disabled","mobileToggleCaption":"Menu"},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"\u003Cimg class=\" preload-me\" src=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png\" srcset=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png 500w\" width=\"500\" height=\"120\"   sizes=\"500px\" alt=\"Atlanta Chapter of the International Facility Management Association\" /\u003E"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"\u003Cimg class=\" preload-me\" src=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png\" srcset=\"https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png 500w\" width=\"500\" height=\"120\"   sizes=\"500px\" alt=\"Atlanta Chapter of the International Facility Management Association\" /\u003E"}},"sidebar":{"switchPoint":992},"boxedWidth":"1280px"},"VCMobileScreenWidth":"768"};
+var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Share on X","pinterest":"Pin it","linkedin":"Share on Linkedin","whatsapp":"Share on Whatsapp"},"overlayOpacity":"85"};
+//# sourceURL=dt-above-fold-js-extra
+</script>
+<script id="dt-above-fold-js" src="https://www.ifmaatlanta.org/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=14.4.0.1"></script>
+<script></script><link rel="https://api.w.org/" href="https://www.ifmaatlanta.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ifmaatlanta.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1" />
+
+	<script type="text/javascript">var ajaxurl = 'https://www.ifmaatlanta.org/wp-admin/admin-ajax.php';</script>
+
+		<style type="text/css">
+			.em-coupon-message { display:inline-block; margin:5px 0 0; }
+			.em-coupon-success { color:green; }
+			.em-coupon-error { color:red; }
+			.em-cart-coupons-form .em-coupon-message{ margin:0 20px 0 0; }
+			.em-coupon-error .em-icon {
+				background-color: red;
+				-webkit-mask-image: var(--icon-cross-circle);
+				mask-image: var(--icon-cross-circle);
+			}
+			.em-coupon-success .em-icon {
+				background-color: green;
+				-webkit-mask-image: var(--icon-checkmark-circle);
+				mask-image: var(--icon-checkmark-circle);
+			}
+			.em-coupon-code.loading {
+				background: var(--icon-spinner) calc(100% - 10px) 50% no-repeat;
+				background-size: 20px;
+			}
+		</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<meta name="generator" content="Powered by Slider Revolution 6.7.58 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://www.ifmaatlanta.org/wp-content/uploads/2023/10/favicon.jpg" type="image/jpeg" sizes="16x16"/><script data-jetpack-boost="ignore">
+	window._tpt			??= {};
+	window.SR7			??= {};
+	_tpt.R				??= {};
+	_tpt.R.fonts		??= {};
+	_tpt.R.fonts.customFonts??= {};
+	SR7.devMode			=  false;
+	SR7.F 				??= {};
+	SR7.G				??= {};
+	SR7.LIB				??= {};
+	SR7.E				??= {};
+	SR7.E.gAddons		??= {};
+	SR7.E.php 			??= {};
+	SR7.E.nonce			= '34c2cd5d73';
+	SR7.E.ajaxurl		= 'https://www.ifmaatlanta.org/wp-admin/admin-ajax.php';
+	SR7.E.resturl		= 'https://www.ifmaatlanta.org/wp-json/';
+	SR7.E.slug_path		= 'revslider/revslider.php';
+	SR7.E.slug			= 'revslider';
+	SR7.E.plugin_url	= 'https://www.ifmaatlanta.org/wp-content/plugins/revslider/';
+	SR7.E.wp_plugin_url = 'https://www.ifmaatlanta.org/wp-content/plugins/';
+	SR7.E.revision		= '6.7.58';
+	SR7.E.fontBaseUrl	= '';
+	SR7.G.breakPoints 	= [1240,1024,778,480];
+	SR7.G.fSUVW 		= false;
+	SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers','migration'];
+	SR7.E.libs 			= ['WEBGL'];
+	SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
+	SR7.E.resources		= {};
+	SR7.E.ytnc			= false;
+	SR7.JSON			??= {};
+/*! Slider Revolution 7.0 - Page Processor */
+!function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 6.7.40",_tpt.getMobileZoom=()=>_tpt.is_mobile?document.documentElement.clientWidth/window.innerWidth:1,_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=_tpt.getMobileZoom()*window.innerWidth-(_tpt.scrollBar||"prepare"==t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=_tpt.getMobileZoom()*window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},_tpt.getResponsiveLevel=function(t,e){return SR7.G.fSUVW?_tpt.closestGE(t,window.innerWidth):_tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise((i,n)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,i();else{const o=document.createElement("link");o.rel="stylesheet";let l="text",r="css";o["type"]=l+"/"+r,o.href=t,o.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,i()},o.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,n(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(o)}})},_tpt.addContainer=function(t){const{tag:e="div",id:s,class:i,datas:n,textContent:o,iHTML:l}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),i&&""!==i&&(r.className=i),n)for(const[t,e]of Object.entries(n))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return o&&(r.textContent=o),l&&(r.innerHTML=l),r},_tpt.collector=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some(t=>t.href.split("?")[0]===e)},_tpt.preloader={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:i}=e;if(s<0||"off"==s)return;const n=`preloader_${s}`;let o=this.preloaderTemplates.get(n);o||(o=this.build(s,i),this.preloaderTemplates.set(n,o)),this.requests.has(t)||this.requests.set(t,{count:0});const l=this.requests.get(t);clearTimeout(l.timer),l.count++,1===l.count&&(l.timer=setTimeout(()=>{l.preloaderClone=o.cloneNode(!0),l.anim&&l.anim.kill(),void 0!==_tpt.gsap?l.anim=_tpt.gsap.fromTo(l.preloaderClone,1,{opacity:0},{opacity:1}):l.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(l.preloaderClone)},150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const i=parseInt(t);if(t="prlt"+i,isNaN(i))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+i+".css","preloader_"+t),isNaN(i)||i<6){const n=`background-color:${e}`,o=1===i||2==i?n:"",l=3===i||4==i?n:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach(t=>r.add({tag:"div",class:t,datas:{style:l}}));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:o}});return r.append(d),d}{let n={};if(7===i){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map(t=>t.trim()),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(n.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===i&&(n.style=`background:${e}`);const o=[10,0,4,2,5,9,0,4,4,2][i-6],l=_tpt.collector(),r=l.add({tag:"div",class:"sr7-prl-inner",datas:n});Array.from({length:o}).forEach(()=>r.appendChild(l.add({tag:"span",datas:{style:`background:${e}`}})));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return l.append(d),d}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.querySelector("sr7-module#"+t.id),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],"carousel"==t.type&&(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),void 0===t.plType||"off"===t.plType||SR7.preLoader.state(t.id)&&SR7.preLoader.state(t.id,e.c.module)||SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let i=SR7.M[t];var n=i.settings.size.fullWidth?_tpt.winW:i.c.module.parentNode.offsetWidth;n=0===n||isNaN(n)?_tpt.winW:n;let o=i.settings.size.width[i.LEV]||i.settings.size.width[i.LEV++]||i.settings.size.width[i.LEV--]||n,l=i.settings.size.height[i.LEV]||i.settings.size.height[i.LEV++]||i.settings.size.height[i.LEV--]||0,r=i.settings.size.minHeight[i.LEV]||i.settings.size.minHeight[i.LEV++]||i.settings.size.minHeight[i.LEV--]||0;if(l="auto"==l?0:l,l=parseInt(l),"carousel"!==e.type&&(n-=parseInt(e.onw??0)||0),i.MP=!i.settings.size.fullWidth&&n<o||_tpt.winW<o?Math.min(1,n/o):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=i.MP*Math.max(l,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),i.c.adjuster.style.height=e.newh+"px",i.c.module.style.height=e.newh+"px",i.c.content.style.height=e.newh+"px",i.states.heightPrepared=!0,i.dims??={},i.dims.moduleRect=i.c.module.getBoundingClientRect(),i.c.content.style.left="-"+i.dims.moduleRect.left+"px",!i.settings.size.fullWidth)return s&&requestAnimationFrame(()=>{n!==i.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame(function(){s&&requestAnimationFrame(()=>{n!==i.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})}),i.earlyResizerFunction||(i.earlyResizerFunction=function(){requestAnimationFrame(function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)})},window.addEventListener("resize",i.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.bgStyle=async(t,e,s,i,n)=>{const o=SR7.M[t];if((e=e??o.settings).fixed&&!o.c.module.classList.contains("sr7-top-fixed")&&(o.c.module.classList.add("sr7-top-fixed"),o.c.module.style.position="fixed",o.c.module.style.width="100%",o.c.module.style.top="0px",o.c.module.style.left="0px",o.c.module.style.pointerEvents="none",o.c.module.style.zIndex=5e3,o.c.content.style.pointerEvents="none"),null==o.c.bgcanvas){let t=document.createElement("sr7-module-bg"),l=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch(t){return}let r="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(r).includes("grad")?"":"Color")]=r,("transparent"!==r||n)&&(l=!0),o.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&(t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position,t.style.backgroundRepeat=""==e.bg.image.repeat||null==e.bg.image.repeat?"no-repeat":e.bg.image.repeat,l=!0),!l)return;o.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(s&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":i&&(t.style.width=o.c.module.offsetWidth+"px"),e.sbt?.use?o.c.content.appendChild(o.c.bgcanvas):o.c.module.appendChild(o.c.bgcanvas)}o.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":("carousel"==e.type?o.dims.module.h:o.dims.content.h)+"px",o.c.bgcanvas.style.left=!s&&e.sbt?.use||o.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(o?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e){const s=SR7.M[t];let i=s.settings;s?.c?.bgcanvas&&(i.size.fullWidth?s.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":preparing&&(s.c.bgcanvas.style.width=s.c.module.offsetWidth+"px"))},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px","carousel"==e.type&&(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,i=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+i,left:e.left+s}},_tpt.fillArray=function(t,e){let s,i;t=Array.isArray(t)?t:[t];let n=Array(e),o=t.length;for(i=0;i<t.length;i++)n[i+(e-o)]=t[i],null==s&&"#"!==t[i]&&(s=t[i]);for(let t=0;t<e;t++)void 0!==n[t]&&"#"!=n[t]||(n[t]=s),s=n[t];return n},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,i=-1;for(let n=0;n<t.length;n++)t[n]-1>=e&&t[n]-1-e<s&&(s=t[n]-1-e,i=n);return++i}}();</script>
+<style id="wp-custom-css">
+.upper
+{
+	text-transform: uppercase;
+}
+</style>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style id='the7-custom-inline-css' type='text/css'>
+.sub-nav .menu-item i.fa,
+.sub-nav .menu-item i.fas,
+.sub-nav .menu-item i.far,
+.sub-nav .menu-item i.fab {
+	text-align: center;
+	width: 1.25em;
+}
+.fa-2x {
+    font-size: 24px !important;
+}
+@media (min-width: 992px){
+.col-md-2 {
+    width: 12.666667% !important;
+}
+}
+.footer .widget_categories li a, .footer .widget_meta a, .footer .blogroll a, .footer .widget_archive li a, .footer .widget_recent_entries a, .footer .widget_recent_comments a, .footer .widget_links a, .footer .items-grid a, .footer .recent-posts a, .footer .widget:not(.widget_icl_lang_sel_widget) .recent-posts a, .footer .contact-info .secondary-color, .footer .widget_nav_menu a, .footer .tagcloud a, .footer .widget_pages a, .footer a.rsswidget, .footer .textwidget a {
+    color: #ffffff;
+    padding: 5px 0;
+}
+.sidebar .widget, .sidebar-content .widget, .elementor-widget-sidebar .widget, .content .sidebar-content:not(.solid-bg):not(.bg-under-widget) .widget:first-child, .elementor-widget-sidebar .widget:first-child, .sidebar:not(.solid-bg):not(.bg-under-widget) .widget:first-child  {
+    border: 1px solid var(--the7-divider-color);
+    color: #8b8d94;
+    padding: 20px;
+}
+.stripe .mec-event-footer .mec-booking-button, .mec-event-footer .mec-booking-button *, .sidebar .mec-event-footer .mec-booking-button, .sidebar .widget .mec-event-footer .mec-booking-button, .sidebar-content .widget .mec-event-footer .mec-booking-button, .footer .mec-event-footer .mec-booking-button, .stripe .dt-form button, .dt-form button *, .sidebar .dt-form button, .sidebar .widget .dt-form button, .sidebar-content .widget .dt-form button, .footer .dt-form button, .stripe #page .widget .dt-form .dt-btn, #page .widget .dt-form .dt-btn *, .sidebar #page .widget .dt-form .dt-btn, .sidebar .widget #page .widget .dt-form .dt-btn, .sidebar-content .widget #page .widget .dt-form .dt-btn, .footer #page .widget .dt-form .dt-btn, .stripe .widget .dt-form .dt-btn, .widget .dt-form .dt-btn *, .sidebar .widget .dt-form .dt-btn, .sidebar .widget .widget .dt-form .dt-btn, .sidebar-content .widget .widget .dt-form .dt-btn, .footer .widget .dt-form .dt-btn, .stripe input[type="reset"], input[type="reset"] *, .sidebar input[type="reset"], .sidebar .widget input[type="reset"], .sidebar-content .widget input[type="reset"], .footer input[type="reset"], .stripe .wpcf7-submit, .wpcf7-submit *, .sidebar .wpcf7-submit, .sidebar .widget .wpcf7-submit, .sidebar-content .widget .wpcf7-submit, .footer .wpcf7-submit, .stripe .nsu-submit, .nsu-submit *, .sidebar .nsu-submit, .sidebar .widget .nsu-submit, .sidebar-content .widget .nsu-submit, .footer .nsu-submit, .stripe .dt-wc-btn, .dt-wc-btn *, .sidebar .dt-wc-btn, .sidebar .widget .dt-wc-btn, .sidebar-content .widget .dt-wc-btn, .footer .dt-wc-btn, .stripe input#place_order, input#place_order *, .sidebar input#place_order, .sidebar .widget input#place_order, .sidebar-content .widget input#place_order, .footer input#place_order, .stripe .woocommerce-Reviews .submit:not(.box-button), .woocommerce-Reviews .submit:not(.box-button) *, .sidebar .woocommerce-Reviews .submit:not(.box-button), .sidebar .widget .woocommerce-Reviews .submit:not(.box-button), .sidebar-content .widget .woocommerce-Reviews .submit:not(.box-button), .footer .woocommerce-Reviews .submit:not(.box-button), .stripe input.button, input.button *, .sidebar input.button, .sidebar .widget input.button, .sidebar-content .widget input.button, .footer input.button, .stripe input[name="save_address"], input[name="save_address"] *, .sidebar input[name="save_address"], .sidebar .widget input[name="save_address"], .sidebar-content .widget input[name="save_address"], .footer input[name="save_address"], .stripe .wc-layout-list .woo-buttons a, .wc-layout-list .woo-buttons a *, .sidebar .wc-layout-list .woo-buttons a, .sidebar .widget .wc-layout-list .woo-buttons a, .sidebar-content .widget .wc-layout-list .woo-buttons a, .footer .wc-layout-list .woo-buttons a, .stripe .post-password-form input[type="submit"], .post-password-form input[type="submit"] *, .sidebar .post-password-form input[type="submit"], .sidebar .widget .post-password-form input[type="submit"], .sidebar-content .widget .post-password-form input[type="submit"], .footer .post-password-form input[type="submit"], .stripe .mc4wp-form input[type="submit"], .mc4wp-form input[type="submit"] *, .sidebar .mc4wp-form input[type="submit"], .sidebar .widget .mc4wp-form input[type="submit"], .sidebar-content .widget .mc4wp-form input[type="submit"], .footer .mc4wp-form input[type="submit"], .stripe div.mc4wp-form button[type="submit"], div.mc4wp-form button[type="submit"] *, .sidebar div.mc4wp-form button[type="submit"], .sidebar .widget div.mc4wp-form button[type="submit"], .sidebar-content .widget div.mc4wp-form button[type="submit"], .footer div.mc4wp-form button[type="submit"], .stripe .tml-submit-wrap input[type="submit"], .tml-submit-wrap input[type="submit"] *, .sidebar .tml-submit-wrap input[type="submit"], .sidebar .widget .tml-submit-wrap input[type="submit"], .sidebar-content .widget .tml-submit-wrap input[type="submit"], .footer .tml-submit-wrap input[type="submit"], .stripe .wpcf7-form input[type="submit"], .wpcf7-form input[type="submit"] *, .sidebar .wpcf7-form input[type="submit"], .sidebar .widget .wpcf7-form input[type="submit"], .sidebar-content .widget .wpcf7-form input[type="submit"], .footer .wpcf7-form input[type="submit"], .stripe input[type="submit"]:not([name="update_cart"]), input[type="submit"]:not([name="update_cart"]) *, .sidebar input[type="submit"]:not([name="update_cart"]), .sidebar .widget input[type="submit"]:not([name="update_cart"]), .sidebar-content .widget input[type="submit"]:not([name="update_cart"]), .footer input[type="submit"]:not([name="update_cart"]), .stripe .woocommerce-widget-layered-nav-dropdown__submit, .woocommerce-widget-layered-nav-dropdown__submit *, .sidebar .woocommerce-widget-layered-nav-dropdown__submit, .sidebar .widget .woocommerce-widget-layered-nav-dropdown__submit, .sidebar-content .widget .woocommerce-widget-layered-nav-dropdown__submit, .footer .woocommerce-widget-layered-nav-dropdown__submit, .stripe .give-btn.give-btn-reveal, .give-btn.give-btn-reveal *, .sidebar .give-btn.give-btn-reveal, .sidebar .widget .give-btn.give-btn-reveal, .sidebar-content .widget .give-btn.give-btn-reveal, .footer .give-btn.give-btn-reveal, .stripe .give-submit.give-btn, .give-submit.give-btn *, .sidebar .give-submit.give-btn, .sidebar .widget .give-submit.give-btn, .sidebar-content .widget .give-submit.give-btn, .footer .give-submit.give-btn, .stripe .wc-block-filter-submit-button, .wc-block-filter-submit-button *, .sidebar .wc-block-filter-submit-button, .sidebar .widget .wc-block-filter-submit-button, .sidebar-content .widget .wc-block-filter-submit-button, .footer .wc-block-filter-submit-button {
+    /* color: var(--the7-btn-color); */
+    /* color: #ffffff; */
+    border: none;
+}
+
+
+.dt-btn:not(.btn-custom-style) *{
+    color: var(--the7-btn-color) !important;
+}
+.custom-btn-hover-color .dt-btn:not(.custom-btn-color):not(.accent-btn-hover-color):not(.btn-shortcode):hover > span, .custom-btn-hover-color .dt-btn:not(.custom-btn-color):not(.accent-btn-hover-color):not(.btn-shortcode):hover > .text-wrap * {
+    background: none;
+    color: var(--the7-btn-hover-color) !important;
+}
+.em.pixelbones a {
+	color: #ef494b !important;
+}
+a, a:hover {
+    color: var(--the7-links-color) !important;
+}
+
+element.style {
+}
+.fa-2x {
+    font-size: 2em;
+    color: #ef494b;
+}
+.page-id-1003 #main {
+    padding: 0px 0 70px 0;
+}
+blockquote:not(.wp-block-quote):not(.elementor-blockquote) {
+    color: #494949;
+    font: var(--the7-h5-font);
+    text-transform: none;
+}
+blockquote:not(.elementor-blockquote), blockquote:not(.elementor-blockquote) *, .shortcode-pullquote, .wp-block-quote cite {
+    color: #494949;
+}
+.nsmw-div-617 .border-box {
+
+    border: 0px !important;
+
+}
+</style>
+</head>
+<body id="the7-body" class="bp-legacy error404 wp-embed-responsive wp-theme-dt-the7 the7-core-ver-2.7.13 dt-responsive-on right-mobile-menu-close-icon ouside-menu-close-icon mobile-hamburger-close-bg-enable mobile-hamburger-close-bg-hover-enable  fade-medium-mobile-menu-close-icon fade-medium-menu-close-icon srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-sticky phantom-disable-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on no-avatars popup-message-style the7-ver-14.4.0.1 wpbdp-with-button-styles wpb-js-composer js-comp-ver-9.0.1 vc_responsive">
+
+<script type="text/javascript" id="bbp-swap-no-js-body-class">
+	document.body.className = document.body.className.replace( 'bbp-no-js', 'bbp-js' );
+</script>
+
+<!-- The7 14.4.0.1 -->
+
+<div id="page" >
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+<div class="masthead classic-header center logo-center widgets full-height dividers shadow-mobile-header-decoration small-mobile-menu-icon dt-parent-menu-clickable show-sub-menu-on-hover" >
+
+	<div class="top-bar full-width-line top-bar-line-hide">
+	<div class="top-bar-bg" ></div>
+	<div class="left-widgets mini-widgets"><div class="text-area show-on-desktop near-logo-first-switch in-menu-second-switch"><p>The premier, focused resource for professional development and innovative solutions in strategic facility management.</p>
+</div></div><div class="right-widgets mini-widgets"><div class="mini-nav show-on-desktop near-logo-first-switch in-menu-second-switch list-type-menu list-type-menu-first-switch list-type-menu-second-switch"><ul id="header_microwidget2-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2333 first depth-0"><a href='https://www.ifmaatlanta.org' data-level='1'><span class="menu-item-text"><span class="menu-text">Home</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027 depth-0"><a href='https://www.ifmaatlanta.org/contact-us/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contact Us</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5056 depth-0"><a href='http://foundation.ifma.org/' target='_blank' data-level='1'><span class="menu-item-text"><span class="menu-text">IFMA Foundation</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4812 last depth-0"><a href='https://www.ifmaatlanta.org/blog/' data-level='1'><span class="menu-item-text"><span class="menu-text">Blog</span></span></a></li> </ul><div class="menu-select"><span class="customSelect1"><span class="customSelectInner">Utility Menu</span></span></div></div></div></div>
+
+	<header class="header-bar" role="banner">
+
+		<div class="branding">
+	<div id="site-title" class="assistive-text">Atlanta Chapter of the International Facility Management Association</div>
+	<div id="site-description" class="assistive-text">resource for professional development and innovative solutions in strategic facility management</div>
+	<a class="" href="https://www.ifmaatlanta.org/"><img class=" preload-me" src="https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png" srcset="https://www.ifmaatlanta.org/wp-content/uploads/2025/07/Atlanta-Chapter-Rev-logo-7-9-2025.png 500w" width="500" height="120"   sizes="500px" alt="Atlanta Chapter of the International Facility Management Association" /></a><div class="mini-widgets"></div><div class="mini-widgets"></div></div>
+
+		<nav class="navigation">
+
+			<ul id="primary-menu" class="main-nav underline-decoration l-to-r-line"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4891 first has-children depth-0"><a href='https://www.ifmaatlanta.org/welcome/' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Welcome</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4829 first depth-1"><a href='https://www.ifmaatlanta.org/officers/' data-level='2'><span class="menu-item-text"><span class="menu-text">Executive Committee</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9899 depth-1"><a href='https://www.ifmaatlanta.org/committees/' data-level='2'><span class="menu-item-text"><span class="menu-text">Committees</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4831 depth-1"><a href='https://login.ifma.org/?redirecturl=https%3a%2f%2fengage.ifma.org%2fnetwork%2fmembers' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Membership Directory</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4832 depth-1"><a href='https://www.ifmaatlanta.org/membership/' data-level='2'><span class="menu-item-text"><span class="menu-text">Become a Member</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4835 depth-1"><a href='https://www.ifmaatlanta.org/wp-content/uploads/2026/06/IFMA-Org-Chart-2026-2027-Draft-rev-6-19-26.pdf' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">IFMA Atlanta Org Chart</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4869 depth-1"><a href='http://www.ifma.org/membership/join-today' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Join IFMA</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4838 has-children depth-0"><a href='#' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">What’s Happening</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4839 first depth-1"><a href='https://www.ifmaatlanta.org/newsletter/' data-level='2'><span class="menu-item-text"><span class="menu-text">Newsletter</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4840 depth-1"><a href='https://www.ifmaatlanta.org/blog/' data-level='2'><span class="menu-item-text"><span class="menu-text">Blog</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10351 depth-1"><a href='https://us-west-2.protection.sophos.com/?d=flickr.com&#038;u=aHR0cHM6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvNTMxNDM3MjRATjA1L2FsYnVtcw==&#038;i=NjQwOTQyMjdlZjNjYmUwZTEwNDRjNDBh&#038;t=TUhTSFAvUy85QTZPL0tBYUJUdzRJbFJxQ1ZidmtSbnlieHYxUU5wWVlnOD0=&#038;h=249491dfa1864184835b80c4b348cba0&#038;s=AVNPUEhUT0NFTkNSWVBUSVbrkEJS4w8b0lrjuj5GfJZ-' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Current Photos</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4841 depth-1"><a href='https://www.ifmaatlanta.org/photo-gallery/' data-level='2'><span class="menu-item-text"><span class="menu-text">Photo Gallery</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4844 depth-0"><a href='https://www.ifmaatlanta.org/events/' data-level='1'><span class="menu-item-text"><span class="menu-text">Calendar of Events</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5075 has-children depth-0"><a href='/business-directory/directorycategory/business-partner/' target='_blank' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Business Partners</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11094 first depth-1"><a href='https://www.ifmaatlanta.org/overview/' data-level='2'><span class="menu-item-text"><span class="menu-text">Overview and Benefits</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5454 depth-1"><a href='https://www.ifmaatlanta.org/buyers-guide/' data-level='2'><span class="menu-item-text"><span class="menu-text">Atlanta’s Choice Buyer’s Guide</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4857 has-children depth-0"><a href='#' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Professional Development</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4858 first has-children depth-1"><a href='https://www.ifmaatlanta.org/fm-resources/' data-level='2' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">FM Resources</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4947 first depth-2"><a href='https://www.ifmaatlanta.org/articles/' data-level='3'><span class="menu-item-text"><span class="menu-text">Articles</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4861 depth-1"><a href='https://www.ifmaatlanta.org/professional-development/' data-level='2'><span class="menu-item-text"><span class="menu-text">Educational Offerings</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12090 depth-1"><a href='https://www.ifmaatlanta.org/facility-manager-education-package/' data-level='2'><span class="menu-item-text"><span class="menu-text">FM Education Package</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11072 depth-1"><a href='https://www.ifmaatlanta.org/job-postings-2/' data-level='2'><span class="menu-item-text"><span class="menu-text">Job Postings</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4873 last depth-0"><a href='https://www.ifmaatlanta.org/buyers-guide/' data-level='1'><span class="menu-item-text"><span class="menu-text">Buyer’s Guide</span></span></a></li> </ul>
+			
+		</nav>
+
+	</header>
+
+</div>
+<div role="navigation" aria-label="Main Menu" class="dt-mobile-header mobile-menu-show-divider">
+	<div class="dt-close-mobile-menu-icon" aria-label="Close" role="button" tabindex="0"><div class="close-line-wrap"><span class="close-line"></span><span class="close-line"></span><span class="close-line"></span></div></div>	<ul id="mobile-menu" class="mobile-main-nav">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4891 first has-children depth-0"><a href='https://www.ifmaatlanta.org/welcome/' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Welcome</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4829 first depth-1"><a href='https://www.ifmaatlanta.org/officers/' data-level='2'><span class="menu-item-text"><span class="menu-text">Executive Committee</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9899 depth-1"><a href='https://www.ifmaatlanta.org/committees/' data-level='2'><span class="menu-item-text"><span class="menu-text">Committees</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4831 depth-1"><a href='https://login.ifma.org/?redirecturl=https%3a%2f%2fengage.ifma.org%2fnetwork%2fmembers' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Membership Directory</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4832 depth-1"><a href='https://www.ifmaatlanta.org/membership/' data-level='2'><span class="menu-item-text"><span class="menu-text">Become a Member</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4835 depth-1"><a href='https://www.ifmaatlanta.org/wp-content/uploads/2026/06/IFMA-Org-Chart-2026-2027-Draft-rev-6-19-26.pdf' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">IFMA Atlanta Org Chart</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4869 depth-1"><a href='http://www.ifma.org/membership/join-today' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Join IFMA</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4838 has-children depth-0"><a href='#' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">What’s Happening</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4839 first depth-1"><a href='https://www.ifmaatlanta.org/newsletter/' data-level='2'><span class="menu-item-text"><span class="menu-text">Newsletter</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4840 depth-1"><a href='https://www.ifmaatlanta.org/blog/' data-level='2'><span class="menu-item-text"><span class="menu-text">Blog</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10351 depth-1"><a href='https://us-west-2.protection.sophos.com/?d=flickr.com&#038;u=aHR0cHM6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvNTMxNDM3MjRATjA1L2FsYnVtcw==&#038;i=NjQwOTQyMjdlZjNjYmUwZTEwNDRjNDBh&#038;t=TUhTSFAvUy85QTZPL0tBYUJUdzRJbFJxQ1ZidmtSbnlieHYxUU5wWVlnOD0=&#038;h=249491dfa1864184835b80c4b348cba0&#038;s=AVNPUEhUT0NFTkNSWVBUSVbrkEJS4w8b0lrjuj5GfJZ-' target='_blank' data-level='2'><span class="menu-item-text"><span class="menu-text">Current Photos</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4841 depth-1"><a href='https://www.ifmaatlanta.org/photo-gallery/' data-level='2'><span class="menu-item-text"><span class="menu-text">Photo Gallery</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4844 depth-0"><a href='https://www.ifmaatlanta.org/events/' data-level='1'><span class="menu-item-text"><span class="menu-text">Calendar of Events</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5075 has-children depth-0"><a href='/business-directory/directorycategory/business-partner/' target='_blank' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Business Partners</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11094 first depth-1"><a href='https://www.ifmaatlanta.org/overview/' data-level='2'><span class="menu-item-text"><span class="menu-text">Overview and Benefits</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5454 depth-1"><a href='https://www.ifmaatlanta.org/buyers-guide/' data-level='2'><span class="menu-item-text"><span class="menu-text">Atlanta’s Choice Buyer’s Guide</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4857 has-children depth-0"><a href='#' data-level='1' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">Professional Development</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4858 first has-children depth-1"><a href='https://www.ifmaatlanta.org/fm-resources/' data-level='2' aria-haspopup='true' aria-expanded='false'><span class="menu-item-text"><span class="menu-text">FM Resources</span></span></a><ul class="sub-nav level-arrows-on" role="group"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4947 first depth-2"><a href='https://www.ifmaatlanta.org/articles/' data-level='3'><span class="menu-item-text"><span class="menu-text">Articles</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4861 depth-1"><a href='https://www.ifmaatlanta.org/professional-development/' data-level='2'><span class="menu-item-text"><span class="menu-text">Educational Offerings</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12090 depth-1"><a href='https://www.ifmaatlanta.org/facility-manager-education-package/' data-level='2'><span class="menu-item-text"><span class="menu-text">FM Education Package</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11072 depth-1"><a href='https://www.ifmaatlanta.org/job-postings-2/' data-level='2'><span class="menu-item-text"><span class="menu-text">Job Postings</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4873 last depth-0"><a href='https://www.ifmaatlanta.org/buyers-guide/' data-level='1'><span class="menu-item-text"><span class="menu-text">Buyer’s Guide</span></span></a></li> 	</ul>
+	<div class='mobile-mini-widgets-in-menu'></div>
+</div>
+
+		<div class="page-title title-center solid-bg breadcrumbs-off page-title-responsive-enabled">
+			<div class="wf-wrap">
+
+				<div class="page-title-head hgroup"><h1 >Page not found</h1></div>			</div>
+		</div>
+
+		
+
+<div id="main" class="sidebar-none sidebar-divider-vertical">
+
+	
+	<div class="main-gradient"></div>
+	<div class="wf-wrap">
+	<div class="wf-container-main">
+
+	
+
+	<!-- Content -->
+	<div id="content" class="content" role="main" style="min-height: 500px; text-align:center">
+
+		<article id="post-0" class="post error404 not-found">
+
+			<h1 class="entry-title">Oops! That page can&rsquo;t be found.</h1><p>It looks like nothing was found at this location. Try using the search box below:</p><form class="searchform" role="search" method="get" action="https://www.ifmaatlanta.org/">
+    <label for="the7-search" class="screen-reader-text">Search:</label>
+    <input type="text" id="the7-search" class="field searchform-s" name="s" value="" placeholder="Type and hit enter &hellip;" />
+    <input type="submit" class="assistive-text searchsubmit" value="Go!" />
+    <a href="" class="submit"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><path d="M11.7,10.3c2.1-2.9,1.5-7-1.4-9.1s-7-1.5-9.1,1.4s-1.5,7,1.4,9.1c2.3,1.7,5.4,1.7,7.7,0h0c0,0,0.1,0.1,0.1,0.1l3.8,3.8c0.4,0.4,1,0.4,1.4,0s0.4-1,0-1.4l-3.8-3.9C11.8,10.4,11.8,10.4,11.7,10.3L11.7,10.3z M12,6.5c0,3-2.5,5.5-5.5,5.5S1,9.5,1,6.5S3.5,1,6.5,1S12,3.5,12,6.5z"/></svg></a>
+</form>
+
+		</article><!-- #post-0 .post .error404 .not-found -->
+
+	</div><!-- #content .site-content -->
+
+
+
+			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+
+	
+	</div><!-- #main -->
+
+	
+
+
+	<!-- !Footer -->
+	<footer id="footer" class="footer solid-bg"  role="contentinfo">
+
+		
+<!-- !Bottom-bar -->
+<div id="bottom-bar" class="solid-bg logo-left">
+    <div class="wf-wrap">
+        <div class="wf-container-bottom">
+
+			
+                <div class="wf-float-left">
+
+					Copyright © 2026 Atlanta Chapter of the International Facility Management Association. All Rights Reserved
+                </div>
+
+			
+            <div class="wf-float-right">
+
+				<div class="bottom-text-block"><p>Site Developed by <a href="http://www.pcawebdesign.com/" target="_blank">PCA Web Design</a></p>
+</div>
+            </div>
+
+        </div><!-- .wf-container-bottom -->
+    </div><!-- .wf-wrap -->
+</div><!-- #bottom-bar -->
+	</footer><!-- #footer -->
+
+<a href="#" class="scroll-top"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M11.7,6.3l-3-3C8.5,3.1,8.3,3,8,3c0,0,0,0,0,0C7.7,3,7.5,3.1,7.3,3.3l-3,3c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0L7,6.4
+	V12c0,0.6,0.4,1,1,1s1-0.4,1-1V6.4l1.3,1.3c0.4,0.4,1,0.4,1.4,0C11.9,7.5,12,7.3,12,7S11.9,6.5,11.7,6.3z"/>
+</svg><span class="screen-reader-text">Go to Top</span></a>
+
+</div><!-- #page -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/dt-the7/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script type="text/javascript">
+			(function() {
+				let targetObjectName = 'EM';
+				if ( typeof window[targetObjectName] === 'object' && window[targetObjectName] !== null ) {
+					Object.assign( window[targetObjectName], []);
+				} else {
+					console.warn( 'Could not merge extra data: window.' + targetObjectName + ' not found or not an object.' );
+				}
+			})();
+		</script>
+		<script id="dt-main-js" src="https://www.ifmaatlanta.org/wp-content/themes/dt-the7/js/main.min.js?ver=14.4.0.1"></script>
+<script id="bigger-picture-js" src="https://www.ifmaatlanta.org/wp-content/plugins/youtube-channel/assets/lib/bigger-picture/bigger-picture.min.js?ver=3.25.2"></script>
+<script id="youtube-channel-js" src="https://www.ifmaatlanta.org/wp-content/plugins/youtube-channel/assets/js/youtube-channel.min.js?ver=3.25.2"></script>
+<script id="dt-legacy-js" src="https://www.ifmaatlanta.org/wp-content/themes/dt-the7/js/legacy.min.js?ver=14.4.0.1"></script>
+<script id="jquery-mousewheel-js" src="https://www.ifmaatlanta.org/wp-content/themes/dt-the7/lib/jquery-mousewheel/jquery-mousewheel.min.js?ver=14.4.0.1"></script>
+<script id="the7-custom-scrollbar-js" src="https://www.ifmaatlanta.org/wp-content/themes/dt-the7/lib/custom-scrollbar/custom-scrollbar.min.js?ver=14.4.0.1"></script>
+<script id="the7-core-js" src="https://www.ifmaatlanta.org/wp-content/plugins/dt-the7-core/assets/js/post-type.min.js?ver=2.7.13"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.ifmaatlanta.org/wp-includes/js/wp-emoji-release.min.js?ver=7.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.ifmaatlanta.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script></script><!-- My YouTube Channel --><script type="text/javascript"></script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" title="Close (Esc)" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" title="Share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div> 
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)" aria-label="Previous (arrow left)">
+			</button>
+			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)" aria-label="Next (arrow right)">
+			</button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a38afff62eb675cd',t:'MTc4OTAwNzMxMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<<<END>>>
+<<<IFMA|Charlotte|https://www.ifmacharlotte.com/board.php|bytes=20273|OK>>>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta http-equiv="content-language" content="en" />
+<title>Welcome to IFMA Charlotte</title>
+<meta name="description" content="To guide and advance the professional development of members and all facility management professionals throughout their careers, providing the necessary tools and services to members in the Charlotte area." />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<link rel="preconnect" href="https://cdn.morphogine.net">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5" />
+<!--[if lt IE 9]>
+<script src="//cdn.morphogine.net/universal/scripts/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/jquery/plugins/bxslider/4.2.5/jquery.bxslider.min.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/jquery/plugins/jquery-fancybox.css?fv=1.3.4" />
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/jquery/plugins/DataTables/1.9.4/media/css/demo_page.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/jquery/plugins/DataTables/1.9.4/media/css/demo_table.css" />  
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/jquery/plugins/qtip/2.1.1/jquery.qtip.min.css" />  
+<link rel="stylesheet" type="text/css" href="//cdn.morphogine.net/universal/scripts/css/animate/1.0/animate.min.css" />	
+<link rel="stylesheet" type="text/css" href="/themes/v1/carousel.css?lc=200120011709" />
+<link rel="stylesheet" type="text/css" href="/themes/v1/owl.css?lc=200120011646" />
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/jquery.js?fv=3.3.1"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/jquery-alphanumeric.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/cycle/2.1.6/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/cycle/2.1.6/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/swfobject-22.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/wow/wow-1.0.2.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/owl/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/css-selectivizr/1.02/selectivizr-min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/jquery-menubox.js"></script>  
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/tinyNav/1.1/tinynav.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/jquery-fancybox.js?fv=1.3.4"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/jquery-media.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/qtip/2.1.1/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/jquery/plugins/DataTables/1.9.4/media/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/themes/v1/responsive.css?lc=190701120001" />
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" type="text/css" href="/themes/v1/responsive-ie78.css?lc=190701120001" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="/themes/v1/typography.css?lc=201214035010" />
+<link rel="stylesheet" type="text/css" href="/themes/v1/layout.css?lc=240404030444" />
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/webeditor/widgets.js"></script>
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" type="text/css" href="/themes/v1/ie78.css?lc=190701120001" />
+<script type="text/javascript" src="//cdn.morphogine.net/universal/scripts/css3-respond/1.1/respond.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/themes/v1/standard.js?lc=241016110727"></script>
+    <script type="text/javascript">
+      $(function() {
+        if ('/board.php' == '/') { $("ul#topnav > li a[href='/']").addClass("active"); $("ul#topnav > li a[href='/']").parent().addClass("active"); }
+        else { $("ul#topnav li a[href$='/board.php']").addClass("active"); $("ul#topnav li a[href$='/board.php']").parents("li").addClass("active").children("a").addClass("active"); }
+        $(".sidebar li a[href$='/board.php']").addClass("active"); $(".sidebar li a[href$='/board.php']").parents("li").addClass("active").children("a").addClass("active");
+      });
+    </script>
+<script type="text/javascript" src="/universal/scripts/standard.js?fc=01282026"></script>
+<script type="text/javascript" src="/universal/scripts/mediaplay.js"></script>
+<link rel="icon" href="/files/0D9C4456-4794-4D80-9EAB-8451ACE1BCE1--950DCF46-BCA8-4FB9-98B2-C627480020ED/favicon-32.png" />
+<link rel="shortcut icon" href="/files/0D9C4456-4794-4D80-9EAB-8451ACE1BCE1--950DCF46-BCA8-4FB9-98B2-C627480020ED/favicon-32.png" />
+<link rel="apple-touch-icon-precomposed" href="/files/0D9C4456-4794-4D80-9EAB-8451ACE1BCE1--59D7A784-A8EC-40F7-9AA1-DED1E5A3C15D/favicon-192.png">
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-137792794-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+  <body>
+    <div class="grid-container interior">
+      <div class="grid-100 mobile-grid-100 section-header grid-parent section-max">
+  <div class="logo">
+    <a href="/"><img src="/files/0D9C4456-4794-4D80-9EAB-8451ACE1BCE1--830C77EE-CF67-4BA6-BD4F-27A7B01C14A6/logo-web.png" alt="IFMA Charlotte" /></a>
+  </div>
+  <div class="section-header-login-bg">
+    <div class="section-header-login section-max">
+      <ul>
+        <li><a href="/members/">Member Login</a></li><li><a href="/membership/join-now/">Join Now</a></li>
+      </ul>
+      <ul class="invert-colors">
+        <li><a href="https://www.facebook.com/charlotteifma/" title="Connect on Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a href="https://www.linkedin.com/company/ifma-charlotte/" title="Connect on Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li><li><a href="" title="Connect on Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      </ul>    
+    </div>
+  </div>  
+</div>  
+<div class="grid-100 mobile-grid-100 grid-parent nav-bg bg-gradient">
+  <div class="grid-100 mobile-grid-100 grid-parent section-max">
+    <nav role="navigation" class="nav-top1 mobile-nav clearfix">
+      <i class="fa fa-bars fa-lg mobile-nav-burger"></i>
+		<ul id="topnav" class="clearfix ">
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4728" class=""><a  href="/" target="_self"><span>Home</span></a>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4693" class=""><a  href="#" onclick="return false;" target="_self"><span>About IFMA Charlotte</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4694" class=""><a  href="/about/who-we-are/" target="_self"><span>Who We Are</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4695" class=""><a  href="/about/meet-our-board/" target="_self"><span>Meet Our Board</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4725" class=""><a  href="/community/community-service/" target="_self"><span>Community Outreach</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4697" class=""><a  href="#" onclick="return false;" target="_self"><span>Committees</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4696" class=""><a  href="/about/committees/" target="_self"><span>Committees</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4698" class=""><a  href="/education/" target="_self"><span>Education</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-5421" class=""><a  href="/mentoring-program/" target="_self"><span>Mentoring Program</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4701" class=""><a  href="/education/fmp/" target="_self"><span>FMP</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4700" class=""><a  href="/education/sfp/" target="_self"><span>SFP</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4699" class=""><a  href="/education/cfm/" target="_self"><span>CFM</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4702" class=""><a  href="/education/chapter-programs-for-credentials/" target="_self"><span>Chapter Programs for Credentials</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4726" class=""><a  href="#" onclick="return false;" target="_self"><span>Events</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4703" class=""><a  href="/events/" target="_self"><span>Upcoming Events</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-6783" class=""><a  href="/ifmaclt-events/ifma-clay-shoot/" target="_self"><span>IFMA Clay Shoot</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-8238" class=""><a  href="/ifmaclt-events/summit-and-gala/" target="_self"><span>IFMA Gala 2027</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-8234" class=""><a  href="/ifmaclt-events/golf-tournament/" target="_self"><span>Golf Tournament</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4705" class=""><a  href="/ifmaclt-events/photo-gallery/" target="_self"><span>Photo Gallery</span></a>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4714" class=""><a  href="/community/job-opportunities/" target="_self"><span>Job Opportunities</span></a>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-6995" class=""><a  href="/membership" target="_self"><span>Membership</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-7793" class=""><a  href="/membership/" target="_self"><span>Membership Levels</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4713" class=""><a  href="/membership/join-now/" target="_self"><span>Join Now</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-6762" class=""><a  href="/membership/renew/" target="_self"><span>Renew Membership</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4706" class=""><a  href="/business-partners" target="_self"><span>Partnerships</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4707" class=""><a  href="/business-partners/2026-partnership-opportunities/" target="_self"><span>2026 Partnership Opportunities</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4708" class=""><a  href="/business-partners/partnership-form/" target="_self"><span>Partnership Form</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-7026" class=""><a  href="/business-partners/partner-spotlight/" target="_self"><span>Partner Spotlight</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4710" class=""><a  href="/membership" target="_self"><span>Benefits</span></a>
+			 <ul>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4711" class=""><a  href="/membership" target="_self"><span>Membership Benefits</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4715" class=""><a  href="https://login.ifma.org/?redirecturl=https%3a%2f%2fengage.ifma.org%2fnetwork%2fmembers" target="_blank"><span>Membership Directory</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4712" class=""><a  href="/membership/membership-faqs/" target="_self"><span>Membership FAQs</span></a>
+					</li>
+					<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4732" class=""><a  href="/buyers-guide/" target="_self"><span>Buyers Guide</span></a>
+					</li>
+			 </ul>
+		 </li>
+			<li id="menuitem6dcc6ae9-ad01-48ca-b790-3905d3a5b650-4717" class=""><a  href="/contact-us/" target="_self"><span>Contact Us</span></a>
+		 </li>
+		</ul>
+    </nav>  
+  </div>
+</div> 
+      <div class="grid-100 mobile-grid-100 grid-parent banner imageselect" data-imagefolder="71E1DD6B-52D5-4F0D-B82F-F92C1C4D218B" data-imageselectname="herobanner" style="background:url(/files/E9924E8E-37D4-4DD2-A9C4-6CA1BFC673A4--AC2625CC-F969-42C7-B7BD-E312C9CC4C8A/ifma-home-networking.jpg) center center; background-size:cover;">
+        <div class="gradient"></div>
+        <div class="page-heading">
+          <h1>Oops - Page not found</h1>
+			<ul class="breadcrumb" aria-label="breadcrumb">
+				<li><a href="/">Home</a></li>
+			</ul>
+			<div class="clear"></div>
+        </div>
+		<div class="bannercurve"></div>        
+      </div>
+      <div class="grid-100 mobile-grid-100 grid-parent main-content clearfix">
+<div class=" content-block-container ">
+<div class="morph-notfound">
+<p>The requested page could not be found.</p>
+</div>
+</div>
+      </div>
+      <div class="section-sponsors bg-gradient" style="text-align:center;padding:10px 10px 10px 10px;"><h3><span style="color:#ffffff;text-decoration:inherit;">Partners</span></h3></div>
+      <div class="full-width-column section-shading6 fwc-t-min fwc-b-min" style="padding-left:20px;padding-right:20px;">
+          <div class="row section-max content-block">
+              <div class="cell">
+					<ul class="sponsor-logos" id="folder-20DE3FC4-D880-4319-BAC9-37DB81E599A1" style=" ">
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--684561EA-5EC5-4766-9185-A992FBFB5994/endeavor-clean-logo-01.png?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--0633DF9D-1265-415B-B9CB-226851BCD06F/landscape-workshop-logo-cmyk-color.jpg?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--4E5C4143-DAC6-4994-9BC0-C8DF705FCD38/inovis-energy-horizontal-color-logo.jpg?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--53EEFDB3-CC40-43BF-9049-084065EA2A38/reliable-restoration-logo-1-registered-4-1.png?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--37D3C79F-01C4-493C-AC02-9742C3F6CBA8/crown-logo-resized-1.png?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--94687E0F-3872-4D5F-8BE8-A5B8B701EC5F/primary-logo-resource.png?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--D6420740-64D8-48C3-9070-AA407619997D/cintas-rftw-logo-cmyk.jpg?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--F1F91D77-9081-47F8-AC92-C06B62436059/budd-clr-logo-notag-300ppi-2.jpg?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--94F79A0B-CD96-495A-811E-8810DD41ECF2/kitchenguard-noservices-logo.png?lc=08132026105342"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--E1B3B34A-09D1-43C5-8931-3A8B5F28C7B9/servpro-cox.jpg?lc=02122026022722"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--73D00385-47B1-497E-BD0B-FF9BA5AA35B8/tg-logo-rgb.png?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--9A06D528-546F-453D-9BD1-DC063F84C5D1/belfor-restoration-image.jpg?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--6B8FA5F6-730B-4B0A-AE73-B1B48751B1FF/airtight-facilitech-final-01.jpg?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--847C3B1A-5D52-4C11-AD25-7EBFF2EC53D3/certpro-image-jpeg.jpg?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--B2CD6D00-CA3F-40ED-86AA-B97B03457E1E/bms-cat-logo.jpg?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--EA200B14-8ED8-4707-AF4A-1F1073F24FC0/royal-cup.jpg?lc=01072026100254"></li>
+						<li class="sponsor-logos-item"><img src="/files/20DE3FC4-D880-4319-BAC9-37DB81E599A1--5CC3516B-C47A-41D2-9C44-DE3CAF7AE34B/redlee.jpg?lc=01062026031314"></li>
+					</ul>
+              </div>
+          </div>
+      </div>      
+      <div class="grid-100 mobile-grid-100 section-footer">
+  <div class="grid-100 mobile-grid-100 grid-parent section-footer-top section-max">
+    <div class="grid-100 mobile-grid-100 grid-parent">
+      <div class="grid-35 mobile-grid-100 section-footer-content-contactinfo">
+			<div class="content-block  "  style="position:relative;">
+				<div>Charlotte Chapter of IFMA<br />
+E-mail: <a href="mailto:info@ifmacharlotte.com">info@ifmacharlotte.com</a></div>
+			</div>
+      </div>  
+      <div class="grid-40 mobile-grid-100 mobile-push-100">
+			<div class="content-block  "  style="position:relative;">
+				<div>&nbsp;</div>
+			</div>
+      </div>  
+      <div class="grid-25 mobile-grid-100 mobile-push-100">
+			<div class="content-block  "  style="position:relative;">
+				<div data-html-code="1"><h4 style="color:#fff;">Follow Us
+</h4><ul class="social-footer"><li><a href="tel:214-732-4505" title="Call Us"><i aria-hidden="true" class="fa fa-phone fa-rotate-90">
+      </i></a></li><li><a href="https://www.facebook.com/IFMAcharlotte" target="_blank" title="Connect on Facebook"><i class="fa fa-facebook">
+      </i></a></li><li><a href="https://www.linkedin.com/groups/2734910" target="_blank" title="Connect on Linkedin"><i class="fa fa-linkedin">
+      </i></a></li><li><a href="https://www.instagram.com/charlotteifma/" target="_blank" title="Connect on Instagram"><i class="fa fa-instagram">
+      </i></a></li></ul></div>
+			</div>
+      </div>  
+    </div>  
+  </div>      
+</div>
+<div class="grid-100 mobile-grid-100 grid-parent section-footer-bottom">
+  <div class="grid-100 mobile-grid-100 grid-parent section-footer-terms">
+    <div class="grid-100 mobile-grid-100">
+      <p style="line-height:1.8;">
+        Charlotte Chapter of the International Facility Management Association &copy; 2026, All rights reserved. &nbsp;|&nbsp; 
+        <a href="/legal/terms-of-use/#d14" rel="nofollow">Privacy Policy</a> &nbsp;|&nbsp; <a href="/legal/terms-of-use/" rel="nofollow">Terms Of Use</a>
+      </p>
+    </div>  
+  </div> 
+  <span id="poweredby"><a href="https://www.brynk.com" target="_blank">Powered by BRYNK&reg; Growth Platform</a></span>  
+</div>
+      <a href="#top" class="scrollup" aria-hidden="true" tabindex="-1"></a>
+    </div>
+  </body>
+</html>
+
+		
+	
+
+<<<END>>>
+<<<IFMA|Northern-Ohio|https://www.ifmanorthernohio.org/board.php|bytes=35692|OK>>>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Adds scripts in heads -->
+    <title>Page not found</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"><meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://www.ifmanorthernohio.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://www.ifmanorthernohio.org/comments/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='layerslider-css' href='https://www.ifmanorthernohio.org/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=8.4.1' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='jlbestblog_style-css' href='https://www.ifmanorthernohio.org/wp-content/themes/jl-best-blog/style.css?ver=064cdcb50d6b76ca87f6f1d0f124ea67' media='all' />
+<!--n2css--><!--n2js--><script id="jquery-core-js" src="https://www.ifmanorthernohio.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.ifmanorthernohio.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="layerslider-utils-js-extra">
+var LS_Meta = {"v":"8.4.1","fixGSAP":"1"};
+//# sourceURL=layerslider-utils-js-extra
+</script>
+<script id="layerslider-utils-js" src="https://www.ifmanorthernohio.org/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=8.4.1"></script>
+<script id="layerslider-js" src="https://www.ifmanorthernohio.org/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=8.4.1"></script>
+<script id="layerslider-transitions-js" src="https://www.ifmanorthernohio.org/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=8.4.1"></script>
+<script id="ls-user-transitions-js" src="https://www.ifmanorthernohio.org/wp-content/uploads/layerslider.custom.transitions.js?ver=1594323956"></script>
+<meta name="generator" content="Powered by LayerSlider 8.4.1 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="https://api.w.org/" href="https://www.ifmanorthernohio.org/wp-json/" />            <style>
+                .page-numbers {
+                    border: 1px solid #3ba54d;
+                }
+                .page-numbers:hover {
+                    background-color: #3ba54d;
+                    text-decoration: none;
+                }
+                .current {
+                    background-color: #3ba54d;
+                }
+                .dots:hover {
+                    background-color: unset;
+                }
+                .menu-item, .page-item, .page_item {
+                    color: #0003d3;
+                }
+                a {
+                    color: #3ba54d;
+                }
+                a:hover {
+                    color: #dd0f0f;
+                }
+                .wp-block-button .wp-block-button__link:not(.has-background) {
+                    color: #3ba54d;
+                    border: 2px solid #3ba54d;
+                    background-color: transparent;
+                }
+                .wp-block-button .wp-block-button__link:not(.has-background):hover {
+                    color: #0003d3;
+                    border: 2px solid #3ba54d;
+                    background-color: #3ba54d;
+                }
+                .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-text-color) {
+                    color: #3ba54d;
+                }
+                .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-text-color):hover {
+                    color: #0003d3;
+                    background-color: #3ba54d;
+                }
+                .menu-navigation .menu-item a:hover, .menu-navigation .page-item a:hover, .menu-navigation .page_item a:hover {
+                    color: #dd0f0f;
+                }
+                .section > h2 a:hover {
+                    color: #dd0f0f;
+                }
+                .current-menu-item > a {
+                    color: #dd0f0f;
+                }
+                .menu-navigation .sub-menu, .menu-navigation .children {
+                    background-color: #3ba54d;
+                }
+                .widget-title {
+                    border-bottom: 2px solid #3ba54d;
+                }
+                .submit {
+                    border: 2px solid #3ba54d;
+                    color: #3ba54d;
+                }
+                .submit:hover {
+                    background-color: #3ba54d;
+                    border: 2px solid transparent;
+                    color: #0003d3;
+                }
+                .submit:focus:hover {
+                    color: #3ba54d;
+                }
+                .read-more-button:hover {
+                    background-color: #3ba54d;
+                }
+                .post-categories a {
+                    border: 1px solid #3ba54d;
+                }
+                .post-categories a:hover {
+                    color: #0003d3;
+                    background-color: #3ba54d;
+                }
+                .wp-block-embed-twitter, .wp-block-embed-facebook {
+                    border-bottom: 2px solid #3ba54d;
+                }
+                                .main-content--section {
+                    max-width: 100%;
+                }
+                                blockquote,
+                .wp-block-quote,
+                .wp-block-separator {
+                    --jlbestblog-theme-color: #3ba54d                }
+            </style>
+        <link rel="icon" href="https://www.ifmanorthernohio.org/wp-content/uploads/cropped-logo-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.ifmanorthernohio.org/wp-content/uploads/cropped-logo-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.ifmanorthernohio.org/wp-content/uploads/cropped-logo-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.ifmanorthernohio.org/wp-content/uploads/cropped-logo-1-270x270.png" />
+<style id="wp-custom-css">
+.single-event mkdf-post-info-top {
+	display:none;
+}
+.tribe_events-template-default span.posted-on {
+	display: none;
+}
+.entry-date.published {
+	display: none;
+}
+</style>
+ 
+</head>
+<body data-rsssl=1 class="error404 wp-custom-logo wp-theme-jl-best-blog" >
+        <div class="main-container">
+        <a class="skip-link screen-reader-text" href="#main-content--section">
+        Skip to content</a>
+        <!-- displaying header image depends of page type -->
+                    <header class="header" style="background-image: url(https://www.ifmanorthernohio.org/wp-content/uploads/cropped-DSC_9101-3-3-e1548293102321.jpg)">
+                        <!-- Top menu desktop -->
+            <div class="top-menu container">
+                            </div>
+            <!-- mobile navigation -->
+            <div class="mobile-menu-container" style="background-color: #3ba54d">
+                <button class="mobile-menu-icon" id="mobile-menu-icon">
+                    <span class="mobile-menu-icon-strip"></span>
+                    <span class="mobile-menu-icon-strip"></span>
+                    <span class="mobile-menu-icon-strip"></span>
+                </button>
+            </div>
+            <nav id="navigation" class="menu-navigation mobile-navigation" style="background-color: #3ba54d">
+                <div class="main-menu-class"><ul id="menu-main-menu" class="menu"><li id="menu-item-1749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1749"><a href="https://www.ifmanorthernohio.org/">Home</a></li>
+<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/history/">History</a></li>
+	<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/bylaws/">Bylaws</a></li>
+	<li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-711"><a href="https://www.ifmanorthernohio.org/line-of-leadership/">Line of Leadership</a></li>
+</ul>
+</li>
+<li id="menu-item-526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-526"><a href="https://www.ifmanorthernohio.org/events/">Upcoming Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1242"><a href="https://www.ifmanorthernohio.org/events/">Current Events</a></li>
+	<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="https://www.ifmanorthernohio.org/events/past-events/">Past Events</a></li>
+</ul>
+</li>
+<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a href="https://www.ifmanorthernohio.org/news/">News/Photos</a></li>
+<li id="menu-item-515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="https://www.ifmanorthernohio.org/education/">Education</a></li>
+<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://www.ifmanorthernohio.org/membership/">Membership/Join</a></li>
+<li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://www.ifmanorthernohio.org/contact/">Leadership</a></li>
+</ul></div>            </nav>
+            <!-- headder title -->
+            <div class="header-title container">
+                <!-- displaying logo -->
+                                    <div class="logo">
+                        <a href="https://www.ifmanorthernohio.org/" class="custom-logo-link" rel="home"><img width="873" height="177" src="https://www.ifmanorthernohio.org/wp-content/uploads/Northern-Ohio-Chapter-1.png" class="custom-logo" alt="" decoding="async" fetchpriority="high" srcset="https://www.ifmanorthernohio.org/wp-content/uploads/Northern-Ohio-Chapter-1.png 873w, https://www.ifmanorthernohio.org/wp-content/uploads/Northern-Ohio-Chapter-1-300x61.png 300w, https://www.ifmanorthernohio.org/wp-content/uploads/Northern-Ohio-Chapter-1-768x156.png 768w" sizes="(max-width: 873px) 100vw, 873px" /></a>                    </div>
+                                <!-- displaying site title and description -->
+                <div class="title">
+                                        <a href="https://www.ifmanorthernohio.org" class="header-text">
+                            <div>
+                                <h1 style="color: #17299e"></h1>
+                                <h2 style="color: #17299e">Premier association for facility management professionals</h2>
+                            </div>   
+                        </a>                        
+                                    <!-- displaying search form -->
+                                </div>
+            </div>
+            <!-- desktop navigation -->
+            <nav class="menu-navigation desktop-navigation" style="background-color: #3ba54d">
+                <div class="main-menu-class"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1749"><a href="https://www.ifmanorthernohio.org/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-196"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/">About Us</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/history/">History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.ifmanorthernohio.org/about-the-facility-management-profession/bylaws/">Bylaws</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-711"><a href="https://www.ifmanorthernohio.org/line-of-leadership/">Line of Leadership</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-526"><a href="https://www.ifmanorthernohio.org/events/">Upcoming Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1242"><a href="https://www.ifmanorthernohio.org/events/">Current Events</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="https://www.ifmanorthernohio.org/events/past-events/">Past Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a href="https://www.ifmanorthernohio.org/news/">News/Photos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="https://www.ifmanorthernohio.org/education/">Education</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="https://www.ifmanorthernohio.org/membership/">Membership/Join</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://www.ifmanorthernohio.org/contact/">Leadership</a></li>
+</ul></div>            </nav>
+            <!-- display header image container depends on page type -->
+                                <div id="site-header" class="container"></div>
+                            <!-- Top menu mobile -->
+            <div class="top-menu top-menu-mobile container">
+                            </div>
+        </header>
+<div class="content">
+
+<div class="main-content container">
+    <!-- left column -->
+        <!-- main content -->
+    <main id="main-content--section"
+            class="main-content-section main-content-no-sidebars    ">
+        <h3 class="page-404">Sorry! This page was not found</h3>
+    </main>
+    <!-- right column -->
+    </div>
+
+
+</div>
+        <footer class="footer">
+            <div class="container">
+                <!-- Footer sidebars -->
+                <div class="footer-sidebars-section">
+                    <!-- sidebar 1 -->
+                                        <!-- sidebar 2 -->
+                                        <!-- sidebar 3 -->
+                                    </div>
+                <!-- social icons section -->
+                                    <div class="social-icon-section">
+                    <!-- facebook icon -->
+                                        <!-- instagram icon -->
+                                        <!-- twitter icon -->
+                                        <!-- pinterest icon -->
+                                        <!-- youtube icon -->
+                                        <!-- whatsapp icon -->
+                                        <!-- messenger icon -->
+                                        <!-- linkedin icon -->
+                                            <a href="https://www.google.com/url?sa=t&#038;rct=j&#038;q=&#038;esrc=s&#038;source=web&#038;cd=&#038;cad=rja&#038;uact=8&#038;ved=2ahUKEwiM2Iy93cDqAhVDaM0KHYF6CmwQFjACegQIAxAB&#038;url=https%3A%2F%2Fwww.ifmanorthernohio.org%2F&#038;usg=AOvVaw2NU0wRZXwHTQDTncSCwrpQ">
+                            <div class="social-icon-image linked-icon"> </div>
+                        </a>
+                                        </div>
+                      <!-- end of social icons section -->
+                <div class="footer-links-container">
+                                        <p class="footer-link"><small>Theme made by: </small><a href="https://love-coding.pl/en" class="footer-theme-link">JL</a><small>, 
+                    for:  <a href="https://www.ifmanorthernohio.org" class="footer-theme-link"></a></small></p>
+                </div>
+            </div>
+            
+        </footer>
+
+    </div>      <!-- main-container -->
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/jl-best-blog/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="jlbestblog_script-js" src="https://www.ifmanorthernohio.org/wp-content/themes/jl-best-blog/assets/js/script.js?ver=064cdcb50d6b76ca87f6f1d0f124ea67"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.ifmanorthernohio.org/wp-includes/js/wp-emoji-release.min.js?ver=064cdcb50d6b76ca87f6f1d0f124ea67"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.ifmanorthernohio.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+ 
+</body>
+</html>
+<<<END>>>
+<<<IFMA|Philadelphia|https://ifmaphilly.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Golden-Gate-SF|https://ifmagg.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|New-Jersey|https://ifmanewjersey.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Columbus|https://ifmacolumbus.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Portland|https://ifmaoregon.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|New-England|https://ifmane.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Richmond|https://ifmarichmond.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Greater-Triangle|https://ifmatriangle.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
+<<<IFMA|Westchester|https://ifmawestchester.starchapter.com/board.php|bytes=0|MANUAL>>>
+<<<END>>>
