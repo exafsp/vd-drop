@@ -1,0 +1,117 @@
+===CHAPTER	NY	Central New York Society of Healthcare Engineers	https://www.cnyshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NY	Eastern New York Society for Healthcare Engineering	https://enyshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NY	Genesee Valley Regional Assn for Healthcare Engineers	http://www.gvrahe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NY	Hospital Engineering Society of Greater New York	https://hesgny.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	MULTI	New England Healthcare Engineers Society	https://nehes.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	MD	Chesapeake Area Society of Healthcare Engineering	https://cashe.wildapricot.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NJ	Healthcare Facilities Mgmt Society of New Jersey	https://hfmsnj.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	PA	Healthcare Facility Managers Assn of Delaware Valley	https://hfmadv.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NJ	Healthcare Engineers Assn of Southern New Jersey	https://heasnj.com/index.html
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	DC	National Capital Region Society of Healthcare Engineers	https://www.ncr-she.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	PA	Pennsylvania Society for Health Facility Engineering	https://www.pshfe.com/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	KY	Kentucky Society of Healthcare Engineers	https://kshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	NC	North Carolina Healthcare Engineers Association	https://nchea.wildapricot.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	SC	South Carolina Society for Hospital Engineers	https://scha.org/membership-groups/sc-society-for-hospital-engineers-scshe/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	TN	Tennessee Healthcare Engineering Association	https://tennashe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	VA	Virginia Society of Healthcare Engineers	https://www.vshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	WV	West Virginia Society for Healthcare Engineering	https://wvshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	AL	Alabama Society for Healthcare Engineering	https://www.alashe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	FL	Florida Healthcare Engineering Association	https://www.fhea.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	GA	Georgia Assn for Healthcare Facility Managers	https://www.gha.org/gahfm
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	GA	Georgia Society for Healthcare Engineers	https://gashe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	IL	Central Illinois Chapter of Healthcare Engineers	https://www.ciche.online/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	IL	Healthcare Engineer Society of Northern Illinois	https://hesni.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	IN	Indiana Society for Healthcare Engineering	https://www.isheweb.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	MI	Michigan Society For Healthcare Engineering	https://mishe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	OH	Northern Ohio Society for Healthcare Engineering	https://www.noshe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	OH	Ohio Society for Health Care Facilities Management	https://www.ohiohospitals.org/member-opportunities/facilities-managers-oshfm
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	MI	Southeastern Michigan Society for Healthcare Engineering	https://www.smshehealthcare.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	IL	Southern Illinois Chapter for Healthcare Engineering	https://siche-online.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	OH	TriState Society of Healthcare Engineers	https://www.tshe-oki.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	IA	Iowa Society for Healthcare Engineering	https://www.ihaonline.org/members-groups/personal-membership-groups/iowa-society-for-healthcare-engineering/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	WI	Wisconsin Healthcare Engineering Association	https://www.whea.com/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	AR	Arkansas Association for Healthcare Engineering	https://www.aahe-arkansas.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	LA	Louisiana Society for Healthcare Facilities Mgmt	https://lashfm.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	OK	Oklahoma Association of Healthcare Engineers	https://www.oahe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	TX	Texas Association of Healthcare Facilities Mgmt	https://www.tahfm.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	CO	Colorado Assn of Healthcare Engineers & Directors	https://www.cahed.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	MO	Kansas City Area Healthcare Engineers	https://www.kcahe.org/
+EMAILS	
+TEXT	C:\Users\derek
+===CHAPTER	KS	Kansas Healthcare Engineers Association	https://kheaks.com/
+EMAILS	
+TEXT	C:\Users\derek
