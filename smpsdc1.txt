@@ -1,0 +1,9 @@
+OK|Amanda D'Luhy|c=550699833035|co=346107817666|assoc=200
+OK|Suzanne Swistak|c=550654813897|co=346097016551|assoc=200
+OK|Karen Cotton|c=550649410274|co=346097016552|assoc=200
+OK|Alexandra Helisek|c=550723981020|co=329642923712|assoc=200
+OK|Courtney Rozelle|c=550699833040|co=324667373263|assoc=200
+OK|Carolina McCombs|c=550727591645|co=329725673174|assoc=200
+OK|Stephanie Murdoch|c=550656616156|co=324963038918|assoc=200
+OK|Jennifer McGovern|c=550651212492|co=345884893906|assoc=200
+DONE loaded=8 duperr=0 of 8
