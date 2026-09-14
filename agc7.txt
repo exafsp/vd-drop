@@ -1,0 +1,5 @@
+agc7 CO firm-list build 2026-09-14T09:14:13
+OK Aaron Rieger | Vice President, Preconstruction Director | cid=552007367411 co=346267584244
+OK Alan Anderson | Director of Preconstruction | cid=552048329439 co=346170870467
+OK Jeff Krick | Chief Estimator | cid=552038142654 co=346279303888
+OK Dennis Richard | Vice President of Business Development | cid=552006411983 co=346282899187
