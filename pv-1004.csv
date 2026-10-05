@@ -1,0 +1,107 @@
+type,company_id,firm,domain,name,title,email,detail
+VERTICAL,350246346482,"R.E.D. Construction Services, LLC",redconstructionllc.org,,,,"luxury_residential:6"
+PERSONA,350246346485,"Stronghold Engineering Inc",strongholdengineering.com,"GENERAL CONSTRUCTION","REPAIR BACHELOR ENLISTED QUARTERS BLDG 2002 COMMUNICATIONS/ALTERNATE ENERGY UPGRADE",,https://strongholdengineering.com/projects
+VERTICAL,350246346485,"Stronghold Engineering Inc",strongholdengineering.com,,,,"higher_ed:14 healthcare:9 aviation:8"
+VERTICAL,350246346487,"GBA Builders LLC",gbateam.com,,,,"data_center_mission_critical:11 healthcare:3 higher_ed:3"
+VERTICAL,350246346488,"Bates Engineers/Contractors Inc",batesinc.com,,,,"aviation:11 data_center_mission_critical:8"
+VERTICAL,350246346489,"HGL Construction Inc",hglconstruction.com,,,,"higher_ed:3"
+VERTICAL,350246347450,"CM Construction Services, Inc.",cmconstructionservices.com,,,,"higher_ed:3"
+PERSONA,350342186709,"North Wind Construction Services LLC",northwindgrp.com,"Brady Bigelow","Chief Business Development Officer",,https://northwindgrp.com
+PERSONA,350342186709,"North Wind Construction Services LLC",northwindgrp.com,"Sr. Manager","Communications",,https://northwindgrp.com/leadership
+VERTICAL,350342186709,"North Wind Construction Services LLC",northwindgrp.com,,,,"higher_ed:5"
+VERTICAL,350342186712,"Sahara Palms Inc",saharapalmsinc.com,,,,"data_center_mission_critical:3"
+VERTICAL,350342186713,"Faith Enterprises Incorporated",faithenterprisesinc.com,,,,"healthcare:9"
+PERSONA,350342186715,"Brantley Construction Services, LLC",brantleyconstruction.com,"Rachel Rice","Estimator",,https://brantleyconstruction.com/team
+VERTICAL,350342186715,"Brantley Construction Services, LLC",brantleyconstruction.com,,,,"healthcare:4"
+PERSONA,350342186716,"VRD Contracting Inc",vrdcontracting.com,"Paul Schnabl","Chief Estimator",,https://vrdcontracting.com/leadership
+VERTICAL,350342186716,"VRD Contracting Inc",vrdcontracting.com,,,,"healthcare:3"
+VERTICAL,350249777902,"WU & Associates Inc",wuassociates.com,,,,"aviation:5 higher_ed:6"
+PERSONA,350249777904,"Danner Construction Co Inc",dannerinc.com,"BRYAN CHIRHART","BUSINESS DEVELOPMENT",,https://dannerinc.com/about
+VERTICAL,350249777905,"QBS Inc",qbs.com,,,,"healthcare:16"
+VERTICAL,350249777907,"Warden Construction Corporation",wardencc.com,,,,"higher_ed:10 healthcare:3"
+VERTICAL,350249777910,"Cherokee CRC LLC",cherokeenationbusinesses.com,,,,"healthcare:12"
+PERSONA,350249777911,"Salas O'brien Federal, LLC",salasobrien.com,"Eric Anest","SVP, Marketing & Communications",,https://salasobrien.com/our-team
+VERTICAL,350249777911,"Salas O'brien Federal, LLC",salasobrien.com,,,,"data_center_mission_critical:4 aviation:3"
+VERTICAL,350180550386,"Maverick Constructors, LLC",maverick-constructors.com,,,,"higher_ed:11"
+PERSONA,350180550388,"Team Construction LLC",teamconstruction.com,"EXPLORATORY SERVICES","PRECONSTRUCTION/CONCEPTUAL ESTIMATING",,https://teamconstruction.com
+VERTICAL,350180550388,"Team Construction LLC",teamconstruction.com,,,,"houses_of_worship:12"
+VERTICAL,350180550392,"Skytek LLC",skytek.com,,,,"higher_ed:4"
+PERSONA,350180550393,"Asrc Earthworks, LLC",asrcconstruction.com,"Tamara Young","Director of Pre-Construction",,https://asrcconstruction.com/leadership
+VERTICAL,350180550393,"Asrc Earthworks, LLC",asrcconstruction.com,,,,"healthcare:9 aviation:5 higher_ed:13"
+VERTICAL,350269741813,"KPH Construction Corp",kphconstruction.com,,,,"healthcare:5"
+PERSONA,350269741815,"Alessi-Keyes Construction Company",alessikeyes.com,"CATHERINE DIVITO","Marketing and Project Coordinator",,https://alessikeyes.com
+VERTICAL,350269741816,"TIP TOP Construction Corp",tiptopconstruction.net,,,,"higher_ed:5"
+VERTICAL,350269741817,"H. V. Collins Company, Inc",hvcollins.com,,,,"higher_ed:13"
+VERTICAL,350269742779,"Hasen Global, LLC.",hasenglobal.com,,,,"higher_ed:5"
+PERSONA,350269742780,"Sentinel Builders, LLC",sentinel-builders.com,"GENERAL CONSTRUCTION","PRE-CONSTRUCTION",,https://sentinel-builders.com
+VERTICAL,350269742780,"Sentinel Builders, LLC",sentinel-builders.com,,,,"healthcare:11"
+PERSONA,350463640287,"Cooper Tacia General Contracting Company",coopertacia.com,"Corey Palmer","VP BUSINESS DEVELOPMENT",corey.palmer@coopertacia.com,https://coopertacia.com/our-team
+PERSONA,350463640287,"Cooper Tacia General Contracting Company",coopertacia.com,"Sheryl Alberico","VP DESIGN & MARKETING",sheryl.alberico@coopertacia.com,https://coopertacia.com/our-team
+VERTICAL,350463640287,"Cooper Tacia General Contracting Company",coopertacia.com,,,,"healthcare:12 aviation:11"
+VERTICAL,350463640288,"CAM Management and Services, LLC",cammanagementandservices.com,,,,"data_center_mission_critical:3"
+VERTICAL,350463640293,"Ranco Construction Inc",rancoconstruction.com,,,,"aviation:6"
+VERTICAL,350463640294,"F & R Construction Group Inc",frconstructiongroup.net,,,,"higher_ed:11"
+PERSONA,350246347453,"The Matthews Group Inc",thematthewsgroup.com,"Website Design","Digital Marketing",,https://thematthewsgroup.com
+PERSONA,350246347453,"The Matthews Group Inc",thematthewsgroup.com,"Custom Trade Show Booths","Event Marketing",,https://thematthewsgroup.com
+PERSONA,350246347453,"The Matthews Group Inc",thematthewsgroup.com,"VIDEO PRODUCTION","DIGITAL MARKETING",,https://thematthewsgroup.com
+PERSONA,350246347453,"The Matthews Group Inc",thematthewsgroup.com,"SHOW BOOTHS","EVENT MARKETING",,https://thematthewsgroup.com
+PERSONA,350246347455,"Litteken Construction Company, LLC",littekenconstruction.com,"Preconstruction Services","Preconstruction is an integral part of the success of any construction project.",,https://littekenconstruction.com
+VERTICAL,350246347455,"Litteken Construction Company, LLC",littekenconstruction.com,,,,"healthcare:7"
+VERTICAL,350246347456,"Concentric Group, LLC",concentricgroup.biz,,,,"healthcare:9 higher_ed:6"
+VERTICAL,350246347458,"Frazier Engineering, Inc.",fraziereng.com,,,,"aviation:7"
+VERTICAL,350424014530,"The Blackledge Group, Inc.",theblackledgegroup.com,,,,"aviation:5"
+PERSONA,350424014533,"Haydon Companies LLC",haydon.com,"CHANCE RASER","Vice President of Civil Preconstruction & Estimating",,https://haydon.com/leadership
+PERSONA,350424014533,"Haydon Companies LLC",haydon.com,"GRANT FLETCHER","Executive Director | Civil Preconstruction",,https://haydon.com/leadership
+PERSONA,350424014533,"Haydon Companies LLC",haydon.com,"Executive Director","Civil Preconstruction",,https://haydon.com/leadership
+PERSONA,350424014533,"Haydon Companies LLC",haydon.com,"JASON STEJSKAL","Executive Director | Building Preconstruction",,https://haydon.com/leadership
+VERTICAL,350424014533,"Haydon Companies LLC",haydon.com,,,,"healthcare:8 data_center_mission_critical:12"
+VERTICAL,350490637043,"J G Contracting",jgcontracting.com,,,,"higher_ed:4"
+PERSONA,350490637046,"T & T Construction Enterprises, LLC",tandt.construction,"Herschel Lawson","Project Manager/Estimator",,https://tandt.construction
+PERSONA,350465439446,"L.R. Costanzo Company, Incorporated",lrcostanzo.com,"KEVIN COOLICAN","Estimating Manager",,https://lrcostanzo.com/leadership
+VERTICAL,350465439446,"L.R. Costanzo Company, Incorporated",lrcostanzo.com,,,,"healthcare:7"
+VERTICAL,350465439448,"K & K Industries Inc",kandkindustries.com,,,,"healthcare:3 aviation:3"
+VERTICAL,350465439452,"R2build",r2-build.com,,,,"higher_ed:5"
+PERSONA,350424014535,"Martinez Services, Inc.",martinez.build,"Robert Miller","Preconstruction Manager",,https://martinez.build/team
+VERTICAL,350424014535,"Martinez Services, Inc.",martinez.build,,,,"aviation:17"
+VERTICAL,350424014536,"Pedersen & Rangel",pedersenandpartners.com,,,,"healthcare:21"
+PERSONA,350424014537,"Osprey Management LLC",osprey-management.com,"TENANT SUPPORT","MARKETING & LEASING",,https://osprey-management.com
+PERSONA,350424014540,"E Corp",e-corp4u.com,"John Stalder","Senior Estimator",,https://e-corp4u.com/about-us
+PERSONA,350424014544,"Callahan Construction Company",callahan-inc.com,"OUR SERVICES","ENHANCED PRECONSTRUCTION SERVICES",,https://callahan-inc.com
+PERSONA,350424014544,"Callahan Construction Company",callahan-inc.com,"Vice President","Preconstruction",,https://callahan-inc.com/our-team
+PERSONA,350424014544,"Callahan Construction Company",callahan-inc.com,"Phil Dinan","Vice President of Business Development, New York",,https://callahan-inc.com/our-team
+PERSONA,350424014544,"Callahan Construction Company",callahan-inc.com,"David Finnegan","Director of Marketing",,https://callahan-inc.com/our-team
+VERTICAL,350424014544,"Callahan Construction Company",callahan-inc.com,,,,"higher_ed:7"
+PERSONA,350342186726,"RED Bison Services, LLC",redbisonservices.com,"WHAT WE DO.","PRE-CONSTRUCTION AND CONSTRUCTION MANAGEMENT SERVICES",,https://redbisonservices.com
+VERTICAL,350473467632,"Bales Construction Company, Inc.",balesconstruction.com,,,,"healthcare:3"
+VERTICAL,350473467636,"Drace Construction Corp",dracecorp.com,,,,"aviation:3"
+VERTICAL,350473467639,"Chatmon Construction LLC",chatmonconstruction.com,,,,"higher_ed:4"
+PERSONA,350180551355,"AAA General Contractors LLC",aaageneralcontractor.com,"Competitive Bidding","Pre-Construction Services",,https://aaageneralcontractor.com
+PERSONA,350180551355,"AAA General Contractors LLC",aaageneralcontractor.com,"Fast Track Construction","Conceptual Estimating",,https://aaageneralcontractor.com
+PERSONA,350180551356,"Tavares LLC",fjtavares.com,"WILLIAM CUMPLIDO","Chief Estimator / Project Manager",,https://fjtavares.com/about
+PERSONA,350180551358,"Benecorp Inc",bene-corp.com,"Ashley Hardy","VP Sales and Marketing",,https://bene-corp.com/our-team
+PERSONA,350180551358,"Benecorp Inc",bene-corp.com,"Dennis Norris","Chief Marketing Officer",,https://bene-corp.com/our-team
+PERSONA,350180551363,"Northridge Construction Group LLC",northridgecg.com,"View Our Services","Pre-Construction",,https://northridgecg.com
+VERTICAL,350180551363,"Northridge Construction Group LLC",northridgecg.com,,,,"healthcare:10 houses_of_worship:3"
+VERTICAL,350199979769,"RFS LLC",rfsworld.com,,,,"healthcare:11 data_center_mission_critical:77"
+VERTICAL,350199980731,"Infinite Energy Construction, Inc",infiniteenergy-ec.com,,,,"data_center_mission_critical:18"
+VERTICAL,350199980732,"Spaark Inc",spaark-inc.com,,,,"data_center_mission_critical:3"
+PERSONA,350180551368,"MW Services Inc",mwservices.com,"Our Capabilities","Pre-Construction",,https://mwservices.com
+VERTICAL,350180551370,"R. J. Jurowski Construction, Inc.",rjjurowskiconstruction.com,,,,"houses_of_worship:3"
+VERTICAL,350180551372,"West Brothers Construction Inc",westbrothersconstruction.com,,,,"healthcare:4 higher_ed:3"
+VERTICAL,350180551374,"Carlisle Construction, LLC",carlisle.com,,,,"data_center_mission_critical:10"
+VERTICAL,350490638012,"US 2 Veterans LLC",us2veterans.com,,,,"healthcare:12"
+VERTICAL,350490638016,"Ameristar Contracting Group, Inc.",ameristargroup.com,,,,"data_center_mission_critical:4 higher_ed:3 aviation:8"
+PERSONA,350490638018,"Alcan Builders Incorporated",alcanbuilders.com,"Craig Sandine","Project Manager/ Estimator",,https://alcanbuilders.com/about
+VERTICAL,350490638018,"Alcan Builders Incorporated",alcanbuilders.com,,,,"higher_ed:3"
+VERTICAL,350219346659,"Dean Kurtz Construction Company",deankurtzconstruction.com,,,,"healthcare:6 aviation:3"
+VERTICAL,350219346661,"Matai Services, LLC",mataiservices.com,,,,"aviation:4"
+PERSONA,350199980740,"JD General Engineering Corp",jdgec.com,"OUR SERVICES","PRE-CONSTRUCTION",,https://jdgec.com
+PERSONA,350215773917,"Charlton Enterprises, Inc",ctcharlton.com,"OUR KEY SERVICES","BUSINESS DEVELOPMENT SPECIALISTS",,https://ctcharlton.com
+PERSONA,350215773923,"FC Construction LLC",fcconstruction-llc.com,"Lauren Walker","Sales and Marketing Strategist",,https://fcconstruction-llc.com/about
+PERSONA,350215773924,"Frontline Group LLC",frontline.group,"Privacy Policy","© 2026 Frontline Group. All rights reserved. Website by Concept Marketing.",,https://frontline.group
+VERTICAL,350215773924,"Frontline Group LLC",frontline.group,,,,"healthcare:30"
+VERTICAL,350516747983,"Emerson Construction Company, Inc.",eccinc.com,,,,"higher_ed:5"
+VERTICAL,350516747984,"Dominguez & Persons, LLC",ddbpersons.com,,,,"higher_ed:3"
+VERTICAL,350469161695,"Southeastern Industrial Construction, LLC",se-ind.com,,,,"aviation:11"
+VERTICAL,350516747985,"Centennial Contractors Enterprises, Inc.",cce-inc.com,,,,"healthcare:9 higher_ed:3"
+VERTICAL,350469161696,"Wainschaf Associates, Inc.",waiconstruction.com,,,,"healthcare:5 higher_ed:5"
